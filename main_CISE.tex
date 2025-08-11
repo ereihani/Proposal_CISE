@@ -47,7 +47,15 @@ Campus microgrids across America face a critical challenge that threatens the re
 
 This breakthrough innovation achieves unprecedented stability improvements, e.g., frequency nadir $<$0.3 Hz (vs. baseline 0.35-0.50 Hz), RoCoF $<$1.0 Hz/s (vs. 1.5-2.0 Hz/s), accelerating restoration by 20-50\%, and cutting operational complexity by at least 30\%---while ensuring universal compatibility across all inverter manufacturers. Our comprehensive preliminary validation demonstrates remarkable performance improvements: 19.8\% frequency stability enhancement, 30.0\% faster secondary control settling, and projected 28.0\% tertiary optimization gains, with proven scalability to 32 nodes maintaining greater than 95\% performance efficiency. These compelling results establish our approach as a paradigm shift for distributed energy systems nationwide.
 
-\textbf{Testable Hypotheses with Cross-Archetype Generalizability:} Our research validates four core hypotheses across diverse microgrid classes: H1: Physics-informed training improves MARL convergence by $>$15\% vs. pure RL across campus, industrial park, military base, and island grid archetypes, validated HIL Y2Q3 and field Y4Q2 with 95\% confidence via $n$$>$100 Monte Carlo runs spanning heterogeneous DER portfolios (solar+wind+storage vs. CHP+battery configurations). H2: BITW deployment achieves $<$10ms inference times across diverse inverter firmware versions (ABB, SMA, Schneider, Enphase), validated through systematic benchmarking Y1Q4. H3: Multi-layer control maintains stability under 100ms+ communication delays across microgrid archetypes with different topologies (radial campus, meshed industrial, islanded military), validated via comprehensive network emulation Y2Q4. H4: Vendor-agnostic approach demonstrates cross-site transfer learning with $\leq$20\% performance degradation when models trained on campus microgrids adapt to industrial/military sites with minimal retraining ($<$10 episodes), validated Y3Q2-Y4Q1.
+\textbf{Go/No-Go Milestones with Contingency Paths:} Our research framework transforms hypotheses into quarter-bound deliverables with clear pass/fail criteria and fallback strategies ensuring project success regardless of technical challenges:
+
+\textbf{M1 (MARL Convergence):} By Y2Q3, physics-informed MARL achieves $\geq$15\% faster convergence than pure RL across three archetypes (campus, industrial, military) with $n\geq$100 Monte Carlo validation at 95\% confidence. \textit{Pass/Fail Threshold:} $\geq$15\% improvement on all three archetypes. \textit{Contingency Path:} If $<$15\% on any archetype, switch to model-based regularizer $R(x) = \gamma||x - x_{physics}||^2$ with Lipschitz bound $L \leq 0.1$ and extend validation to Y2Q4.
+
+\textbf{M2 (Real-Time Inference):} By Y1Q4, edge inference achieves $\leq$10ms 95th-percentile latency across all major inverter SKUs (ABB PVS-175, SMA Sunny Central 2500-EV, Schneider Conext CL25E, Enphase IQ8+). \textit{Pass/Fail Threshold:} $p_{95} \leq 10$ms on all four SKUs. \textit{Contingency Path:} If $p_{95} > 10$ms on any SKU, enforce reduced feature set $\phi' \subset \phi$ with 8-bit quantization and model pruning achieving $\leq$12ms target.
+
+\textbf{M3 (Delay Robustness):} By Y2Q4, system maintains stability under 150ms one-way communication delays with 20\% packet loss across all microgrid topologies. \textit{Pass/Fail Threshold:} Frequency deviation $<$0.5 Hz and voltage deviation $<$5\% during 60-second stress tests. \textit{Contingency Path:} If stability violations occur, auto-degrade to static consensus gains $\alpha_{static} = 0.5\alpha_{adaptive}$ with CBF safety envelope $h(x) \geq \delta_{safe}$.
+
+\textbf{M4 (Cross-Site Transfer):} By Y4Q1, models demonstrate $\leq$5\% performance degradation scaling to 100 nodes and $\leq$20\% degradation on cross-archetype transfer with $\leq$10 federated learning episodes. \textit{Pass/Fail Threshold:} Both scaling and transfer criteria met simultaneously. \textit{Contingency Path:} If scaling $>$5\% degradation, implement hierarchical clustering with $k=4$ subgroups; if transfer $>$20\%, extend to $\leq$15 FL episodes with domain adaptation layers.
 
 \textbf{Cross-Archetype Statistical Validation:} Power analysis ensures $n=100$ Monte Carlo runs detect 20\% gains ($\alpha=0.05$, power=0.8) across DER configurations: solar+wind+battery (campus), CHP+battery+diesel (industrial), PV+backup (military), wind+storage (island). Inverter firmware spans ABB PVS-175, SMA Sunny Central, Schneider Conext, Enphase IQ8+ across 15+ versions. Baseline variance: RoCoF 1.5-2.0±0.2 Hz/s, nadir 0.35-0.50±0.05 Hz.
 
@@ -200,7 +208,43 @@ Matrix includes peer-reviewed works and recent advances demonstrating continued 
 
 \section{Implementation Strategy and Transformational Impact}
 
-\textbf{Systematic Development Roadmap:} Our comprehensive 4-year implementation strategy systematically builds upon validated preliminary results to achieve transformational impact across campus microgrid deployments nationwide. The development progression addresses the transition from current Technology Readiness Level (TRL) 3-4 achievement to TRL 6-7 through four critical phases that systematically address remaining technical barriers while maintaining demonstrated performance advantages.
+\textbf{Systematic Development Roadmap:} Our comprehensive 4-year implementation strategy systematically builds upon validated preliminary results to achieve transformational impact across campus microgrid deployments nationwide. The development progression addresses the transition from current Technology Readiness Level (TRL) 3-4 achievement to TRL 6-7 through four critical phases with quantified go/no-go gates ensuring project success.
+
+\textbf{Quarterly Milestone Schedule with Acceptance Criteria:} The following structured timeline provides reviewers with clear numeric thresholds and contingency plans for each critical deliverable:
+
+\begin{center}
+\footnotesize
+\begin{tabular}{|p{1.2cm}|p{2.8cm}|p{2.2cm}|p{1.8cm}|p{3.5cm}|}
+\hline
+\textbf{Quarter} & \textbf{Milestone} & \textbf{Acceptance Criteria} & \textbf{Success Metric} & \textbf{Contingency Path} \\
+\hline
+Y1Q2 & PINODE Implementation & TRL 4 $\rightarrow$ TRL 5 transition & $\geq$95\% accuracy vs. baseline & Switch to ensemble methods if $<$95\% \\
+\hline
+Y1Q4 & \textbf{M2: Edge Latency} & $p_{95} \leq 10$ms all SKUs & 4/4 inverter types pass & Reduce features + quantization $\rightarrow$ 12ms \\
+\hline
+Y2Q1 & Multi-Agent Framework & Consensus convergence proof & $<$0.01 residual error & Implement hierarchical decomposition \\
+\hline
+Y2Q3 & \textbf{M1: MARL Convergence} & $\geq$15\% improvement 3 archetypes & 3/3 archetype validation & Model regularizer $R(x)$ + extend Y2Q4 \\
+\hline
+Y2Q4 & \textbf{M3: Delay Robustness} & 150ms + 20\% packet loss & Freq $<$0.5 Hz, V $<$5\% & Static consensus + CBF envelope \\
+\hline
+Y3Q1 & GNN Optimization & 30\% ADMM reduction & $\leq$20 iterations vs. 30 & Warm-start with linear approximation \\
+\hline
+Y3Q2 & Cross-Site Learning & Transfer learning validation & Initial 20\% degradation & Extend to 15 FL episodes \\
+\hline
+Y3Q4 & Cybersecurity Integration & 0 breaches in penetration tests & 50/50 red-team scenarios & Implement additional key rotation \\
+\hline
+Y4Q1 & \textbf{M4: Scale + Transfer} & 100 nodes + cross-archetype & $\leq$5\% scale, $\leq$20\% transfer & Hierarchical clustering $k=4$ \\
+\hline
+Y4Q2 & Field Deployment & Multi-site operational validation & $>$99\% uptime 3 months & Reduce to single-site intensive study \\
+\hline
+Y4Q4 & Technology Transfer & Open-source release + DOI & 5+ institutional adoptions & Target 3+ adoptions with extended support \\
+\hline
+\end{tabular}
+\end{center}
+\normalsize
+
+\textbf{Risk Mitigation Through Structured Gates:} Each milestone includes quantified success metrics with predetermined fallback strategies, ensuring project delivery regardless of technical challenges. Critical path analysis identifies M2 (latency) and M3 (delays) as potential bottlenecks, with early-stage prototyping enabling timely contingency activation.
 
 Year 1 focuses on transitioning from simulation-validated PINODEs to production algorithms achieving greater than 95\% accuracy under diverse operating conditions, building upon our demonstrated 19.8\% improvement baseline. Hardware integration creates BITW edge computing platforms with sub-10ms inference times, advancing from simulation framework to real-time embedded implementation. Safety certification implements comprehensive Control Barrier Function frameworks with formal verification, extending preliminary safety validation to production-grade fault tolerance.
 
@@ -222,7 +266,7 @@ Open-source release strategy ensures broad adoption through permissive licenses 
 
 \section{Team Excellence and Resource Mobilization}
 
-\textbf{World-Class Leadership Team:} Our Principal Investigator brings distinguished expertise in cyber-physical systems with over 15 years of pioneering research in distributed energy systems, including leadership of three successful NSF-funded microgrid projects totaling \$2.8M and 15+ peer-reviewed IEEE publications in premier venues. Our Co-Principal Investigators represent perfect synthesis of theoretical excellence and practical implementation expertise, with UC Berkeley's Department of Electrical Engineering providing internationally recognized distributed optimization expertise, Lawrence Berkeley National Laboratory contributing cutting-edge physics-informed neural networks and multi-agent systems capabilities, and community partnership coordination ensuring successful engagement with underserved communities throughout the Central Valley region.
+\textbf{World-Class Leadership Team:} Our Principal Investigator brings distinguished expertise in cyber-physical systems with over 15 years of pioneering research in distributed energy systems, including leadership of three successful NSF-funded microgrid projects totaling \$2.8M and 15+ peer-reviewed IEEE publications. Our Co-Principal Investigators represent perfect synthesis of theoretical excellence and practical implementation expertise, with UC Berkeley providing internationally recognized distributed optimization expertise, Lawrence Berkeley National Laboratory contributing cutting-edge physics-informed neural networks and multi-agent systems capabilities, and strategic partnerships ensuring successful engagement with underserved communities.
 
 \textbf{Strategic Partnerships and Infrastructure:} California State University, Bakersfield serves as our primary Hispanic-Serving Institution partner, providing access to diverse student populations and real-world microgrid deployment opportunities through comprehensive memoranda of understanding securing facility access and workforce development pathways. University of California, Berkeley provides world-class research facilities and computational resources, while Kern Community College District offers critical community college engagement ensuring broad-based workforce development. Strategic partnerships with Pacific Gas \& Electric Company and Southern California Edison provide essential utility-scale perspective and validation opportunities, while industry collaborations with leading inverter manufacturers ensure comprehensive vendor diversity testing and real-world interoperability validation.
 
