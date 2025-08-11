@@ -338,7 +338,21 @@ Y4Q4 & Technology Transfer & Open-source release + DOI & 5+ institutional adopti
 
 Year 1 focuses on transitioning from simulation-validated PINODEs to production algorithms achieving greater than 95\% accuracy under diverse operating conditions, building upon our demonstrated 19.8\% improvement baseline. Hardware integration creates BITW edge computing platforms with sub-10ms inference times, advancing from simulation framework to real-time embedded implementation. Safety certification implements comprehensive Control Barrier Function frameworks with formal verification, extending preliminary safety validation to production-grade fault tolerance.
 
-Year 2 addresses scaling MARL-consensus algorithms to 16+ node configurations while maintaining our demonstrated 30.0\% secondary control improvements. Communication resilience validation ensures delay tolerance exceeding 100ms under realistic campus network conditions, including HIL testing with emulated cyber attacks (e.g., MITM on Modbus protocols). Cybersecurity integration implements bi-weekly key rotation with TLS overhead $<$5ms on 20ms control budget, SBOM scanning quarterly, and comprehensive penetration testing achieving 0 security breaches in 50 red-team drill scenarios completed Y2Q4. Cyber-physical security treats cyber faults as disturbance $w$ in Input-to-State Stable (ISS) framework: $||x(t)|| \leq \beta(||x(0)||, t) + \gamma(\sup_{s \leq t} ||w(s)||)$. Federated learning implementation creates privacy-preserving training architectures enabling multi-site collaboration while protecting sensitive operational data through encrypted communication channels and differential privacy mechanisms.
+Year 2 addresses scaling MARL-consensus algorithms to 16+ node configurations while maintaining our demonstrated 30.0\% secondary control improvements. Communication resilience validation ensures delay tolerance exceeding 100ms under realistic campus network conditions, including HIL testing with emulated cyber attacks (e.g., MITM on Modbus protocols).
+
+\textbf{Continuous Cybersecurity \& Privacy Assurance Regimen:} Our comprehensive security framework transitions from static compliance to dynamic threat response with quantified SLAs integrated into project milestones.
+
+\textbf{CVE Management SLA:} Monthly automated vulnerability scanning with 48-hour CVSS 7.0+ patch window. SBOM differential alerts trigger within 24 hours of dependency updates, CI/CD pipeline blocks vulnerable deployments. Milestone targets: Y2Q2 (<10 critical CVEs), Y3Q1 (<5 critical), Y4Q1 (zero-critical sustained).
+
+\textbf{Cryptographic Assurance:} Model artifacts signed with Ed25519, automated key rotation (14-day TLS, 30-day signing keys), HSM-backed CA with FIPS 140-2 Level 3 compliance. Quantum-resistant algorithms (CRYSTALS-Kyber) evaluated Y3Q2.
+
+\textbf{Secure FL Architecture:} Homomorphic encryption for parameter aggregation (SEAL library, 128-bit security), secure multi-party computation for consensus validation. Privacy accounting: $(\epsilon, \delta)$-differential privacy with $\epsilon \leq 1.0$ per round, $\delta \leq 10^{-6}$ total budget.
+
+\textbf{Incident Response:} MTTD: <15 min (critical threats), <5 min (control anomalies). MTTR: <4 hours (security incidents), <30 min (automated failsafe). SOC integration with 24/7 monitoring and automated response playbooks.
+
+\textbf{Red-Team Integration:} Quarterly testing with measured progression: reconnaissance (<2h), access (<6h), escalation (<12h), detection (<24h). Attack surface reduction: Y2Q4 (80% reduction), Y3Q4 (<5 vectors), Y4Q2 (air-gapped capability).
+
+Cyber-physical security treats cyber threats as bounded disturbance $w$ in ISS framework: $||x(t)|| \leq \beta(||x(0)||, t) + \gamma(\sup_{s \leq t} ||w(s)||)$ with $\gamma(||w||) \leq 0.1||x_{nominal}||$ ensuring graceful degradation under attack.
 
 Year 3 represents critical integration where validated components combine into comprehensive control systems through GNN-ADMM implementation deploying projected 28.0\% tertiary optimization improvements. Three-layer integration achieves seamless coordination with demonstrated synergistic performance enhancement. Scalability validation encompasses comprehensive testing at utility-scale using synthetic feeders with 100+ inverters, validating preliminary 32-node demonstration under realistic operational constraints.
 
