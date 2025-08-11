@@ -141,28 +141,11 @@ ADMM Iterations & 25-30 & $\leq$20 & $\geq$30\% \\
 
 \textbf{Scalability Evidence with Cross-Site Transfer Learning:} Our preliminary 32-node validation (8× baseline) achieving 95\% performance efficiency establishes foundation for H4's cross-archetype generalization. Transfer learning validation demonstrates models trained on campus microgrids (CSUB solar+battery) adapt to industrial sites (Bakersfield refinery CHP+storage) with $<$10 federated learning episodes achieving $\leq$20\% performance degradation. HIL emulation spans IEEE 123-node (radial campus), IEEE 34-node (meshed industrial), military microgrid topologies with O(N log N) GNN complexity. Monte Carlo analysis across archetype-specific constraints: campus (academic schedules), industrial (24/7 critical loads), military (blackout capability), island (renewable intermittency).
 
-\textbf{Comprehensive Literature Analysis (2022-2025):} Exhaustive review of recent advances demonstrates fundamental gaps our approach uniquely addresses:
+Exhaustive review of recent advances demonstrates fundamental gaps our approach uniquely addresses. Lai 2023 \cite{lai2023} achieves delay tolerance under 50ms but provides no formal stability guarantees, lacks privacy protection, scales to fewer than 16 nodes, and employs static control gains without machine learning adaptation. Emad 2024 \cite{emad2024} tolerates delays under 100ms with local-only stability analysis, supports up to 32 nodes through rule-based adaptability, but lacks privacy mechanisms and ML-based real-time adaptation capabilities. Li 2023 \cite{li2023} operates with strict 20ms delay limits using convex-only stability proofs, scales to 50 nodes with centralized privacy-violating architectures, but cannot support federated learning or distributed consensus.
 
-\begin{center}
-\footnotesize
-\begin{tabular}{|p{1.8cm}|p{1.5cm}|p{1.2cm}|p{1.2cm}|p{1.2cm}|p{1.5cm}|p{1.8cm}|}
-\hline
-\textbf{Work} & \textbf{Delay Tolerance} & \textbf{Stability Proofs} & \textbf{Privacy} & \textbf{Scalability} & \textbf{Adaptability} & \textbf{Fundamental Gap} \\
-\hline
-Lai 2023 \cite{lai2023} & $<$50ms & None & None & $<$16 nodes & Static gains & No formal guarantees \\
-Emad 2024 \cite{emad2024} & $<$100ms & Local only & None & $<$32 nodes & Rule-based & No ML adaptation \\
-Li 2023 \cite{li2023} & $<$20ms & Convex only & Centralized & $<$50 nodes & Static & No federated learning \\
-Zhang 2024$^*$ & $<$80ms & None & Basic & $<$20 nodes & Reactive & No physics constraints \\
-Wang 2025$^*$ & $<$30ms & Linear only & None & $<$25 nodes & Offline & No real-time adaptation \\
-Chen 2024$^*$ & $<$60ms & Asymptotic & Differential & $<$40 nodes & Learning & No stability during learning \\
-Kumar 2024$^*$ & $<$70ms & None & Homomorphic & $<$15 nodes & Static & No consensus guarantees \\
-Liu 2025$^*$ & $<$40ms & Local & Federated & $<$30 nodes & Batch & No continuous operation \\
-\textbf{Our Approach} & \textbf{>100ms} & \textbf{ISS+LMI} & \textbf{Fed+Diff} & \textbf{100+ nodes} & \textbf{Real-time ML} & \textbf{None - Complete} \\
-\hline
-\end{tabular}
-\end{center}
-\normalsize
-$^*$Recent arXiv/preprints demonstrating continued literature gaps
+Recent preprint advances continue demonstrating critical limitations. Zhang 2024 tolerates 80ms delays but lacks physics constraints and formal stability analysis, scaling only to 20 nodes with basic privacy and reactive adaptability. Wang 2025 operates under 30ms delays with linear-only stability proofs, supports 25 nodes through offline adaptation without privacy protection or real-time capabilities. Chen 2024 handles 60ms delays using asymptotic stability analysis with differential privacy, scales to 40 nodes with learning-based adaptation, but cannot guarantee stability during online learning phases. Kumar 2024 tolerates 70ms delays without stability guarantees, supports 15 nodes with homomorphic privacy but static adaptability and no consensus mechanisms. Liu 2025 operates under 40ms delays with local stability proofs and federated privacy, scales to 30 nodes through batch adaptation, but lacks continuous operation capabilities.
+
+In contrast, our approach uniquely tolerates delays exceeding 100ms while maintaining Input-to-State Stability with Linear Matrix Inequality certification, supports 100+ nodes through federated learning with differential privacy, and achieves real-time machine learning adaptation with complete integration across all system requirements. No existing method addresses the combination of high delay tolerance, formal stability guarantees, privacy preservation, large-scale operation, and continuous real-time adaptation simultaneously.
 
 \textbf{Fundamental Impossibility Analysis:} Our systematic literature analysis reveals three categories of fundamental impossibilities: \textbf{Category I:} Existing ML approaches cannot guarantee stability during online learning due to lack of physics-informed constraints. Our physics loss explicitly enforces $\dot{V}(x) \leq 0$. \textbf{Category II:} Centralized approaches achieve optimal performance but violate privacy; federated approaches sacrifice convergence without our consensus loss ensuring parameter coherence. \textbf{Category III:} High-delay tolerance ($>$100ms) fundamentally conflicts with consensus requirements. Our ISS framework maintains stability: $||x(t)|| \leq \beta(||x_0||,t) + \gamma(\delta)$. No combination of recent advances addresses all three impossibilities simultaneously, establishing our approach's fundamental novelty.
 
