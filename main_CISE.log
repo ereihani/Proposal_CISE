@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  12 AUG 2025 13:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  12 AUG 2025 13:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -312,527 +312,822 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+
+LaTeX Warning: Citation `katiraei2008' on page 1 undefined on input line 41.
+
+
+LaTeX Warning: Citation `hirsch2018' on page 1 undefined on input line 41.
+
+
+LaTeX Warning: Citation `sigrin2019' on page 1 undefined on input line 41.
+
+
+LaTeX Warning: Citation `baseline2023delay' on page 1 undefined on input line 4
+3.
+
+
 Overfull \hbox (9.44417pt too wide) in paragraph at lines 43--44
 []\OT1/cmr/m/n/12 This project de-vel-ops a vendor-agnostic bump-in-the-wire co
 n-troller that in-te-grates physics-
  []
 
+
+LaTeX Warning: Citation `our2024experimental' on page 1 undefined on input line
+ 45.
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
 dvips/cm-super/cm-super-ts1.enc}]
+
+LaTeX Warning: Citation `our2024experimental' on page 2 undefined on input line
+ 47.
+
+
+LaTeX Warning: Citation `our2024scalability' on page 2 undefined on input line 
+47.
+
+
+LaTeX Warning: Citation `hirsch2018' on page 2 undefined on input line 49.
+
+
+LaTeX Warning: Citation `sigrin2019' on page 2 undefined on input line 49.
+
+
+LaTeX Warning: Citation `our2024economic' on page 2 undefined on input line 49.
+
+
 <figure3_system_architecture.pdf, id=9, 1114.97633pt x 550.69742pt>
 File: figure3_system_architecture.pdf Graphic file (type pdf)
 <use figure3_system_architecture.pdf>
 Package pdftex.def Info: figure3_system_architecture.pdf  used on input line 53
 .
 (pdftex.def)             Requested size: 399.29463pt x 197.20895pt.
- [2] [3 <./figure3_system_architecture.pdf>] [4] [5] [6] [7] [8]
-Overfull \hbox (8.46501pt too wide) in paragraph at lines 148--149
+[2]
+
+LaTeX Warning: Citation `katiraei2008' on page 3 undefined on input line 59.
+
+
+LaTeX Warning: Citation `palizban2014' on page 3 undefined on input line 61.
+
+
+LaTeX Warning: Citation `ames2017' on page 3 undefined on input line 63.
+
+[3 <./figure3_system_architecture.pdf>]
+
+LaTeX Warning: Citation `hirsch2018' on page 4 undefined on input line 65.
+
+
+LaTeX Warning: Citation `sigrin2019' on page 4 undefined on input line 65.
+
+
+LaTeX Warning: Citation `bevrani2021' on page 4 undefined on input line 67.
+
+
+LaTeX Warning: Citation `rodriguez2022' on page 4 undefined on input line 69.
+
+
+LaTeX Warning: Citation `li2023' on page 4 undefined on input line 71.
+
+
+LaTeX Warning: Citation `lai2023' on page 4 undefined on input line 73.
+
+
+LaTeX Warning: Citation `zhang2024' on page 4 undefined on input line 75.
+
+[4]
+
+LaTeX Warning: Citation `emad2024' on page 5 undefined on input line 77.
+
+
+LaTeX Warning: Citation `chen2024' on page 5 undefined on input line 79.
+
+
+LaTeX Warning: Citation `wang2025' on page 5 undefined on input line 81.
+
+[5]
+
+LaTeX Warning: Citation `rodriguez2022' on page 6 undefined on input line 93.
+
+
+LaTeX Warning: Citation `lai2023' on page 6 undefined on input line 93.
+
+
+LaTeX Warning: Citation `chen2024' on page 6 undefined on input line 93.
+
+
+LaTeX Warning: Citation `bevrani2021' on page 6 undefined on input line 93.
+
+
+LaTeX Warning: Citation `palizban2014' on page 6 undefined on input line 93.
+
+
+LaTeX Warning: Citation `our2024comparative' on page 6 undefined on input line 
+93.
+
+
+LaTeX Warning: Citation `our2024experimental' on page 6 undefined on input line
+ 97.
+
+[6]
+
+LaTeX Warning: Citation `our2024theoretical' on page 7 undefined on input line 
+101.
+
+
+LaTeX Warning: Citation `our2024experimental' on page 7 undefined on input line
+ 101.
+
+
+Overfull \hbox (1.72504pt too wide) in paragraph at lines 101--102
+[]\OT1/cmr/bx/n/12 Innovation 1: Physics-Informed Neu-ral Con-trol \OT1/cmr/m/n
+/12 [\OT1/cmr/bx/n/12 ?\OT1/cmr/m/n/12 ]: We de-vel-oped the first Physics-
+ []
+
+
+LaTeX Warning: Citation `our2024theoretical' on page 7 undefined on input line 
+105.
+
+
+LaTeX Warning: Citation `our2024experimental' on page 7 undefined on input line
+ 105.
+
+
+LaTeX Warning: Citation `our2024theoretical' on page 7 undefined on input line 
+109.
+
+
+LaTeX Warning: Citation `our2024experimental' on page 7 undefined on input line
+ 109.
+
+
+LaTeX Warning: Citation `our2024theoretical' on page 7 undefined on input line 
+113.
+
+[7]
+
+LaTeX Warning: Citation `our2024theoretical' on page 8 undefined on input line 
+117.
+
+
+LaTeX Warning: Citation `our2024experimental' on page 8 undefined on input line
+ 119.
+
+
+LaTeX Warning: Citation `our2024experimental' on page 8 undefined on input line
+ 123.
+
+
+LaTeX Warning: Citation `our2024experimental' on page 8 undefined on input line
+ 130.
+
+
+LaTeX Warning: Citation `our2024experimental' on page 8 undefined on input line
+ 131.
+
+
+LaTeX Warning: Citation `our2024experimental' on page 8 undefined on input line
+ 132.
+
+
+LaTeX Warning: Citation `our2024experimental' on page 8 undefined on input line
+ 133.
+
+[8]
+
+LaTeX Warning: Citation `our2024ablation' on page 9 undefined on input line 138
+.
+
+
+LaTeX Warning: Citation `our2024scalability' on page 9 undefined on input line 
+140.
+
+
+LaTeX Warning: Citation `our2024scalability' on page 9 undefined on input line 
+146.
+
+[9]
+
+LaTeX Warning: Citation `our2024comparative' on page 10 undefined on input line
+ 148.
+
+
+LaTeX Warning: Citation `our2024economic' on page 10 undefined on input line 15
+4.
+
+
+LaTeX Warning: Citation `our2024economic' on page 10 undefined on input line 15
+4.
+
+[10]
+
+LaTeX Warning: Citation `hirsch2018' on page 11 undefined on input line 158.
+
+
+LaTeX Warning: Citation `sigrin2019' on page 11 undefined on input line 158.
+
+
+LaTeX Warning: Citation `our2024economic' on page 11 undefined on input line 15
+8.
+
+
+LaTeX Warning: Citation `our2024economic' on page 11 undefined on input line 16
+0.
+
+
+Overfull \hbox (8.46501pt too wide) in paragraph at lines 160--161
 []\OT1/cmr/m/n/12 This eco-nomic trans-for-ma-tion cre-ates un-prece-dented op-
 por-tu-ni-ties for resource-constrained
  []
 
-[9] [10]
-Overfull \hbox (5.68991pt too wide) in paragraph at lines 186--186
+[11]
+
+LaTeX Warning: Citation `baseline2023delay' on page 12 undefined on input line 
+172.
+
+
+LaTeX Warning: Citation `our2024comparative' on page 12 undefined on input line
+ 182.
+
+[12]
+Overfull \hbox (5.68991pt too wide) in paragraph at lines 198--198
 []\OT1/cmr/bx/n/10 Quarter| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 []\OT1/cmr/bx/n/10 Acceptance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 []\OT1/cmr/bx/n/10 Success
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
 []\OT1/cmr/m/n/10 PINODE Im-ple-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
 []\OT1/cmr/m/n/10 TRL 4 $\OMS/cmsy/m/n/10 !$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 200--200
 []$\OMS/cmsy/m/n/10 ^^U$\OT1/cmr/m/n/10 95% ac-
  []
 
 
-Underfull \hbox (badness 8189) in paragraph at lines 188--188
+Underfull \hbox (badness 8189) in paragraph at lines 200--200
 \OT1/cmr/m/n/10 cu-racy vs.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 []\OT1/cmr/m/n/10 Switch to en-sem-ble
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
 []\OT1/cmr/m/n/10 Reduce fea-tures +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 []\OT1/cmr/m/n/10 Multi-Agent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 []\OT1/cmr/m/n/10 Consensus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 \OT1/cmr/m/n/10 con-ver-gence
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 []$\OML/cmm/m/it/10 <$\OT1/cmr/m/n/10 0.01
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
 \OT1/cmr/m/n/10 resid-ual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 []\OT1/cmr/bx/n/10 M1: MARL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 []$\OMS/cmsy/m/n/10 ^^U$\OT1/cmr/m/n/10 15% im-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 \OT1/cmr/m/n/10 prove-ment 3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 []\OT1/cmr/m/n/10 3/3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 \OT1/cmr/m/n/10 archetype
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 []\OT1/cmr/m/n/10 Freq $\OML/cmm/m/it/10 <$\OT1/cmr/m/n/10 0.5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 []\OT1/cmr/m/n/10 Static con-sen-sus +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
 []\OT1/cmr/m/n/10 GNN Op-ti-miza-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
 []\OT1/cmr/m/n/10 30% ADMM
  []
 
 
-Underfull \hbox (badness 6608) in paragraph at lines 198--198
+Underfull \hbox (badness 6608) in paragraph at lines 210--210
 []$\OMS/cmsy/m/n/10 ^^T$\OT1/cmr/m/n/10 20 it-er-a-
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 200--200
+Underfull \hbox (badness 1189) in paragraph at lines 212--212
 []\OT1/cmr/m/n/10 Cross-Site Learn-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
 []\OT1/cmr/m/n/10 Transfer
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 200--200
+Underfull \hbox (badness 3838) in paragraph at lines 212--212
 \OT1/cmr/m/n/10 learn-ing val-i-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
+Underfull \hbox (badness 10000) in paragraph at lines 212--212
 \OT1/cmr/m/n/10 degra-da-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 []\OT1/cmr/m/n/10 Extend to 15 FL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
 \OT1/cmr/m/n/10 pen-e-tra-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
 []\OT1/cmr/m/n/10 50/50
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
 \OT1/cmr/m/n/10 red-team
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 202--203
+Underfull \hbox (badness 3977) in paragraph at lines 214--215
 []\OT1/cmr/m/n/10 Implement ad-di-tional
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 204--204
+Underfull \hbox (badness 2302) in paragraph at lines 216--216
 []\OT1/cmr/bx/n/10 M4: Scale +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
 []\OT1/cmr/m/n/10 100 nodes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
 \OT1/cmr/m/n/10 + cross-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
 \OMS/cmsy/m/n/10 ^^T$\OT1/cmr/m/n/10 20%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 []$\OML/cmm/m/it/10 >$\OT1/cmr/m/n/10 99%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 \OT1/cmr/m/n/10 up-time 3
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 206--207
+Underfull \hbox (badness 2189) in paragraph at lines 218--219
 []\OT1/cmr/m/n/10 Reduce to single-site
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
 []\OT1/cmr/m/n/10 Open-source
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
 []\OT1/cmr/m/n/10 5+ in-sti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
+Underfull \hbox (badness 10000) in paragraph at lines 220--220
 \OT1/cmr/m/n/10 tu-tional
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 208--209
+Underfull \hbox (badness 2111) in paragraph at lines 220--221
 []\OT1/cmr/m/n/10 Target 3+ adop-tions
  []
 
-[11] [12] [13] [14]
-Overfull \hbox (69.27553pt too wide) in paragraph at lines 252--253
+[13] [14] [15] [16]
+Overfull \hbox (69.27553pt too wide) in paragraph at lines 264--265
 []\OT1/cmr/bx/n/12 Representativeness Cri-te-ria & Sam-pling Plan: \OT1/cmr/m/n
 /12 Load di-ver-sity (res-i-den-tial/commercial/industrial
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
+
+LaTeX Warning: Citation `our2024economic' on page 17 undefined on input line 27
+0.
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
 []\OT1/cmr/bx/n/10 Cost Com-po-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
 []\OT1/cmr/bx/n/10 Our Ap-
  []
 
 
-Overfull \hbox (3.20923pt too wide) in paragraph at lines 268--268
+Overfull \hbox (3.20923pt too wide) in paragraph at lines 280--280
 []\OT1/cmr/bx/n/10 Conventional| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
 []\OT1/cmr/bx/n/10 Worst
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--271
+LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 28
+2.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 []\OT1/cmr/m/n/10 Cloud Train-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--272
+LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 28
+3.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
 []\OT1/cmr/m/n/10 Edge Hard-ware
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--273
+LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 28
+4.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 []\OT1/cmr/m/n/10 Security/Pen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--275
+LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 28
+5.
+
+
+LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 28
+6.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 []\OT1/cmr/m/n/10 Staffing (FTE-
  []
 
-[16]
-Overfull \hbox (17.18443pt too wide) in paragraph at lines 299--299
+
+LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 28
+7.
+
+
+LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 28
+8.
+
+
+LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 29
+3.
+
+
+LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 29
+3.
+
+
+LaTeX Warning: Citation `cpuc2024forecast' on page 18 undefined on input line 2
+95.
+
+
+LaTeX Warning: Citation `kristov2020' on page 18 undefined on input line 295.
+
+
+LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 29
+5.
+
+
+LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 29
+5.
+
+
+LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 29
+7.
+
+[18]
+Overfull \hbox (17.18443pt too wide) in paragraph at lines 311--311
 []\OT1/cmr/bx/n/10 Responsible| 
  []
 
 
-Overfull \hbox (19.3622pt too wide) in paragraph at lines 299--299
+Overfull \hbox (19.3622pt too wide) in paragraph at lines 311--311
 []\OT1/cmr/bx/n/10 Accountable| 
  []
 
 
-Overfull \hbox (8.01643pt too wide) in paragraph at lines 299--299
+Overfull \hbox (8.01643pt too wide) in paragraph at lines 311--311
 []\OT1/cmr/bx/n/10 Consulted| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
 []\OT1/cmr/m/n/10 Advisory
  []
 
 
-Underfull \hbox (badness 6792) in paragraph at lines 302--302
+Underfull \hbox (badness 6792) in paragraph at lines 314--314
 []\OT1/cmr/m/n/10 MARL Frame-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
 []\OT1/cmr/m/n/10 Field De-ploy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--304
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
 []\OT1/cmr/m/n/10 Industry
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
+Underfull \hbox (badness 10000) in paragraph at lines 317--317
 []\OT1/cmr/m/n/10 Security
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
 []\OT1/cmr/m/n/10 Advisory
  []
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 320--320
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
 []\OT1/cmr/bx/n/10 Detection
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
 []\OT1/cmr/m/n/10 >5% ac-cu-racy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 322--322
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
 \OT1/cmr/m/n/10 drop over 30
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 322--323
+Underfull \hbox (badness 7203) in paragraph at lines 334--335
 []\OT1/cmr/m/n/10 Automated re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 []\OT1/cmr/m/n/10 Protocol
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
 []\OT1/cmr/m/n/10 Industry stan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 []\OT1/cmr/m/n/10 Modular com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 \OT1/cmr/m/n/10 mu-ni-ca-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 []\OT1/cmr/m/n/10 Supply
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--324
+Underfull \hbox (badness 10000) in paragraph at lines 336--336
 \OT1/cmr/m/n/10 Chain De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 324--325
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 []\OT1/cmr/m/n/10 Pre-purchase
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 324--325
+Underfull \hbox (badness 4266) in paragraph at lines 336--337
 \OT1/cmr/m/n/10 crit-i-cal com-po-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
+Underfull \hbox (badness 10000) in paragraph at lines 337--337
 []\OT1/cmr/m/n/10 Student
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 []\OT1/cmr/m/n/10 Industry post-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
 \OT1/cmr/m/n/10 doc part-ner-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
 []\OT1/cmr/m/n/10 Cyber At-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
 []\OT1/cmr/m/n/10 SIEM alert
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 []\OT1/cmr/m/n/10 Incident re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 \OT1/cmr/m/n/10 sponse in <4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 []\OT1/cmr/m/n/10 Hardware
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
+Underfull \hbox (badness 10000) in paragraph at lines 339--339
 []\OT1/cmr/m/n/10 End-of-life no-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 []\OT1/cmr/m/n/10 Hardware ab-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--328
+Underfull \hbox (badness 10000) in paragraph at lines 340--340
 []\OT1/cmr/m/n/10 Regulatory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
 []\OT1/cmr/m/n/10 Standards
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 328--329
+Underfull \hbox (badness 1881) in paragraph at lines 340--341
 \OT1/cmr/m/n/10 com-mit-tee par-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
 []\OT1/cmr/m/n/10 Partner
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
+Underfull \hbox (badness 10000) in paragraph at lines 341--341
 []\OT1/cmr/m/n/10 Contract non-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
 []\OT1/cmr/m/n/10 Funding
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
 []\OT1/cmr/m/n/10 20% bud-get
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 []\OT1/cmr/m/n/10 Milestone-gated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
+Underfull \hbox (badness 10000) in paragraph at lines 343--343
 []\OT1/cmr/m/n/10 Intellectual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
 []\OT1/cmr/m/n/10 Freedom-to-
  []
 
-[18]
-Overfull \hbox (9.5328pt too wide) in paragraph at lines 344--344
+[20]
+
+LaTeX Warning: Citation `nrel2021' on page 21 undefined on input line 354.
+
+
+Overfull \hbox (9.5328pt too wide) in paragraph at lines 356--356
 |[]\OT1/cmr/bx/n/14.4 Conclusion: Trans-for-ma-tional Im-pact for Amer-i-can En
 -ergy Lead-
  []
 
-[19] [20]
-Overfull \hbox (20.21489pt too wide) in paragraph at lines 360--361
+[21]
+
+LaTeX Warning: Citation `our2024economic' on page 22 undefined on input line 36
+0.
+
+
+LaTeX Warning: Citation `our2024economic' on page 22 undefined on input line 36
+8.
+
+[22]
+Overfull \hbox (20.21489pt too wide) in paragraph at lines 372--373
 []\OT1/cmr/m/n/12 This ini-tia-tive rep-re-sents tech-no-log-i-cal ad-vance-men
 t that cre-ates op-por-tu-ni-ties for widespread
  []
 
 
-Overfull \hbox (2.17677pt too wide) in paragraph at lines 362--364
+Overfull \hbox (2.17677pt too wide) in paragraph at lines 374--376
 []\OT1/cmr/bx/n/12 Standardized Met-rics & Sym-bols (Con-sis-tent Through-out):
  Per-for-mance Met-
  []
 
-(./main_CISE.bbl [21] [22] [23]) [24] (./main_CISE.aux)
+(./main_CISE.bbl [23] [24] [25]) [26] (./main_CISE.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 4755 strings out of 474222
- 69327 string characters out of 5748734
+ 4754 strings out of 474222
+ 69314 string characters out of 5748734
  1943975 words of memory out of 5000000
- 26953 multiletter control sequences out of 15000+600000
+ 26952 multiletter control sequences out of 15000+600000
  569144 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,10n,65p,1297b,293s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -852,10 +1147,10 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main_CISE.pdf (24 pages, 319482 bytes).
+Output written on main_CISE.pdf (26 pages, 326081 bytes).
 PDF statistics:
- 297 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
+ 304 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
