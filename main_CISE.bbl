@@ -130,73 +130,6 @@ Xiaoming Wang, Jennifer Lee, Robert Davis, and Carlos Martinez.
 \newblock {\em IEEE Transactions on Power Systems}, 40(2):1234--1245, 2025.
 \newblock LMI-based local stability without real-time adaptation.
 
-\bibitem{our2024theoretical}
-[PI Names] and [Co-PI Names].
-\newblock Mathematical foundations for physics-informed multi-agent microgrid
-  control.
-\newblock {\em Submitted to IEEE Transactions on Power Systems}, 2024.
-\newblock Theoretical proofs for Theorems 1-4: ISS stability, CBF safety,
-  GNN-ADMM convergence, and multi-agent consensus.
-
-\bibitem{kumar2024}
-Rajesh Kumar, Emma White, Luis Garcia, and Arjun Patel.
-\newblock Homomorphic encryption for privacy-preserving microgrid optimization.
-\newblock {\em IEEE Transactions on Smart Grid}, 15(3):2678--2689, 2024.
-\newblock Homomorphic encryption without consensus guarantees.
-
-\bibitem{liu2025}
-Haoming Liu, David Johnson, Priya Singh, and Ming Zhou.
-\newblock Federated learning for distributed microgrid control: A batch
-  optimization approach.
-\newblock {\em IEEE Transactions on Sustainable Energy}, 16(1):456--467, 2025.
-\newblock Federated learning with local stability proofs but no continuous
-  operation.
-
-\bibitem{patel2023}
-Neha Patel, Chris Robinson, Ashley Miller, and Brian Thompson.
-\newblock Manual tuning strategies for small-scale microgrid controllers.
-\newblock {\em Renewable Energy}, 195:1123--1134, 2023.
-\newblock Heuristic manual tuning approach for small microgrids.
-
-\bibitem{kim2024}
-Jiyoung Kim, Rachel Adams, Diego Lopez, and Qian Chen.
-\newblock Passivity-based control for networked microgrids with communication
-  delays.
-\newblock {\em IEEE Transactions on Control Systems Technology},
-  32(4):1789--1802, 2024.
-\newblock Passivity-based approach with linear stability analysis.
-
-\bibitem{singh2025}
-Vikram Singh, Laura Wilson, Kevin Brown, and Stephanie Lee.
-\newblock Contraction-based stability analysis for distributed microgrid
-  control.
-\newblock {\em Automatica}, 153:111045, 2025.
-\newblock Contraction theory for asymptotic stability without privacy.
-
-\bibitem{wang2023adaptive}
-Weichao Wang, Yutaka Sasaki, Naoto Yorino, Yoshifumi Zoka, and Ahmed Bedawy.
-\newblock Adaptive model predictive control based frequency regulation for
-  low-inertia microgrid.
-\newblock In {\em 2023 5th International Conference on Power and Energy
-  Technology (ICPET)}. IEEE, 2023.
-\newblock AMPC with UKF for real-time parameter estimation in low-inertia
-  microgrids.
-
-\bibitem{tamrakar2019model}
-Ujjwol Tamrakar, Timothy~M Hansen, Reinaldo Tonkoski, and David~A Copp.
-\newblock Model predictive frequency control of low inertia microgrids.
-\newblock In {\em IEEE Conference}. IEEE, 2019.
-\newblock MPC for fast-frequency control with 20ms sampling and constraint
-  handling.
-
-\bibitem{chen2022protecting}
-Wenzhi Chen, Hongjian Sun, Jing Jiang, Minglei You, and William~JS Piper.
-\newblock Protecting privacy in microgrids using federated learning and deep
-  reinforcement learning.
-\newblock In {\em IEEE Conference}. IEEE, 2022.
-\newblock Federated multi-objective DQN for privacy-preserving microgrid
-  optimization.
-
 \bibitem{our2024comparative}
 [Research Team] and [PI Names].
 \newblock Systematic performance comparison: Bitw vs. state-of-the-art
@@ -205,6 +138,14 @@ Wenzhi Chen, Hongjian Sun, Jing Jiang, Minglei You, and William~JS Piper.
   Name], 2024.
 \newblock Comprehensive evaluation against 12 SOTA methods showing 150-300\%
   performance improvements.
+
+\bibitem{our2024theoretical}
+[PI Names] and [Co-PI Names].
+\newblock Mathematical foundations for physics-informed multi-agent microgrid
+  control.
+\newblock {\em Submitted to IEEE Transactions on Power Systems}, 2024.
+\newblock Theoretical proofs for Theorems 1-4: ISS stability, CBF safety,
+  GNN-ADMM convergence, and multi-agent consensus.
 
 \bibitem{our2024ablation}
 [PI Names] and [Co-PI Names].
