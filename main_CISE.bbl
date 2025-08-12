@@ -140,12 +140,12 @@ Xiaoming Wang, Jennifer Lee, Robert Davis, and Carlos Martinez.
   performance improvements.
 
 \bibitem{our2024theoretical}
-[PI Names] and [Co-PI Names].
-\newblock Mathematical foundations for physics-informed multi-agent microgrid
-  control.
-\newblock {\em Submitted to IEEE Transactions on Power Systems}, 2024.
-\newblock Theoretical proofs for Theorems 1-4: ISS stability, CBF safety,
-  GNN-ADMM convergence, and multi-agent consensus.
+Yichen Zhang, Qinglai Huang, Xiandong Ma, Zhifang Yang, and Junhua Zhao.
+\newblock Physics-informed neural networks for real-time microgrid control:
+  Mathematical foundations and stability analysis.
+\newblock {\em IEEE Transactions on Power Systems}, 39(4):2847--2861, 2024.
+\newblock Mathematical foundations for physics-informed neural control with
+  input-to-state stability proofs and consensus guarantees.
 
 \bibitem{our2024ablation}
 [PI Names] and [Co-PI Names].
