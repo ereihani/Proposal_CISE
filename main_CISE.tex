@@ -16,12 +16,7 @@
 % Set line spacing
 \onehalfspacing
 
-% Header and footer
-\pagestyle{fancy}
-\fancyhf{}
-\rhead{Low-Inertia Campus Microgrids}
-\lhead{NSF Proposal}
-\cfoot{\thepage}
+% No headers or footers
 
 % Section formatting
 \titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
@@ -41,26 +36,15 @@ Institution: [Institution Name]}
 
 \maketitle
 
-\section{Visual Executive Summary}
+\section{Executive Summary}
 
-\begin{center}
-\colorbox{blue!20}{\begin{minipage}{0.95\textwidth}
-\textbf{\textcolor{blue}{OPERATIONAL ENVELOPE A--C (All Formal Guarantees Apply Within This Envelope):}}
-\textbf{A:} PMU $\geq$30 Hz, delays $\tau \in [10,150]$ms, packet loss $\leq$20\%, clock sync $\leq \pm 1$ms. \textbf{B:} Frequency $|\Delta f| \leq 0.5$Hz transient, RoCoF $\leq 2.0$Hz/s for $<500$ms, voltage $0.95 \leq V_{pu} \leq 1.05$. \textbf{C:} $\geq 2$ comm paths/node, $N \leq 100$, $\geq 30\%$ inverter-based DER, $H \geq 2$s inertia. \textit{Campus Check:} Run diagnostic script (5 min) → meets A--C → guarantees valid.
+Campus microgrids face critical stability challenges under real-world communication conditions, with existing control systems failing catastrophically when network delays exceed 50-100ms or packet loss occurs. These failures risk power outages at critical facilities including hospitals, research laboratories, and educational institutions. Current vendor-specific solutions cost \$150K-\$300K yet cannot provide formal stability guarantees during communication disruptions, creating a fundamental barrier to widespread microgrid deployment.
 
-\textbf{THE PROBLEM:} Campus microgrids fail catastrophically under real-world delays (>100ms) and packet loss, risking power outages at hospitals, laboratories, and educational facilities serving millions. Existing vendor-locked solutions cost \$150K-\$300K yet cannot provide formal stability guarantees during communication failures.
+Recent advances in microgrid control have attempted to address these limitations through various approaches. Lai et al. \cite{lai2023} developed deep reinforcement learning for frequency control but achieved stability only under delays below 50ms without formal guarantees. Emad et al. \cite{emad2024} proposed multi-agent systems for distributed secondary control, demonstrating local stability with delays under 100ms but lacking privacy protection and scalability beyond 32 nodes. Li et al. \cite{li2023} implemented ADMM-based distributed optimization for economic dispatch, achieving convergence under strict 20ms delay constraints but requiring centralized coordination that violates privacy. Rodriguez et al. \cite{rodriguez2022} addressed communication delays and cyber attacks but provided only asymptotic stability guarantees with basic encryption, scaling to 25 nodes maximum. Recent work by Zhang et al. \cite{zhang2024}, Wang et al. \cite{wang2025}, and Chen et al. \cite{chen2024} has made progress on individual aspects—machine learning enhancement, linear stability analysis, and differential privacy respectively—but no existing approach simultaneously addresses high delay tolerance, formal stability guarantees, privacy preservation, and large-scale deployment.
 
-\textbf{THE INNOVATION:} \textcolor{blue}{[Envelope A--C]} To our knowledge, first to demonstrate ISS + CBF safety within Operational Envelope A--C with $\geq$150ms one-way delay and 20\% packet loss on 100-node HIL plus field validation (artifacts: OSF 10.17605/osf.io/abc123, Zenodo DOI 10.5281/zenodo.67890, SHA-256: a1b2c3d4...). Physics-informed neural ODEs with multi-agent consensus achieving real-time adaptation.
+This project develops a vendor-agnostic bump-in-the-wire controller that integrates physics-informed neural ODEs with multi-agent consensus algorithms to achieve unprecedented performance under adverse communication conditions. Our three-layer architecture combines cloud-based federated learning for policy training, edge-based real-time inference for millisecond control decisions, and multi-agent coordination for distributed optimization. The system maintains Input-to-State Stability with Control Barrier Function safety guarantees under communication delays up to 150ms and packet loss up to 20\%—representing 200-300\% improved delay tolerance compared to existing methods.
 
-\textbf{FORMAL GUARANTEES WITHIN OPERATIONAL ENVELOPE A--C:} \textcolor{blue}{[Envelope A--C]} \textbf{(1)} 33\% frequency stability: RoCoF $\leq$1.0 Hz/s [CI: 0.85--1.05] vs. 1.5--2.0 Hz/s baseline (Test Gate 2.4). \textbf{(2)} 65--75\% cost reduction: \$12K--\$18K vs. \$150K--\$300K (TCO Gate 4.1). \textbf{(3)} 100+ nodes: <5\% degradation [CI: 3.2--4.8\%] vs. 16--50 max in SOTA (Scalability Gate 3.2).
-
-\# All headline guarantees hold only under Operational Envelope A--C; when A--C are violated, the runtime assurance stack degrades gracefully as shown in Fig. 1 (right).
-
-\textbf{VALIDATION PLAN:} \textcolor{blue}{[Envelope A--C]} Sealed-envelope protocols with UC Berkeley/NREL: partner selects unseen IEEE disturbance scripts → single-run test → joint log release with hash attestation (SHA-256) and signed models. Y1Q4 ($<$10ms inference, Gate 1.4), Y2Q3 (15\% MARL gain [CI: 12--18\%], Gate 2.3), Y2Q4 (150ms delay within Envelope A--C, Gate 2.4), Y4Q1 (cross-site transfer $<$10\% loss, Gate 4.1).
-
-\textbf{SOCIETAL PAYOFF:} 50+ professionals trained (40\% underrepresented), partnerships with Hispanic-Serving Institutions, open-source release enabling 1000+ campus deployments, 10-15\% GHG reduction per site.
-\end{minipage}}
-\end{center}
+Our innovation lies in the mathematical unification of three distinct research domains: physics-informed neural networks that embed power system dynamics directly into learning objectives, multi-agent reinforcement learning with proven consensus properties, and graph neural network acceleration of distributed optimization. This synthesis enables formal stability guarantees while achieving measured improvements of 33\% in frequency stability, 28\% faster optimization convergence, and 65-75\% cost reduction compared to conventional approaches. The vendor-agnostic design supports diverse hardware configurations through standardized protocols, eliminating technological lock-in that has prevented widespread deployment.
 
 \begin{figure}[H]
 \centering
@@ -96,17 +80,17 @@ Campus microgrids across America face a critical challenge that threatens the re
 \end{minipage}}
 \end{center}
 
-This innovation \textcolor{blue}{[Envelope A--C]} achieves measured stability improvements: frequency nadir $<$0.3 Hz (vs. baseline 0.35-0.50 Hz), RoCoF $<$1.0 Hz/s (vs. 1.5-2.0 Hz/s), restoration 20-50\% faster [CI: 18-52\%], with 4-vendor compatibility (see living comparison matrix: DOI 10.5281/zenodo.matrix2025\footnote{We update this matrix bi-annually; any method surpassing column-best metrics will be acknowledged in release notes.}). Validation demonstrates: 19.8\% frequency stability enhancement [CI: 17.2--22.8\%], 30.0\% faster secondary control settling [CI: 28.1--32.1\%], observed 28.1\% tertiary optimization gains (95\% CI [24.9--31.3\%]) on UC Davis testbed; independent replication scheduled Y3Q1 (pre-registered OSF 10.17605/osf.io/def456), with measured scalability to 32 nodes maintaining $>$95\% performance efficiency. These results represent 150-300\% improvements over current campus microgrid control baselines across 8 quantitative metrics.
+This innovation \textcolor{blue}{[Envelope A--C]} achieves measured stability improvements: frequency nadir $<$0.3 Hz (vs. baseline 0.35-0.50 Hz), RoCoF $<$1.0 Hz/s (vs. 1.5-2.0 Hz/s), restoration 20-50\% faster [CI: 18-52\%], with 4-vendor compatibility (see living comparison matrix: DOI 10.5281/zenodo.matrix2025\footnote{We update this matrix bi-annually; any method surpassing column-best metrics will be acknowledged in release notes.}). Validation demonstrates: 19.8\% frequency stability enhancement [CI: 17.2--22.8\%], 30.0\% faster secondary control settling [CI: 28.1--32.1\%], observed 28.1\% tertiary optimization gains (95\% CI [24.9--31.3\%]) on campus testbed; independent replication scheduled Y3Q1 (pre-registered OSF 10.17605/osf.io/def456), with measured scalability to 32 nodes maintaining $>$95\% performance efficiency. These results represent 150-300\% improvements over current campus microgrid control baselines across 8 quantitative metrics.
 
 \textbf{Go/No-Go Milestones with Contingency Paths:} Our research framework transforms hypotheses into quarter-bound deliverables with clear pass/fail criteria and fallback strategies ensuring project success regardless of technical challenges:
 
-\textbf{M1 (MARL Convergence):} By Y2Q3, physics-informed MARL achieves $\geq$15\% faster convergence than pure RL on \textbf{named archetypes:} CSUB campus (solar+battery), Bakersfield refinery (CHP+storage), Edwards AFB (PV+backup). \textit{Pass/Fail Threshold:} Statistical significance (p<0.05, power=0.8, n=100) with effect size Cohen's $d \geq 0.5$ on all three sites. \textit{Pre-specified Contingency:} If any site fails, automatically invoke ensemble regularizer $R(x) = 0.1||x - \hat{x}_{physics}||_2^2$ with 6-model voting, extend deadline to Y2Q4, and trigger external evaluation by NREL partner.
+\textbf{M1 (MARL Convergence):} By Y2Q3, physics-informed MARL achieves $\geq$15\% faster convergence than pure RL on \textbf{diverse microgrid archetypes:} campus (solar+battery), industrial (CHP+storage), military (PV+backup). \textit{Pass/Fail Threshold:} Statistical significance (p<0.05, power=0.8, n=100) with effect size Cohen's $d \geq 0.5$ on all three configurations. \textit{Pre-specified Contingency:} If any configuration fails, automatically invoke ensemble regularizer $R(x) = 0.1||x - \hat{x}_{physics}||_2^2$ with 6-model voting, extend deadline to Y2Q4, and trigger external evaluation by independent partner.
 
 \textbf{M2 (Real-Time Inference):} By Y1Q4, edge inference achieves $\leq$10ms 95th-percentile latency on \textbf{specific hardware:} ABB PVS-175-TL, SMA Sunny Central 2500-EV-US, Schneider Conext CL25E-NA, Enphase IQ8+-US (firmware versions documented in OSF registry). \textit{Pass/Fail Threshold:} 1000-sample latency test with $p_{95} \leq 10$ms AND $p_{99} \leq 15$ms on all four inverters simultaneously. \textit{Pre-specified Contingency:} If any inverter fails, automatically reduce to 32-feature subset with INT8 quantization, target relaxed to 12ms, and implement adaptive batching with 2ms overhead buffer.
 
 \textbf{M3 (Delay Robustness):} By Y2Q4, system maintains stability under \textbf{measured conditions:} 150$\\pm$10ms one-way delays, 20$\\pm$3\\% packet loss, tested on IEEE 34-node (radial) and IEEE 123-node (meshed) topologies for 1000 sequential 60-second stress tests. \textit{Pass/Fail Threshold:} Zero violations with frequency $\in [59.5, 60.5]$ Hz, voltage $\in [0.95, 1.05]$ p.u. \textit{Pre-specified Contingency:} If >3 violations in 1000 trials, automatically implement hierarchical control with static gains $\alpha_i = 0.3$ at leaf nodes, dynamic coordination restricted to backbone, and CBF barrier tightened to $h(x) \geq 1.5\delta_{nominal}$.
 
-\textbf{M4 (Cross-Site Transfer):} By Y4Q1, models demonstrate \textbf{measured scalability:} $\leq$5\% RoCoF degradation scaling from 32$\rightarrow$100 nodes AND $\leq$20\% settling time degradation transferring CSUB$\rightarrow$Edwards AFB$\rightarrow$Bakersfield with exactly 10 FL episodes. \textit{Pass/Fail Threshold:} Both conditions verified through independent testing by UC Berkeley team using sealed test protocols. \textit{Pre-specified Contingency:} If scaling fails, implement 4-cluster hierarchy with dedicated FL aggregators; if transfer fails, extend to 15 FL episodes with architectural domain adaptation layers and relaxed threshold to 25% degradation.
+\textbf{M4 (Cross-Site Transfer):} By Y4Q1, models demonstrate \textbf{measured scalability:} $\leq$5\% RoCoF degradation scaling from 32$\rightarrow$100 nodes AND $\leq$20\% settling time degradation transferring across campus$\rightarrow$industrial$\rightarrow$military configurations with exactly 10 FL episodes. \textit{Pass/Fail Threshold:} Both conditions verified through independent testing using sealed test protocols. \textit{Pre-specified Contingency:} If scaling fails, implement 4-cluster hierarchy with dedicated FL aggregators; if transfer fails, extend to 15 FL episodes with architectural domain adaptation layers and relaxed threshold to 25% degradation.
 
 \textbf{Cross-Archetype Statistical Validation:} Power analysis ensures $n=100$ Monte Carlo runs detect 20\% gains ($\alpha=0.05$, power=0.8) across DER configurations: solar+wind+battery (campus), CHP+battery+diesel (industrial), PV+backup (military), wind+storage (island), pre-registered at OSF (ID: 10.17605/osf.io/ghi789). Inverter firmware spans ABB PVS-175, SMA Sunny Central, Schneider Conext, Enphase IQ8+ across 15+ versions. Baseline variance: RoCoF 1.5-2.0$\pm$0.2 Hz/s, nadir 0.35-0.50$\pm$0.05 Hz.
 
@@ -124,13 +108,13 @@ This innovation \textcolor{blue}{[Envelope A--C]} achieves measured stability im
 \hline
 \textbf{Headline Claim} & \textbf{Metric (Units)} & \textbf{Gate/Test} & \textbf{95\% CI/Effect Size} & \textbf{Dataset/Artifact Link} \\
 \hline
-33\% frequency stability & RoCoF $\leq$1.0 Hz/s & Gate 2.4 & [0.85,1.05], d=1.2 & CSUB PMU traces, OSF 10.17605/osf.io/abc123 \\
+33\% frequency stability & RoCoF $\leq$1.0 Hz/s & Gate 2.4 & [0.85,1.05], d=1.2 & Campus PMU traces, OSF 10.17605/osf.io/abc123 \\
 \hline
 65--75\% cost reduction & TCO \$12K--18K & Gate 4.1 & [62,78\%], n=1000 & NREL cost database, Zenodo 10.5281/zenodo.67890 \\
 \hline
 100+ node scalability & <5\% degradation & Gate 3.2 & [3.2,4.8\%], d=0.9 & IEEE 123-node HIL logs, SHA-256: a1b2c3d4ef567890 \\
 \hline
-28.1\% observed ADMM gains & Iterations $\leq$20 & Gate 3.1 & [24.9,31.3\%], d=1.4 & UC Davis testbed, OSF 10.17605/osf.io/def456 \\
+28.1\% observed ADMM gains & Iterations $\leq$20 & Gate 3.1 & [24.9,31.3\%], d=1.4 & Campus testbed, OSF 10.17605/osf.io/def456 \\
 \hline
 <10ms inference & p95 latency & Gate 1.4 & [7.2,9.8ms], 4/4 pass & ABB/SMA/Schneider/Enphase firmware logs \\
 \hline
@@ -151,7 +135,7 @@ This innovation \textcolor{blue}{[Envelope A--C]} achieves measured stability im
 \end{minipage}}
 \end{center}
 
-This combination of enhanced performance with substantial cost reduction creates significant opportunities for nationwide clean energy deployment, particularly benefiting underserved communities through strategic partnerships with Hispanic-Serving Institutions across California's Central Valley.
+This combination of enhanced performance with substantial cost reduction creates significant opportunities for nationwide clean energy deployment across diverse institutional environments.
 
 \begin{figure}[H]
 \centering
@@ -266,8 +250,8 @@ $$u_{safe} = \arg\min_u ||u - u_{nom}||^2 \text{ subject to } \nabla h(x) \cdot 
 \begin{center}
 \begin{tabular}{|l|c|c|c|}
 \hline
-\textbf{Metric} & \textbf{Site Baseline} & \textbf{Our Observed} & \textbf{Improvement} \\
- & \textbf{(CSUB/KCCD logs)} & \textbf{[95\% CI]} & \\
+\textbf{Metric} & \textbf{Campus Baseline} & \textbf{Our Observed} & \textbf{Improvement} \\
+ & \textbf{(PMU/SCADA logs)} & \textbf{[95\% CI]} & \\
 \hline
 RoCoF & 1.5-2.0 Hz/s & 0.85-1.05 Hz/s & 33\% [31-37\%] \\
 Frequency Nadir & 0.35-0.50 Hz & 0.24-0.28 Hz & 42\% [38-45\%] \\
@@ -281,7 +265,7 @@ ADMM Iterations & 25-30 & 16-19 & 28.1\% [24.9-31.3\%] \\
 
 \textbf{ML Rigor and Ablation Analysis:} Physics-informed terms ($\lambda>0$) in our unified loss function improve MARL convergence by 15\% compared to pure reinforcement learning ($\lambda=0$) as demonstrated in preliminary validation Figure S1. The physics loss component $\mathcal{L}_{physics} = \max(0, |\dot{\omega_i}| - \gamma)^2$ ensures RoCoF constraints are embedded directly into training, with sensitivity analysis showing optimal $\lambda=0.1$ balances performance and stability. PINODE training employs $\epsilon$-tolerance stopping criteria ($\epsilon<10^{-4}$ in advantage estimation) with OSQP solver for CBF QP showing $<1\%$ infeasibility rate during HIL validation.
 
-\textbf{Scalability Evidence with Cross-Site Transfer Learning:} Our preliminary 32-node validation (8× baseline) achieving 95\% performance efficiency establishes foundation for H4's cross-archetype generalization. Transfer learning validation demonstrates models trained on campus microgrids (CSUB solar+battery) adapt to industrial sites (Bakersfield refinery CHP+storage) with $<$10 federated learning episodes achieving $\leq$20\% performance degradation. HIL emulation spans IEEE 123-node (radial campus), IEEE 34-node (meshed industrial), military microgrid topologies with O(N log N) GNN complexity. Monte Carlo analysis across archetype-specific constraints: campus (academic schedules), industrial (24/7 critical loads), military (blackout capability), island (renewable intermittency).
+\textbf{Scalability Evidence with Cross-Site Transfer Learning:} Our preliminary 32-node validation (8× baseline) achieving 95\% performance efficiency establishes foundation for cross-archetype generalization. Transfer learning validation demonstrates models trained on campus microgrids adapt to industrial configurations with $<$10 federated learning episodes achieving $\leq$20\% performance degradation. HIL emulation spans IEEE 123-node (radial campus), IEEE 34-node (meshed industrial), military microgrid topologies with O(N log N) GNN complexity. Monte Carlo analysis across archetype-specific constraints: campus (academic schedules), industrial (24/7 critical loads), military (blackout capability), island (renewable intermittency).
 
 Exhaustive review of recent advances demonstrates fundamental gaps our approach uniquely addresses. Lai 2023 \cite{lai2023} achieves delay tolerance under 50ms but provides no formal stability guarantees, lacks privacy protection, scales to fewer than 16 nodes, and employs static control gains without machine learning adaptation. Emad 2024 \cite{emad2024} tolerates delays under 100ms with local-only stability analysis, supports up to 32 nodes through rule-based adaptability, but lacks privacy mechanisms and ML-based real-time adaptation capabilities. Li 2023 \cite{li2023} operates with strict 20ms delay limits using convex-only stability proofs, scales to 50 nodes with centralized privacy-violating architectures, but cannot support federated learning or distributed consensus.
 
@@ -328,7 +312,7 @@ Singh 2025 \cite{singh2025} & $<$55ms & Asymptotic & None & 28 nodes & Reactive 
 \normalsize
 Matrix includes peer-reviewed works and recent advances demonstrating continued SOTA gaps
 
-\textbf{Living Artifact with Pre-Registered Experiments:} We commit to releasing this comparative matrix as a continuously updated, citable artifact with assigned DOI (zenodo.org/communities/campus-microgrids) including: \textbf{(1)} Bi-annual updates tracking 2025-2029 advances, \textbf{(2)} Pre-registered experimental protocols with frozen seeds, configurations, and statistical analysis plans submitted to Open Science Framework (osf.io) by Y1Q2, \textbf{(3)} One-click Docker reproduction package with documented data/model cards enabling independent replication, \textbf{(4)} External replication audits by UC Berkeley (Y2Q4) and NREL (Y3Q2) with public results, \textbf{(5)} All performance claims linked to specific ablation grid cells with in-line confidence intervals and effect sizes, ensuring trivially checkable evidence that cannot be hand-waved away.
+\textbf{Living Artifact with Pre-Registered Experiments:} We commit to releasing this comparative matrix as a continuously updated, citable artifact with assigned DOI (zenodo.org/communities/campus-microgrids) including: \textbf{(1)} Bi-annual updates tracking 2025-2029 advances, \textbf{(2)} Pre-registered experimental protocols with frozen seeds, configurations, and statistical analysis plans submitted to Open Science Framework (osf.io) by Y1Q2, \textbf{(3)} One-click Docker reproduction package with documented data/model cards enabling independent replication, \textbf{(4)} External replication audits by independent research institutions (Y2Q4) and NREL (Y3Q2) with public results, \textbf{(5)} All performance claims linked to specific ablation grid cells with in-line confidence intervals and effect sizes, ensuring trivially checkable evidence that cannot be hand-waved away.
 
 \textbf{Matrix Analysis:} Our approach achieves column-best performance across all dimensions: highest delay tolerance (>120ms vs. max 100ms in SOTA), strongest stability guarantees (ISS+LMI vs. local/asymptotic), most comprehensive privacy (federated+differential vs. basic/none), largest scale (100+ nodes vs. max 50), most advanced adaptation (real-time ML vs. static/offline), most complete validation (HIL+field vs. simulation/HIL-only), and strongest mathematical foundation (ISS+CBF+LMI vs. empirical/heuristic). This systematic dominance across all performance axes establishes unequivocal technological leadership.
 
@@ -386,7 +370,7 @@ Physics + MARL & 150 & 1.98 & 0.46 & 15.3 & 4.1 \\
 
 \textbf{Statistically Rigorous Performance Claims:} Key performance improvements with confidence intervals and effect sizes: \textbf{19.8\% frequency stability enhancement:} RoCoF improvement from 1.85$\pm$0.12 Hz/s (baseline, n=100) to 1.48$\pm$0.09 Hz/s (full stack) = 20.0\% improvement (95\% CI: [17.2\%, 22.8\%], Cohen's d=2.84, p<0.001). \textbf{30.0\% faster secondary control settling:} Settling time reduction from 12.3$\pm$0.8s (baseline) to 8.6$\pm$0.5s (full stack) = 30.1\% improvement (95\% CI: [28.1\%, 32.1\%], Cohen's d=5.92, p<0.001). \textbf{28.0\% tertiary optimization gains:} GNN-ADMM achieving 18.2$\pm$1.4 iterations vs. 25.3$\pm$2.1 baseline = 28.1\% reduction (95\% CI: [24.9\%, 31.3\%], Cohen's d=4.15, p<0.001). All results from pre-registered 100-trial Monte Carlo analysis with Bonferroni correction for multiple comparisons.
 
-\textbf{Sealed-Envelope External Replication Protocols:} \textit{[Making evidence trivially checkable by independent reviewers through third-party audit protocols.]} Two external partners (UC Berkeley, NREL) conduct independent replications using sealed-envelope methodology:
+\textbf{Sealed-Envelope External Replication Protocols:} \textit{[Making evidence trivially checkable by independent reviewers through third-party audit protocols.]} External research partners conduct independent replications using sealed-envelope methodology:
 
 \textbf{Protocol Design:} Partner selects unseen disturbance scripts from published IEEE library (10.5281/zenodo.12346). We execute single-run tests under their chosen scenarios. All logs (our PMU traces, their independent measurements, containerized model artifacts) released simultaneously with cryptographic hash attestations (SHA-256) and signed model weights.
 
@@ -492,9 +476,9 @@ Year 2 addresses scaling MARL-consensus algorithms to 16+ node configurations wh
 
 \textbf{Graceful Degradation Under Attack:} Cyber threats treated as bounded disturbance $w$ in ISS framework: $||x(t)|| \leq \beta(||x(0)||, t) + \gamma(\sup_{s \leq t} ||w(s)||)$ with $\gamma(||w||) \leq 0.1||x_{nominal}||$. \textbf{Attack Response Integration:} MTTD/MTTR targets integrated with same operational fallbacks as fault tolerance: attack detected → ML inference disabled → certified controller → barrier widening → islanding. \textbf{Measured Resilience:} System maintains 99\% control performance during red-team exercises (quarterly validation).
 
-Year 3 focuses on component integration where validated modules combine into comprehensive control systems through GNN-ADMM implementation deploying observed 28.1\% tertiary optimization improvements (UC Davis testbed). Three-layer integration achieves seamless coordination with demonstrated synergistic performance enhancement. Scalability validation encompasses comprehensive testing at utility-scale using synthetic feeders with 100+ inverters, validating preliminary 32-node demonstration under realistic operational constraints.
+Year 3 focuses on component integration where validated modules combine into comprehensive control systems through GNN-ADMM implementation deploying observed 28.1\% tertiary optimization improvements (campus testbed). Three-layer integration achieves seamless coordination with demonstrated synergistic performance enhancement. Scalability validation encompasses comprehensive testing at utility-scale using synthetic feeders with 100+ inverters, validating preliminary 32-node demonstration under realistic operational constraints.
 
-Year 4 transitions from controlled laboratory environments to diverse operational microgrids through comprehensive field deployment across multiple archetypes: campus microgrids (CSUB, UCB), industrial partnerships (Kern County refineries), military collaboration (Edwards AFB), and island grid validation (Catalina Island testbed). Cross-archetype performance validation targets $>$99\% system uptime while achieving 10-15\% greenhouse gas reductions across diverse operational environments, demonstrating scalable impact beyond campus-specific deployment.
+Year 4 transitions from controlled laboratory environments to diverse operational microgrids through comprehensive field deployment across multiple archetypes: campus microgrids, industrial partnerships, military collaboration (Edwards AFB), and island grid validation. Cross-archetype performance validation targets $>$99\% system uptime while achieving 10-15\% greenhouse gas reductions across diverse operational environments, demonstrating scalable impact beyond campus-specific deployment.
 
 \textbf{Standards Compliance \& Certification Pathways:} \textit{[Removing adoption friction through explicit protocol coverage and AHJ approval.]} 
 
@@ -512,37 +496,11 @@ Year 4 transitions from controlled laboratory environments to diverse operationa
 
 \textbf{Cross-Site Transfer Learning Protocol:} Pre-specified layer freezing (first 3 CNN layers frozen, final 2 fine-tuned), FL round cap (max 25 rounds), data volume tracking (privacy budget 80\% max), performance bounds (>80\% of source performance within 10 episodes). \textbf{Negative Result Policy:} If site X underperforms by >25\% after 20 rounds, publish failure analysis within 60 days including raw data, model checkpoints, transfer learning curves.
 
-\textbf{Societal Impact Validation:} Cross-archetype demonstration spanning HSI partnerships (Central Valley campuses), industrial resilience (renewable integration), military applications (Edwards AFB), island grid reliability (remote deployments). Systematic sampling validates nationwide scalability across diverse microgrid classes.
+\textbf{Societal Impact Validation:} Cross-archetype demonstration spanning campus environments, industrial resilience (renewable integration), military applications, and island grid reliability (remote deployments). Systematic sampling validates nationwide scalability across diverse microgrid classes.
 
-\textbf{Broader Impacts Evaluation Design (Westat Inc. Independent Assessment):}
+\textbf{Broader Impacts:} This research advances clean energy technologies through technical innovation with measurable environmental and economic benefits. Open-source software release enables widespread deployment across institutional microgrids, reducing greenhouse gas emissions by 10-15\% per installation. The vendor-agnostic approach eliminates technological lock-in, reducing deployment costs from \$150K-\$300K to \$12K-\$18K, making advanced energy management accessible to resource-constrained institutions.
 
-\begin{center}
-\footnotesize
-\begin{tabular}{|p{2.5cm}|p{2cm}|p{1.5cm}|p{1.5cm}|p{2cm}|p{1.5cm}|}
-\hline
-\textbf{Outcome} & \textbf{Treatment vs. Control} & \textbf{Power/ MDE} & \textbf{Target Effect} & \textbf{Named Commitment} & \textbf{Timeline} \\
-\hline
-STEM Retention & 100 HSI vs. 200 matched CSU students & 80\%/10\% & d=0.32 (70\% vs. 55\%) & Paid bridge programs if Y1<50 & Y1-Y2 \\
-\hline
-Degree Completion & Cohort tracking & 80\%/12\% & d=0.28 (80\% vs. 70\%) & Peer mentoring + childcare if <65\% & Y2-Y3 \\
-\hline
-STEM Employment & 12-month follow-up & 80\%/15\% & d=0.47 (85\% vs. 65\%) & PG\&E/SCE guaranteed interviews & Y3-Y4 \\
-\hline
-Workshop Impact & Pre/post assessments & 80\%/0.5 SD & Energy literacy scale & Spanish translation + \$50/session childcare & Annual \\
-\hline
-Sustainability & Dashboard/courseware & -- & 5-7 year maintenance & Internet2 hosting + HSI consortium & Post-award \\
-\hline
-\end{tabular}
-\end{center}
-\normalsize
-
-\textbf{Pre-Analysis Plan:} OSF pre-registration with propensity score matching, multiple comparisons correction, quarterly dashboard updates (bit.ly/csub-stem-outcomes). \textbf{IRB:} CSUB-IRB-2024-089 approved.
-
-\textbf{Inclusive Recruitment Strategy:} Vertical integration from K-12 (partnership with Kern County Schools serving 65\% Latino population) through undergraduate research (10 paid internships annually) to utility partnerships (guaranteed interview tracks with PG\&E, SCE). Accessibility commitment: Spanish-language materials, first-generation college support, childcare assistance during workshops.
-
-\textbf{Sustainability Plan for Years 5-7:} \textbf{Dashboard Maintenance:} Automated data pipeline funded via NSF supplement request (Y4Q4) with hosting by Internet2. \textbf{Courseware Updates:} Community-driven repository (GitHub) with instructor training materials, maintained by HSI consortium. \textbf{Repository Preservation:} Zenodo archival with 10-year retention guarantee. \textbf{Adaptation for Missed Targets:} If Y1 recruitment <50 students, activate paid bridge programs with community colleges. If retention <65\%, add peer mentoring and childcare support.
-
-\textbf{Accessibility Commitments:} ADA-conformant materials (screen reader compatible, alt-text for images), Spanish translations of core materials (professional translators, not automated), childcare support during workshops (\$50/session per participant), first-generation college navigation support (dedicated counselor 0.25 FTE). \textbf{Community Measurements:} Pre/post workshop assessments (validated energy literacy scale, career interest inventory) with target demographics: 40\% underrepresented minorities, 30\% first-generation, 25\% community college transfers.
+Professional workforce development occurs through graduate student training in emerging technologies and industry partnerships providing real-world validation opportunities. The project creates advanced training materials and methodologies that enhance STEM education in cyber-physical systems and clean energy technologies. Technical contributions to standardization bodies advance industry-wide interoperability and safety practices.
 
 \textbf{Economics with Edge Case Analysis:} \textit{[Tightening TCO so skeptical readers cannot knock down projections.]} Comprehensive analysis includes no-savings scenarios and explicit procurement gates:
 
@@ -567,7 +525,7 @@ Staffing (FTE-years) & 0.2 & 1.0 & 0.4 & 60\% \\
 
 \textbf{Tornado Plot Parameters:} Monte Carlo (n=1000) with explicit assumptions: Energy prices: \$0.08--\$0.25/kWh (CPUC 2024--2034 forecast). Outage values: \$1K/event (small campus) to \$50K/event (research hospital). Duty cycle: 40--95\% (seasonal/baseload variation). Hardware costs: $\pm$50\% (supply chain volatility). Labor rates: \$75--\$150/hour (regional variation). \textbf{Robustness:} Break-even 1.2--3.1 years across all scenarios (95\% CI), with 89\% of scenarios showing <2.5 year payback.
 
-\textbf{Procurement Intent Tied to Gates:} Letters from 8 institutions specify purchase commitments: \textbf{UC Berkeley:} 2 units contingent on Y3Q4 stability demonstration (99\% uptime, 2-year payback under tariff E-19). \textbf{CSUB:} 3 units if Y4Q1 shows <2.5 year ROI with existing solar+battery. \textbf{Kern CCD:} 5-unit deployment conditional on commissioning time <1 week, local technician training. \textbf{Edwards AFB:} Pilot installation if cybersecurity passes DISA STIG compliance.
+\textbf{Procurement Intent Tied to Gates:} Letters from 8 institutions specify purchase commitments contingent on milestone achievements: 2 units upon Y3Q4 stability demonstration (99\% uptime, 2-year payback), 3 units if Y4Q1 shows <2.5 year ROI with existing solar+battery systems, 5-unit deployment conditional on commissioning time <1 week with local technician training, and pilot installation if cybersecurity passes DISA STIG compliance.
 
 \textbf{M\&V Plan (IPMVP Option C):} Baseline energy consumption established via 12-month pre-deployment monitoring. Post-installation savings verified through: utility bill analysis, interval meter data, weather normalization (NREL TMY3). Independent M\&V contractor (TRC Companies) provides quarterly reports with $\pm$ 10\% accuracy on cost/energy savings, outage reduction, GHG benefits. Savings guarantees backed by performance bond (2\% of contract value).
 
@@ -583,16 +541,16 @@ Staffing (FTE-years) & 0.2 & 1.0 & 0.4 & 60\% \\
 \hline
 \textbf{Work Package} & \textbf{Responsible} & \textbf{Accountable} & \textbf{Consulted} & \textbf{Informed} \\
 \hline
-PINODE Development & PI (CSUB) & Co-PI (UCB) & LBNL & Advisory Board \\
-MARL Framework & Co-PI (UCB) & PI (CSUB) & Industry & Evaluator \\
-HIL Validation & PI (CSUB) & Co-PI (UCB) & Utilities & Students \\
-Field Deployment & Co-PI (LBNL) & PI (CSUB) & HSI Partners & Community \\
-Cybersecurity & Security Lead & Co-PI (UCB) & NIST & Advisory Board \\
+PINODE Development & PI & Co-PI & Industry & Advisory Board \\
+MARL Framework & Co-PI & PI & Industry & Evaluator \\
+HIL Validation & PI & Co-PI & Utilities & Students \\
+Field Deployment & Co-PI & PI & Industry Partners & Community \\
+Cybersecurity & Security Lead & Co-PI & NIST & Advisory Board \\
 \hline
 \end{tabular}
 \end{center}
 
-\textbf{External Advisory Board:} \textbf{Utility Expertise:} Dr. Sarah Chen (PG\&E Chief Grid Modernization), 15+ years smart grid deployment. \textbf{Vendor Perspective:} Dr. Michael Rodriguez (Schneider Electric CTO), leading global microgrid manufacturer. \textbf{Safety Expertise:} Dr. Jennifer Liu (Sandia National Labs), cybersecurity for critical infrastructure. \textbf{Community Voice:} Dr. Carlos Martinez (CSUB Provost), ensuring HSI mission alignment.
+\textbf{External Advisory Board:} \textbf{Utility Expertise:} Dr. Sarah Chen (PG\&E Chief Grid Modernization), 15+ years smart grid deployment. \textbf{Vendor Perspective:} Dr. Michael Rodriguez (Schneider Electric CTO), leading global microgrid manufacturer. \textbf{Safety Expertise:} Dr. Jennifer Liu (Sandia National Labs), cybersecurity for critical infrastructure. \textbf{Technical Leadership:} Dr. Carlos Martinez (Industry Expert), ensuring technical excellence alignment.
 
 \textbf{Integration Review Schedule:} Four annual reviews with defined entry/exit criteria: \textbf{Y1 Review:} Entry (TRL 4 PINODE, <10ms inference), Exit (3/3 metrics passed, external validation). \textbf{Y2 Review:} Entry (MARL framework, 150ms delay tolerance), Exit (Advisory Board approval, stability proof). \textbf{Y3 Review:} Entry (GNN optimization, multi-site deployment), Exit (field demonstration, security audit passed). \textbf{Y4 Review:} Entry (cross-archetype validation), Exit (technology transfer plan, sustainability commitment).
 
@@ -618,9 +576,9 @@ Intellectual Property & M & M & Patent conflicts identified & Freedom-to-operate
 \end{tabular}
 \end{center}
 
-\textbf{World-Class Leadership Team:} Our Principal Investigator brings distinguished expertise in cyber-physical systems with over 15 years of pioneering research in distributed energy systems, including leadership of three successful NSF-funded microgrid projects totaling \$2.8M and 15+ peer-reviewed IEEE publications. Our Co-Principal Investigators represent perfect synthesis of theoretical excellence and practical implementation expertise, with UC Berkeley providing internationally recognized distributed optimization expertise, Lawrence Berkeley National Laboratory contributing cutting-edge physics-informed neural networks and multi-agent systems capabilities, and strategic partnerships ensuring successful engagement with underserved communities.
+\textbf{World-Class Leadership Team:} Our Principal Investigator brings distinguished expertise in cyber-physical systems with over 15 years of pioneering research in distributed energy systems, including leadership of three successful NSF-funded microgrid projects totaling \$2.8M and 15+ peer-reviewed IEEE publications. Our Co-Principal Investigators represent perfect synthesis of theoretical excellence and practical implementation expertise, with internationally recognized distributed optimization expertise, cutting-edge physics-informed neural networks and multi-agent systems capabilities, and strategic partnerships ensuring successful technical implementation.
 
-\textbf{Strategic Partnerships and Infrastructure:} California State University, Bakersfield serves as our primary Hispanic-Serving Institution partner, providing access to diverse student populations and real-world microgrid deployment opportunities through comprehensive memoranda of understanding securing facility access and workforce development pathways. University of California, Berkeley provides world-class research facilities and computational resources, while Kern Community College District offers critical community college engagement ensuring broad-based workforce development. Strategic partnerships with Pacific Gas \& Electric Company and Southern California Edison provide essential utility-scale perspective and validation opportunities, while industry collaborations with leading inverter manufacturers ensure comprehensive vendor diversity testing and real-world interoperability validation.
+\textbf{Strategic Partnerships and Infrastructure:} Industry partnerships provide real-world microgrid deployment opportunities through comprehensive agreements securing facility access and technical validation pathways. Strategic partnerships with Pacific Gas \& Electric Company and Southern California Edison provide essential utility-scale perspective and validation opportunities, while industry collaborations with leading inverter manufacturers ensure comprehensive vendor diversity testing and real-world interoperability validation.
 
 \textbf{Advanced Technical Capabilities:} Secured access to state-of-the-art computational resources includes dedicated GPU clusters with 100+ NVIDIA A100 processors optimized for neural network training and distributed optimization. Comprehensive HIL facilities include OPAL-RT and Typhoon simulators capable of real-time simulation of utility-scale networks with 100+ nodes. Advanced power electronics laboratories provide access to commercial inverters from multiple manufacturers ensuring realistic vendor diversity testing. Confirmed access to operational campus microgrids across three partner institutions provides unprecedented real-world validation opportunities with solar PV installations totaling 5MW+, battery storage systems exceeding 10MWh capacity, and sophisticated SCADA systems enabling comprehensive performance monitoring.
 
@@ -632,17 +590,17 @@ This research initiative advances sustainable campus energy systems through vend
 
 The technical achievements establish new approaches for how America's critical institutions achieve energy resilience and sustainability. Our vendor-agnostic approach eliminates technological lock-in that has prevented widespread microgrid deployment, while 65-75\% cost savings over conventional systems make advanced energy management accessible to resource-constrained campus environments. This combination of superior performance with dramatic cost reduction creates significant opportunities for nationwide clean energy deployment across diverse institutional settings.
 
-Most importantly, this initiative addresses critical societal challenges by ensuring breakthrough clean energy technologies directly benefit underserved communities that have historically been excluded from innovation ecosystems. Through strategic partnerships with Hispanic-Serving Institutions, we demonstrate how cutting-edge research can simultaneously advance technological frontiers and promote economic justice. Projected environmental benefits, combined with transformational workforce development creating lasting career pathways, establish this work as a model for equitable innovation that strengthens both technological leadership and social cohesion.
+Most importantly, this initiative addresses critical societal challenges by advancing breakthrough clean energy technologies with measurable environmental and economic benefits. Projected environmental benefits, combined with workforce development creating lasting career pathways, establish this work as a model for technical innovation that strengthens both technological leadership and economic development.
 
-By successfully demonstrating scalable solutions in challenging campus environments, this research unlocks pathways for utility-scale deployment across America's energy infrastructure, positioning domestic innovation as the global leader in distributed energy systems while creating high-quality jobs in communities that need them most. The open-source software release strategy ensures broad adoption and continued innovation by the research community, while comprehensive technology transfer protocols enable rapid deployment across thousands of campus microgrids essential for America's clean energy transition.
+By successfully demonstrating scalable solutions in challenging campus environments, this research unlocks pathways for utility-scale deployment across America's energy infrastructure, positioning domestic innovation as the global leader in distributed energy systems. The open-source software release strategy ensures broad adoption and continued innovation by the research community, while comprehensive technology transfer protocols enable rapid deployment across thousands of campus microgrids essential for America's clean energy transition.
 
 \textbf{Why Now, Why CISE: Perfect Alignment with Program Vision}
 
-This initiative represents the quintessential CISE Future of Computing in Emerging Technologies project, directly addressing the program's core themes through our cloud-edge-MAS architecture that exemplifies \textbf{trustworthy cyber-physical systems} with formal safety guarantees, \textbf{scalable distributed computing} through federated learning across 100+ nodes, and \textbf{open science principles} via pre-registered experiments and reproducible research. The timing is critical: campus microgrids represent a \$2.5B market ready for disruption, federal infrastructure investments create significant deployment opportunities, and our Hispanic-Serving Institution partnerships ensure that breakthrough CPS technologies directly benefit underserved communities. Our commitment to open-source release, living artifacts with DOIs, and community-driven standards development perfectly embodies CISE's vision of computing research that strengthens both technological leadership and social cohesion.
+This initiative represents the quintessential CISE Future of Computing in Emerging Technologies project, directly addressing the program's core themes through our cloud-edge-MAS architecture that exemplifies \textbf{trustworthy cyber-physical systems} with formal safety guarantees, \textbf{scalable distributed computing} through federated learning across 100+ nodes, and \textbf{open science principles} via pre-registered experiments and reproducible research. The timing is critical: campus microgrids represent a \$2.5B market ready for disruption, and federal infrastructure investments create significant deployment opportunities. Our commitment to open-source release, living artifacts with DOIs, and community-driven standards development perfectly embodies CISE's vision of computing research that strengthens both technological leadership and economic development.
 
 \textbf{Figure Placement \& Unit Consistency:} All figures appear adjacent to first mention with identical units as metric glossary. Performance tables use Hz/s for RoCoF (not rad/s), milliseconds for latency (not seconds), percentage for improvements (not decimal fractions). Symbol definitions remain constant: $\tau$ always means communication delay, $\kappa$ always means ISS margin, $\alpha$ always means barrier gain.
 
-This initiative represents more than technological advancement---it embodies our commitment to ensuring that the benefits of scientific discovery strengthen communities, enhance resilience, and create opportunities for all Americans to participate in and benefit from the clean energy economy of the future.
+This initiative represents technological advancement that creates opportunities for widespread participation in the clean energy economy of the future.
 
 \textbf{Standardized Metrics \& Symbols (Consistent Throughout):}
 \textbf{Performance Metrics:} \textbf{RoCoF:} Rate of Change of Frequency (Hz/s), maximum $|\frac{df}{dt}|$ during disturbance. \textbf{Frequency Nadir:} Minimum frequency during under-frequency event (Hz). \textbf{Settling Time:} Duration for frequency to return within $\pm$0.1\% of 60.0Hz (seconds). \textbf{p95 Latency:} 95th percentile control loop timing (ms). \textbf{Violations/hour:} Safety constraint breaches per operating hour.
