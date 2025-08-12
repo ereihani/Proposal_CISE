@@ -69,30 +69,6 @@ This innovation \textcolor{blue}{[Envelope A--C]} achieves measured stability im
 
 Our real-time control architecture achieves millisecond-scale response times through optimized sensing (2ms), edge computation (8-12ms at 95th/99th percentiles), and actuation (2ms). Communication latency varies from 10-150ms depending on network conditions, with built-in headroom ensuring stable operation. The complete control loop maintains timing requirements under 24-28ms at 95th/99th percentiles respectively, enabling reliable frequency regulation even under adverse conditions.
 
-\textbf{Evidence-to-Claim Crosswalk \textcolor{blue}{[Envelope A--C]}:} All headline claims directly traceable to specific tests, datasets, and artifacts (see also Fig. S3):
-
-\begin{center}
-\footnotesize
-\begin{tabular}{|p{3.2cm}|p{1.8cm}|p{1.8cm}|p{1.8cm}|p{2.5cm}|}
-\hline
-\textbf{Headline Claim} & \textbf{Metric (Units)} & \textbf{Gate/Test} & \textbf{95\% CI/Effect Size} & \textbf{Dataset/Artifact Link} \\
-\hline
-33\% frequency stability & RoCoF $\leq$1.0 Hz/s & Gate 2.4 & [0.85,1.05], d=1.2 & Campus PMU traces, OSF 10.17605/osf.io/abc123 \\
-\hline
-65--75\% cost reduction & TCO \$12K--18K & Gate 4.1 & [62,78\%], n=1000 & NREL cost database, Zenodo 10.5281/zenodo.67890 \\
-\hline
-100+ node scalability & <5\% degradation & Gate 3.2 & [3.2,4.8\%], d=0.9 & IEEE 123-node HIL logs, SHA-256: a1b2c3d4ef567890 \\
-\hline
-28.1\% observed ADMM gains & Iterations $\leq$20 & Gate 3.1 & [24.9,31.3\%], d=1.4 & Campus testbed, OSF 10.17605/osf.io/def456 \\
-\hline
-<10ms inference & p95 latency & Gate 1.4 & [7.2,9.8ms], 4/4 pass & ABB/SMA/Schneider/Enphase firmware logs \\
-\hline
-150ms delay tolerance & Zero violations & Gate 2.4 & p<0.001, d=2.84 & 1000-trial stress test, containerized reproduction \\
-\hline
-\end{tabular}
-\end{center}
-\normalsize
-
 \textbf{Transformative Value Proposition:} Our breakthrough methodology addresses the fundamental challenge preventing widespread microgrid deployment---the lack of vendor-agnostic solutions that maintain high performance across diverse equipment configurations. Conventional microgrid controllers cost \$150K-\$300K with \$25K-\$45K annual operations \cite{hirsch2018,sigrin2019}. Our BITW approach delivers superior performance at \$12K-\$18K installation with \$4K-\$6K annual operations, achieving 65-75\% total cost savings while dramatically improving reliability.
 
 \begin{center}
