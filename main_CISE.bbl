@@ -22,6 +22,14 @@ Hassan Bevrani, Hêmin Golpîra, Arturo~Roman Messina, Nikos Hatziargyriou,
 \newblock {\em IEEE Transactions on Fuzzy Systems}, 20(6):1942--1953, 2021.
 \newblock Baseline frequency control performance in microgrids.
 
+\bibitem{chen2022protecting}
+Wenzhi Chen, Hongjian Sun, Jing Jiang, Minglei You, and William~JS Piper.
+\newblock Protecting privacy in microgrids using federated learning and deep
+  reinforcement learning.
+\newblock In {\em IEEE Conference}. IEEE, 2022.
+\newblock Federated multi-objective DQN for privacy-preserving microgrid
+  optimization.
+
 \bibitem{chen2024}
 Yufei Chen, Mark Anderson, Jessica Taylor, and Sunghoon Kim.
 \newblock Differential privacy in federated learning for smart grid
@@ -44,14 +52,6 @@ Andreas Hirsch, Yael Parag, and Josep~M Guerrero.
   microgrid applications.
 \newblock {\em Applied Energy}, 220:705--715, 2018.
 \newblock Campus microgrid control system costs and deployment analysis.
-
-\bibitem{ieee1547}
-{IEEE Standards Association}.
-\newblock {IEEE} standard for interconnecting distributed resources with
-  electric power systems.
-\newblock {\em IEEE Std 1547-2018 (Revision of IEEE Std 1547-2003)}, pages
-  1--138, 2018.
-\newblock Grid interconnection safety standards.
 
 \bibitem{katiraei2008}
 Farid Katiraei, M~Reza Iravani, Nikos Hatziargyriou, and Aris Dimeas.
@@ -135,6 +135,22 @@ Vikram Singh, Laura Wilson, Kevin Brown, and Stephanie Lee.
   control.
 \newblock {\em Automatica}, 153:111045, 2025.
 \newblock Contraction theory for asymptotic stability without privacy.
+
+\bibitem{tamrakar2019model}
+Ujjwol Tamrakar, Timothy~M Hansen, Reinaldo Tonkoski, and David~A Copp.
+\newblock Model predictive frequency control of low inertia microgrids.
+\newblock In {\em IEEE Conference}. IEEE, 2019.
+\newblock MPC for fast-frequency control with 20ms sampling and constraint
+  handling.
+
+\bibitem{wang2023adaptive}
+Weichao Wang, Yutaka Sasaki, Naoto Yorino, Yoshifumi Zoka, and Ahmed Bedawy.
+\newblock Adaptive model predictive control based frequency regulation for
+  low-inertia microgrid.
+\newblock In {\em 2023 5th International Conference on Power and Energy
+  Technology (ICPET)}. IEEE, 2023.
+\newblock AMPC with UKF for real-time parameter estimation in low-inertia
+  microgrids.
 
 \bibitem{wang2025}
 Xiaoming Wang, Jennifer Lee, Robert Davis, and Carlos Martinez.
