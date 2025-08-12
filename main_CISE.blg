@@ -3,44 +3,47 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main_CISE.aux
 The style file: unsrt.bst
 Database file #1: references.bib
+Warning--empty journal in our2024experimental
+Warning--empty journal in our2024ablation
 You've used 23 entries,
             1791 wiz_defined-function locations,
-            601 strings with 9399 characters,
-and the built_in function-call counts, 5541 in all, are:
-= -- 525
-> -- 272
-< -- 7
-+ -- 99
-- -- 76
-* -- 402
-:= -- 941
+            594 strings with 9388 characters,
+and the built_in function-call counts, 5726 in all, are:
+= -- 528
+> -- 299
+< -- 5
++ -- 108
+- -- 85
+* -- 431
+:= -- 972
 add.period$ -- 92
 call.type$ -- 23
 change.case$ -- 23
 chr.to.int$ -- 0
-cite$ -- 23
-duplicate$ -- 204
-empty$ -- 474
-format.name$ -- 76
-if$ -- 1183
+cite$ -- 25
+duplicate$ -- 207
+empty$ -- 486
+format.name$ -- 85
+if$ -- 1216
 int.to.chr$ -- 0
 int.to.str$ -- 23
-missing$ -- 17
+missing$ -- 19
 newline$ -- 141
 num.names$ -- 23
-pop$ -- 12
+pop$ -- 16
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
 skip$ -- 75
 stack$ -- 0
-substring$ -- 412
-swap$ -- 34
-text.length$ -- 7
+substring$ -- 430
+swap$ -- 32
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 52
+warning$ -- 2
+while$ -- 53
 width$ -- 25
-write$ -- 299
+write$ -- 296
+(There were 2 warnings)
