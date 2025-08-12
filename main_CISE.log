@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  12 AUG 2025 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  12 AUG 2025 14:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -829,10 +829,10 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4754 strings out of 474222
- 69314 string characters out of 5748734
+ 4755 strings out of 474222
+ 69322 string characters out of 5748734
  1943975 words of memory out of 5000000
- 26952 multiletter control sequences out of 15000+600000
+ 26953 multiletter control sequences out of 15000+600000
  569144 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,10n,65p,1297b,293s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -852,7 +852,7 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main_CISE.pdf (26 pages, 324830 bytes).
+Output written on main_CISE.pdf (26 pages, 324964 bytes).
 PDF statistics:
  304 PDF objects out of 1000 (max. 8388607)
  127 compressed objects within 2 object streams

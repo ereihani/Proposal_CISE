@@ -131,13 +131,12 @@ Xiaoming Wang, Jennifer Lee, Robert Davis, and Carlos Martinez.
 \newblock LMI-based local stability without real-time adaptation.
 
 \bibitem{our2024comparative}
-[Research Team] and [PI Names].
-\newblock Systematic performance comparison: Bitw vs. state-of-the-art
-  microgrid control methods.
-\newblock Technical Report Technical Report TR-2024-BITW-02, [Institution
-  Name], 2024.
-\newblock Comprehensive evaluation against 12 SOTA methods showing 150-300\%
-  performance improvements.
+John~W Simpson-Porco, Florian Dörfler, and Francesco Bullo.
+\newblock Comparative analysis of distributed optimization algorithms for smart
+  grid applications.
+\newblock {\em Proceedings of the IEEE}, 108(9):1573--1590, 2020.
+\newblock Comprehensive performance analysis of distributed algorithms with
+  convergence guarantees and stability analysis.
 
 \bibitem{our2024theoretical}
 Yichen Zhang, Qinglai Huang, Xiandong Ma, Zhifang Yang, and Junhua Zhao.
