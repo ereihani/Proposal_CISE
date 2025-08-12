@@ -5,45 +5,45 @@ The style file: unsrt.bst
 Database file #1: references.bib
 Warning--empty journal in our2024experimental
 Warning--empty journal in our2024ablation
-You've used 23 entries,
+You've used 21 entries,
             1791 wiz_defined-function locations,
-            594 strings with 9388 characters,
-and the built_in function-call counts, 5726 in all, are:
-= -- 528
-> -- 299
-< -- 5
-+ -- 108
-- -- 85
-* -- 431
-:= -- 972
-add.period$ -- 92
-call.type$ -- 23
-change.case$ -- 23
+            582 strings with 8916 characters,
+and the built_in function-call counts, 5346 in all, are:
+= -- 490
+> -- 284
+< -- 4
++ -- 102
+- -- 81
+* -- 407
+:= -- 905
+add.period$ -- 84
+call.type$ -- 21
+change.case$ -- 21
 chr.to.int$ -- 0
-cite$ -- 25
-duplicate$ -- 207
-empty$ -- 486
-format.name$ -- 85
-if$ -- 1216
+cite$ -- 23
+duplicate$ -- 191
+empty$ -- 452
+format.name$ -- 81
+if$ -- 1135
 int.to.chr$ -- 0
-int.to.str$ -- 23
-missing$ -- 19
-newline$ -- 141
-num.names$ -- 23
-pop$ -- 16
+int.to.str$ -- 21
+missing$ -- 18
+newline$ -- 129
+num.names$ -- 21
+pop$ -- 15
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 75
+skip$ -- 71
 stack$ -- 0
-substring$ -- 430
-swap$ -- 32
-text.length$ -- 5
+substring$ -- 411
+swap$ -- 30
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 53
-width$ -- 25
-write$ -- 296
+while$ -- 49
+width$ -- 23
+write$ -- 270
 (There were 2 warnings)
