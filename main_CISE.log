@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  12 AUG 2025 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  12 AUG 2025 13:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -312,244 +312,28 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: Citation `katiraei2008' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation `hirsch2018' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation `sigrin2019' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation `baseline2023delay' on page 1 undefined on input line 4
-3.
-
-
 Overfull \hbox (9.44417pt too wide) in paragraph at lines 43--44
 []\OT1/cmr/m/n/12 This project de-vel-ops a vendor-agnostic bump-in-the-wire co
 n-troller that in-te-grates physics-
  []
 
-
-LaTeX Warning: Citation `our2024experimental' on page 1 undefined on input line
- 45.
-
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
 dvips/cm-super/cm-super-ts1.enc}]
-
-LaTeX Warning: Citation `our2024experimental' on page 2 undefined on input line
- 47.
-
-
-LaTeX Warning: Citation `our2024scalability' on page 2 undefined on input line 
-47.
-
-
-LaTeX Warning: Citation `hirsch2018' on page 2 undefined on input line 49.
-
-
-LaTeX Warning: Citation `sigrin2019' on page 2 undefined on input line 49.
-
-
-LaTeX Warning: Citation `our2024economic' on page 2 undefined on input line 49.
-
-
 <figure3_system_architecture.pdf, id=9, 1114.97633pt x 550.69742pt>
 File: figure3_system_architecture.pdf Graphic file (type pdf)
 <use figure3_system_architecture.pdf>
 Package pdftex.def Info: figure3_system_architecture.pdf  used on input line 53
 .
 (pdftex.def)             Requested size: 399.29463pt x 197.20895pt.
-[2]
-
-LaTeX Warning: Citation `katiraei2008' on page 3 undefined on input line 59.
-
-
-LaTeX Warning: Citation `palizban2014' on page 3 undefined on input line 61.
-
-
-LaTeX Warning: Citation `ames2017' on page 3 undefined on input line 63.
-
-[3 <./figure3_system_architecture.pdf>]
-
-LaTeX Warning: Citation `hirsch2018' on page 4 undefined on input line 65.
-
-
-LaTeX Warning: Citation `sigrin2019' on page 4 undefined on input line 65.
-
-
-LaTeX Warning: Citation `bevrani2021' on page 4 undefined on input line 67.
-
-
-LaTeX Warning: Citation `rodriguez2022' on page 4 undefined on input line 69.
-
-
-LaTeX Warning: Citation `li2023' on page 4 undefined on input line 71.
-
-
-LaTeX Warning: Citation `lai2023' on page 4 undefined on input line 73.
-
-
-LaTeX Warning: Citation `zhang2024' on page 4 undefined on input line 75.
-
-[4]
-
-LaTeX Warning: Citation `emad2024' on page 5 undefined on input line 77.
-
-
-LaTeX Warning: Citation `chen2024' on page 5 undefined on input line 79.
-
-
-LaTeX Warning: Citation `wang2025' on page 5 undefined on input line 81.
-
-[5]
-
-LaTeX Warning: Citation `rodriguez2022' on page 6 undefined on input line 93.
-
-
-LaTeX Warning: Citation `lai2023' on page 6 undefined on input line 93.
-
-
-LaTeX Warning: Citation `chen2024' on page 6 undefined on input line 93.
-
-
-LaTeX Warning: Citation `bevrani2021' on page 6 undefined on input line 93.
-
-
-LaTeX Warning: Citation `palizban2014' on page 6 undefined on input line 93.
-
-
-LaTeX Warning: Citation `our2024comparative' on page 6 undefined on input line 
-93.
-
-
-LaTeX Warning: Citation `our2024experimental' on page 6 undefined on input line
- 97.
-
-[6]
-
-LaTeX Warning: Citation `our2024theoretical' on page 7 undefined on input line 
-101.
-
-
-LaTeX Warning: Citation `our2024experimental' on page 7 undefined on input line
- 101.
-
-
-Overfull \hbox (1.72504pt too wide) in paragraph at lines 101--102
-[]\OT1/cmr/bx/n/12 Innovation 1: Physics-Informed Neu-ral Con-trol \OT1/cmr/m/n
-/12 [\OT1/cmr/bx/n/12 ?\OT1/cmr/m/n/12 ]: We de-vel-oped the first Physics-
- []
-
-
-LaTeX Warning: Citation `our2024theoretical' on page 7 undefined on input line 
-105.
-
-
-LaTeX Warning: Citation `our2024experimental' on page 7 undefined on input line
- 105.
-
-
-LaTeX Warning: Citation `our2024theoretical' on page 7 undefined on input line 
-109.
-
-
-LaTeX Warning: Citation `our2024experimental' on page 7 undefined on input line
- 109.
-
-
-LaTeX Warning: Citation `our2024theoretical' on page 7 undefined on input line 
-113.
-
-[7]
-
-LaTeX Warning: Citation `our2024theoretical' on page 8 undefined on input line 
-117.
-
-
-LaTeX Warning: Citation `our2024experimental' on page 8 undefined on input line
- 119.
-
-
-LaTeX Warning: Citation `our2024experimental' on page 8 undefined on input line
- 123.
-
-
-LaTeX Warning: Citation `our2024experimental' on page 8 undefined on input line
- 130.
-
-
-LaTeX Warning: Citation `our2024experimental' on page 8 undefined on input line
- 131.
-
-
-LaTeX Warning: Citation `our2024experimental' on page 8 undefined on input line
- 132.
-
-
-LaTeX Warning: Citation `our2024experimental' on page 8 undefined on input line
- 133.
-
-[8]
-
-LaTeX Warning: Citation `our2024ablation' on page 9 undefined on input line 138
-.
-
-
-LaTeX Warning: Citation `our2024scalability' on page 9 undefined on input line 
-140.
-
-
-LaTeX Warning: Citation `our2024scalability' on page 9 undefined on input line 
-146.
-
-[9]
-
-LaTeX Warning: Citation `our2024comparative' on page 10 undefined on input line
- 148.
-
-
-LaTeX Warning: Citation `our2024economic' on page 10 undefined on input line 15
-4.
-
-
-LaTeX Warning: Citation `our2024economic' on page 10 undefined on input line 15
-4.
-
-[10]
-
-LaTeX Warning: Citation `hirsch2018' on page 11 undefined on input line 158.
-
-
-LaTeX Warning: Citation `sigrin2019' on page 11 undefined on input line 158.
-
-
-LaTeX Warning: Citation `our2024economic' on page 11 undefined on input line 15
-8.
-
-
-LaTeX Warning: Citation `our2024economic' on page 11 undefined on input line 16
-0.
-
-
+ [2] [3 <./figure3_system_architecture.pdf>] [4] [5] [6] [7] [8] [9] [10]
 Overfull \hbox (8.46501pt too wide) in paragraph at lines 160--161
 []\OT1/cmr/m/n/12 This eco-nomic trans-for-ma-tion cre-ates un-prece-dented op-
 por-tu-ni-ties for resource-constrained
  []
 
-[11]
-
-LaTeX Warning: Citation `baseline2023delay' on page 12 undefined on input line 
-172.
-
-
-LaTeX Warning: Citation `our2024comparative' on page 12 undefined on input line
- 182.
-
-[12]
+[11] [12]
 Overfull \hbox (5.68991pt too wide) in paragraph at lines 198--198
 []\OT1/cmr/bx/n/10 Quarter| 
  []
@@ -775,10 +559,6 @@ Overfull \hbox (69.27553pt too wide) in paragraph at lines 264--265
 /12 Load di-ver-sity (res-i-den-tial/commercial/industrial
  []
 
-
-LaTeX Warning: Citation `our2024economic' on page 17 undefined on input line 27
-0.
-
 [17]
 Underfull \hbox (badness 10000) in paragraph at lines 280--280
 []\OT1/cmr/bx/n/10 Cost Com-po-
@@ -800,17 +580,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--280
  []
 
 
-LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 28
-2.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 283--283
 []\OT1/cmr/m/n/10 Cloud Train-ing
  []
-
-
-LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 28
-3.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 284--284
@@ -818,61 +590,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--284
  []
 
 
-LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 28
-4.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 285--285
 []\OT1/cmr/m/n/10 Security/Pen
  []
 
 
-LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 28
-5.
-
-
-LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 28
-6.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 287--287
 []\OT1/cmr/m/n/10 Staffing (FTE-
  []
-
-
-LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 28
-7.
-
-
-LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 28
-8.
-
-
-LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 29
-3.
-
-
-LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 29
-3.
-
-
-LaTeX Warning: Citation `cpuc2024forecast' on page 18 undefined on input line 2
-95.
-
-
-LaTeX Warning: Citation `kristov2020' on page 18 undefined on input line 295.
-
-
-LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 29
-5.
-
-
-LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 29
-5.
-
-
-LaTeX Warning: Citation `our2024economic' on page 18 undefined on input line 29
-7.
 
 [18]
 Overfull \hbox (17.18443pt too wide) in paragraph at lines 311--311
@@ -1080,25 +805,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 343--344
  []
 
 [20]
-
-LaTeX Warning: Citation `nrel2021' on page 21 undefined on input line 354.
-
-
 Overfull \hbox (9.5328pt too wide) in paragraph at lines 356--356
 |[]\OT1/cmr/bx/n/14.4 Conclusion: Trans-for-ma-tional Im-pact for Amer-i-can En
 -ergy Lead-
  []
 
-[21]
-
-LaTeX Warning: Citation `our2024economic' on page 22 undefined on input line 36
-0.
-
-
-LaTeX Warning: Citation `our2024economic' on page 22 undefined on input line 36
-8.
-
-[22]
+[21] [22]
 Overfull \hbox (20.21489pt too wide) in paragraph at lines 372--373
 []\OT1/cmr/m/n/12 This ini-tia-tive rep-re-sents tech-no-log-i-cal ad-vance-men
 t that cre-ates op-por-tu-ni-ties for widespread
@@ -1115,13 +827,6 @@ Overfull \hbox (2.17677pt too wide) in paragraph at lines 374--376
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  4754 strings out of 474222
@@ -1147,7 +852,7 @@ hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fo
 nts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-
 super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main_CISE.pdf (26 pages, 326081 bytes).
+Output written on main_CISE.pdf (26 pages, 324741 bytes).
 PDF statistics:
  304 PDF objects out of 1000 (max. 8388607)
  127 compressed objects within 2 object streams
