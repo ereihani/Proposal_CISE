@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  11 AUG 2025 12:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  11 AUG 2025 20:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -314,7 +314,40 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (35.50093pt too wide) in paragraph at lines 60--61
+Overfull \hbox (34.37305pt too wide) in paragraph at lines 69--82
+ [] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[3]
+Overfull \hbox (2.2539pt too wide) in paragraph at lines 105--106
+\OT1/cmr/m/n/12 la-tency on \OT1/cmr/bx/n/12 spe-cific hard-ware: \OT1/cmr/m/n/
+12 ABB PVS-175-TL, SMA Sunny Cen-tral 2500-EV-US, Schnei-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+
+Overfull \hbox (35.50093pt too wide) in paragraph at lines 111--112
 \OT1/cmr/m/n/12 Carlo runs de-tect 20% gains ($\OML/cmm/m/it/12  \OT1/cmr/m/n/
 12 = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 05$, power=0.8) across DER con-fig-u-ra
 -tions: so-lar+wind+battery
@@ -328,32 +361,192 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<figure3_system_architecture.pdf, id=18, 1114.97633pt x 550.69742pt>
-File: figure3_system_architecture.pdf Graphic file (type pdf)
-<use figure3_system_architecture.pdf>
-Package pdftex.def Info: figure3_system_architecture.pdf  used on input line 66
-.
-(pdftex.def)             Requested size: 399.29463pt x 197.20895pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[3 <./figure3_system_architecture.pdf>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [4]
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]\OT1/cmr/bx/n/12 TIMING BUD-GET [][En-ve-lope A--C][]: \OT1/cmr/m/n/12 Sens-i
+ng: 2ms, Com-pute:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\OT1/cmr/bx/n/10 Metric
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\OT1/cmr/bx/n/10 95%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\OT1/cmr/bx/n/10 CI/Effect
+ []
+
+
+Overfull \hbox (13.15372pt too wide) in paragraph at lines 125--126
+[]\OT1/cmr/bx/n/10 Dataset/Artifact
+ []
+
+
+Underfull \hbox (badness 1331) in paragraph at lines 127--127
+[]\OT1/cmr/m/n/10 33% fre-quency sta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]\OT1/cmr/m/n/10 RoCoF
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]\OT1/cmr/m/n/10 [0.85,1.05],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+[]\OT1/cmr/m/n/10 CSUB PMU
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
+\OT1/cmr/m/n/10 traces, OSF
+ []
+
+
+Overfull \hbox (29.47952pt too wide) in paragraph at lines 127--128
+\OT1/cmr/m/n/10 10.17605/osf.io/abc123| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]\OT1/cmr/m/n/10 TCO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+[]\OT1/cmr/m/n/10 [62,78%],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+[]\OT1/cmr/m/n/10 NREL cost
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+\OT1/cmr/m/n/10 database,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+\OT1/cmr/m/n/10 Zen-odo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+\OT1/cmr/m/n/10 10.5281/zen-
+ []
+
+
+Underfull \hbox (badness 1990) in paragraph at lines 131--131
+[]\OT1/cmr/m/n/10 <5% degra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]\OT1/cmr/m/n/10 [3.2,4.8%],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+[]\OT1/cmr/m/n/10 IEEE 123-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+\OT1/cmr/m/n/10 node HIL
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 131--132
+\OT1/cmr/m/n/10 logs, SHA-256:
+ []
+
+
+Overfull \hbox (6.92389pt too wide) in paragraph at lines 131--132
+\OT1/cmr/m/n/10 a1b2c3d4ef567890| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]\OT1/cmr/m/n/10 28.1% ob-served
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]\OT1/cmr/m/n/10 Iterations
+ []
+
+
+Overfull \hbox (3.78513pt too wide) in paragraph at lines 133--133
+[]\OT1/cmr/m/n/10 [24.9,31.3%],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+[]\OT1/cmr/m/n/10 UC Davis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+\OT1/cmr/m/n/10 testbed, OSF
+ []
+
+
+Overfull \hbox (27.2573pt too wide) in paragraph at lines 133--134
+\OT1/cmr/m/n/10 10.17605/osf.io/def456| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]\OT1/cmr/m/n/10 [7.2,9.8ms],
+ []
+
+
+Overfull \hbox (66.59065pt too wide) in paragraph at lines 135--136
+[]\OT1/cmr/m/n/10 ABB/SMA/Schneider/Enphase
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 137--137
+[]\OT1/cmr/m/n/10 150ms de-lay tol-er-
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 137--137
+[]\OT1/cmr/m/n/10 Zero vi-o-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--137
+[]\OT1/cmr/m/n/10 p<0.001,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+[]\OT1/cmr/m/n/10 1000-trial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+\OT1/cmr/m/n/10 stress test,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+\OT1/cmr/m/n/10 con-tainer-ized
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -363,6 +556,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
+<figure3_system_architecture.pdf, id=30, 1114.97633pt x 550.69742pt>
+File: figure3_system_architecture.pdf Graphic file (type pdf)
+<use figure3_system_architecture.pdf>
+Package pdftex.def Info: figure3_system_architecture.pdf  used on input line 15
+8.
+(pdftex.def)             Requested size: 399.29463pt x 197.20895pt.
+
+Overfull \hbox (7.74696pt too wide) in paragraph at lines 164--165
+\OT1/cmr/m/n/12 dis-tinct re-search domains---physics-informed neu-ral net-work
+s, multi-agent re-in-force-ment learn-
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -371,7 +576,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6]
+[6 <./figure3_system_architecture.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -381,11 +586,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [7]
-Overfull \hbox (11.8247pt too wide) in paragraph at lines 172--173
-[]\OT1/cmr/m/n/12 Exhaustive re-view of re-cent ad-vances demon-strates fun-da-
-men-tal gaps our ap-proach uniquely
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -395,450 +595,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
-[]\OT1/cmr/bx/n/10 Delay
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
-\OT1/cmr/bx/n/10 Tol-er-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
-[]\OT1/cmr/bx/n/10 Online
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
-\OT1/cmr/bx/n/10 Sta-bil-
- []
-
-
-Overfull \hbox (3.84962pt too wide) in paragraph at lines 184--184
-[]\OT1/cmr/bx/n/10 Privacy
- []
-
-
-Overfull \hbox (2.79312pt too wide) in paragraph at lines 184--184
-[]\OT1/cmr/bx/n/10 Scale| 
- []
-
-
-Overfull \hbox (6.61528pt too wide) in paragraph at lines 184--184
-[]\OT1/cmr/bx/n/10 Runtime
- []
-
-
-Overfull \hbox (17.169pt too wide) in paragraph at lines 184--184
-[]\OT1/cmr/bx/n/10 HIL/Field| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
-[]\OT1/cmr/bx/n/10 Proof
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[]\OT1/cmr/m/n/10 16
- []
-
-
-Overfull \hbox (2.01555pt too wide) in paragraph at lines 186--186
-\OT1/cmr/m/n/10 nodes| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--186
-[]\OT1/cmr/m/n/10 HIL
- []
-
-
-Overfull \hbox (5.40033pt too wide) in paragraph at lines 186--187
-[]\OT1/cmr/m/n/10 Empirical| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
-[]\OT1/cmr/m/n/10 Emad
- []
-
-
-Overfull \hbox (0.91243pt too wide) in paragraph at lines 188--188
-[]$\OML/cmm/m/it/10 <$\OT1/cmr/m/n/10 100ms| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
-[]\OT1/cmr/m/n/10 Local
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
-[]\OT1/cmr/m/n/10 32
- []
-
-
-Overfull \hbox (2.01555pt too wide) in paragraph at lines 188--188
-\OT1/cmr/m/n/10 nodes| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
-[]\OT1/cmr/m/n/10 Rule-
- []
-
-
-Overfull \hbox (7.80133pt too wide) in paragraph at lines 188--188
-[]\OT1/cmr/m/n/10 HIL+Lab| 
- []
-
-
-Overfull \hbox (5.92813pt too wide) in paragraph at lines 188--189
-[]\OT1/cmr/m/n/10 Lyapunov| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
-[]\OT1/cmr/m/n/10 Li
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
-[]\OT1/cmr/m/n/10 Convex
- []
-
-
-Overfull \hbox (15.60686pt too wide) in paragraph at lines 190--190
-[]\OT1/cmr/m/n/10 Centralized| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
-[]\OT1/cmr/m/n/10 50
- []
-
-
-Overfull \hbox (2.01555pt too wide) in paragraph at lines 190--190
-\OT1/cmr/m/n/10 nodes| 
- []
-
-
-Overfull \hbox (12.80136pt too wide) in paragraph at lines 190--190
-[]\OT1/cmr/m/n/10 Simulation| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
-[]\OT1/cmr/m/n/10 Convex
- []
-
-
-Overfull \hbox (4.49974pt too wide) in paragraph at lines 192--192
-[]\OT1/cmr/m/n/10 Rodriguez
- []
-
-
-Overfull \hbox (10.77756pt too wide) in paragraph at lines 192--192
-[]\OT1/cmr/m/n/10 Asymptotic| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]\OT1/cmr/m/n/10 Basic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]\OT1/cmr/m/n/10 25
- []
-
-
-Overfull \hbox (2.01555pt too wide) in paragraph at lines 192--192
-\OT1/cmr/m/n/10 nodes| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
-[]\OT1/cmr/m/n/10 HIL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-[]\OT1/cmr/m/n/10 Zhang
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--194
-[]\OT1/cmr/m/n/10 20
- []
-
-
-Overfull \hbox (2.01555pt too wide) in paragraph at lines 194--194
-\OT1/cmr/m/n/10 nodes| 
- []
-
-
-Overfull \hbox (12.80136pt too wide) in paragraph at lines 194--194
-[]\OT1/cmr/m/n/10 Simulation| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-[]\OT1/cmr/m/n/10 Wang
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-[]\OT1/cmr/m/n/10 Linear
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-[]\OT1/cmr/m/n/10 25
- []
-
-
-Overfull \hbox (2.01555pt too wide) in paragraph at lines 196--196
-\OT1/cmr/m/n/10 nodes| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--196
-[]\OT1/cmr/m/n/10 HIL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
-[]\OT1/cmr/m/n/10 LMI-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
-[]\OT1/cmr/m/n/10 Chen
- []
-
-
-Overfull \hbox (10.77756pt too wide) in paragraph at lines 198--198
-[]\OT1/cmr/m/n/10 Asymptotic| 
- []
-
-
-Overfull \hbox (14.63466pt too wide) in paragraph at lines 198--198
-[]\OT1/cmr/m/n/10 Differential| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
-[]\OT1/cmr/m/n/10 40
- []
-
-
-Overfull \hbox (2.01555pt too wide) in paragraph at lines 198--198
-\OT1/cmr/m/n/10 nodes| 
- []
-
-
-Overfull \hbox (1.51143pt too wide) in paragraph at lines 198--198
-[]\OT1/cmr/m/n/10 Learning| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--198
-[]\OT1/cmr/m/n/10 HIL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
-[]\OT1/cmr/m/n/10 Kumar
- []
-
-
-Overfull \hbox (27.2736pt too wide) in paragraph at lines 200--200
-[]\OT1/cmr/m/n/10 Homomorphic| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 200--200
-[]\OT1/cmr/m/n/10 15
- []
-
-
-Overfull \hbox (2.01555pt too wide) in paragraph at lines 200--200
-\OT1/cmr/m/n/10 nodes| 
- []
-
-
-Overfull \hbox (12.80136pt too wide) in paragraph at lines 200--200
-[]\OT1/cmr/m/n/10 Simulation| 
- []
-
-
-Overfull \hbox (8.8013pt too wide) in paragraph at lines 202--202
-[]\OT1/cmr/m/n/10 Federated| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
-[]\OT1/cmr/m/n/10 30
- []
-
-
-Overfull \hbox (2.01555pt too wide) in paragraph at lines 202--202
-\OT1/cmr/m/n/10 nodes| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
-[]\OT1/cmr/m/n/10 HIL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
-[]\OT1/cmr/m/n/10 Local
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
-[]\OT1/cmr/m/n/10 Patel
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
-[]\OT1/cmr/m/n/10 12
- []
-
-
-Overfull \hbox (2.01555pt too wide) in paragraph at lines 204--204
-\OT1/cmr/m/n/10 nodes| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 204--204
-[]\OT1/cmr/m/n/10 HIL
- []
-
-
-Overfull \hbox (2.2614pt too wide) in paragraph at lines 204--205
-[]\OT1/cmr/m/n/10 Heuristic| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
-[]\OT1/cmr/m/n/10 Kim
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
-[]\OT1/cmr/m/n/10 35
- []
-
-
-Overfull \hbox (2.01555pt too wide) in paragraph at lines 206--206
-\OT1/cmr/m/n/10 nodes| 
- []
-
-
-Overfull \hbox (6.62253pt too wide) in paragraph at lines 206--206
-[]\OT1/cmr/m/n/10 Scheduled| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--206
-[]\OT1/cmr/m/n/10 HIL
- []
-
-
-Overfull \hbox (2.15031pt too wide) in paragraph at lines 206--207
-[]\OT1/cmr/m/n/10 Passivity| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
-[]\OT1/cmr/m/n/10 Singh
- []
-
-
-Overfull \hbox (10.77756pt too wide) in paragraph at lines 208--208
-[]\OT1/cmr/m/n/10 Asymptotic| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--208
-[]\OT1/cmr/m/n/10 28
- []
-
-
-Overfull \hbox (2.01555pt too wide) in paragraph at lines 208--208
-\OT1/cmr/m/n/10 nodes| 
- []
-
-
-Overfull \hbox (12.80136pt too wide) in paragraph at lines 208--208
-[]\OT1/cmr/m/n/10 Simulation| 
- []
-
-
-Overfull \hbox (14.98367pt too wide) in paragraph at lines 208--209
-[]\OT1/cmr/m/n/10 Contraction| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
-[]\OT1/cmr/bx/n/10 Our
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
-\OT1/cmr/bx/n/10 Ap-
- []
-
-
-Overfull \hbox (5.00385pt too wide) in paragraph at lines 210--210
-[]$\OML/cmm/m/it/10 >$\OT1/cmr/bx/n/10 120ms| 
- []
-
-
-Overfull \hbox (8.44383pt too wide) in paragraph at lines 210--210
-[]\OT1/cmr/bx/n/10 ISS+LMI| 
- []
-
-
-Overfull \hbox (12.55096pt too wide) in paragraph at lines 210--210
-[]\OT1/cmr/bx/n/10 Fed+Diff| 
- []
-
-
-Overfull \hbox (3.43202pt too wide) in paragraph at lines 210--210
-[]\OT1/cmr/bx/n/10 100+
- []
-
-
-Overfull \hbox (5.89172pt too wide) in paragraph at lines 210--210
-\OT1/cmr/bx/n/10 nodes| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
-[]\OT1/cmr/bx/n/10 Real-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--210
-\OT1/cmr/bx/n/10 time
- []
-
-
-Overfull \hbox (20.36343pt too wide) in paragraph at lines 210--210
-[]\OT1/cmr/bx/n/10 HIL+Field| 
- []
-
-
-Overfull \hbox (43.95534pt too wide) in paragraph at lines 210--211
-[]\OT1/cmr/bx/n/10 ISS+CBF+LMI| 
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -857,77 +613,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10]
-<figure4_performance_summary.pdf, id=175, 1000.34041pt x 688.46725pt>
-File: figure4_performance_summary.pdf Graphic file (type pdf)
-<use figure4_performance_summary.pdf>
-Package pdftex.def Info: figure4_performance_summary.pdf  used on input line 22
-5.
-(pdftex.def)             Requested size: 352.31625pt x 242.47989pt.
-
-Overfull \hbox (12.19829pt too wide) in paragraph at lines 237--237
-[]\OT1/cmr/bx/n/10 Configuration| 
- []
-
-
-Overfull \hbox (1.52325pt too wide) in paragraph at lines 237--237
-[]\OT1/cmr/bx/n/10 RoCoF| 
- []
-
-
-Overfull \hbox (5.14825pt too wide) in paragraph at lines 237--237
-[]\OT1/cmr/bx/n/10 Settling| 
- []
-
-
-Overfull \hbox (24.96077pt too wide) in paragraph at lines 237--238
-[]\OT1/cmr/bx/n/10 Violations/hr| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 248--248
-[]\OT1/cmr/m/n/10 Physics-Loss
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
-[]\OT1/cmr/m/n/10 Physics-Loss
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--250
-[]\OT1/cmr/m/n/10 Physics-Loss
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 256--256
-[]\OT1/cmr/m/n/10 Physics +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
-[]\OT1/cmr/m/n/10 Physics +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
-[]\OT1/cmr/m/n/10 Physics +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--260
-[]\OT1/cmr/m/n/10 + CBF
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
-[]\OT1/cmr/m/n/10 + CBF
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--262
-[]\OT1/cmr/m/n/10 + CBF
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -936,7 +621,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11 <./figure4_performance_summary.pdf>]
+[11]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -946,133 +631,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12]
-Overfull \hbox (1.42905pt too wide) in paragraph at lines 285--285
-[]\OT1/cmr/bx/n/10 Time-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
-\OT1/cmr/bx/n/10 to-
- []
-
-
-Underfull \hbox (badness 1320) in paragraph at lines 285--286
-[]\OT1/cmr/bx/n/10 QP Solve
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
-\OT1/cmr/bx/n/10 / Vi-o-la-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--287
-[]\OT1/cmr/bx/n/10 Sensor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--287
-\OT1/cmr/bx/n/10 Bias
- []
-
-
-Underfull \hbox (badness 3343) in paragraph at lines 287--287
-[]\OT1/cmr/m/n/10 Lock $^^A\OML/cmm/m/it/10 u[]$ \TS1/cmr/m/n/10 ^^Y
- []
-
-
-Overfull \hbox (1.60289pt too wide) in paragraph at lines 287--287
-[]\OT1/cmr/m/n/10 <120ms| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
-[]\OT1/cmr/m/n/10 3.8ms /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
-[]\OT1/cmr/bx/n/10 Timestamp
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
-\OT1/cmr/bx/n/10 Skew
- []
-
-
-Underfull \hbox (badness 1590) in paragraph at lines 288--288
-[]\OT1/cmr/m/n/10 Disable con-sen-sus \TS1/cmr/m/n/10 ^^Y
- []
-
-
-Overfull \hbox (1.60289pt too wide) in paragraph at lines 288--288
-[]\OT1/cmr/m/n/10 <100ms| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-[]\OT1/cmr/m/n/10 3.1ms /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]\OT1/cmr/bx/n/10 Packet
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-\OT1/cmr/bx/n/10 Drops
- []
-
-
-Overfull \hbox (1.60289pt too wide) in paragraph at lines 289--289
-[]\OT1/cmr/m/n/10 <180ms| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-[]\OT1/cmr/m/n/10 5.1ms /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 290--290
-[]\OT1/cmr/bx/n/10 Network
- []
-
-
-Underfull \hbox (badness 5578) in paragraph at lines 290--290
-[]\OT1/cmr/m/n/10 Graph clus-ter-ing \TS1/cmr/m/n/10 ^^Y
- []
-
-
-Overfull \hbox (1.60289pt too wide) in paragraph at lines 290--290
-[]\OT1/cmr/m/n/10 <250ms| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 290--291
-[]\OT1/cmr/m/n/10 6.8ms /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--291
-[]\OT1/cmr/bx/n/10 Irradiance
- []
-
-
-Overfull \hbox (1.60289pt too wide) in paragraph at lines 291--291
-[]\OT1/cmr/m/n/10 <120ms| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-[]\OT1/cmr/m/n/10 3.5ms /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
-[]\OT1/cmr/m/n/10 2.8ms /
+Overfull \hbox (11.8247pt too wide) in paragraph at lines 286--287
+[]\OT1/cmr/m/n/12 Exhaustive re-view of re-cent ad-vances demon-strates fun-da-
+men-tal gaps our ap-proach uniquely
  []
 
 
@@ -1084,223 +645,448 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13]
-Overfull \hbox (5.68991pt too wide) in paragraph at lines 309--309
-[]\OT1/cmr/bx/n/10 Quarter| 
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]\OT1/cmr/bx/n/10 Delay
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-[]\OT1/cmr/bx/n/10 Acceptance
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/cmr/bx/n/10 Tol-er-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 309--309
-[]\OT1/cmr/bx/n/10 Success
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]\OT1/cmr/bx/n/10 Online
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
-[]\OT1/cmr/m/n/10 PINODE Im-ple-
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+\OT1/cmr/bx/n/10 Sta-bil-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
-[]\OT1/cmr/m/n/10 TRL 4 $\OMS/cmsy/m/n/10 !$
+Overfull \hbox (3.84962pt too wide) in paragraph at lines 298--298
+[]\OT1/cmr/bx/n/10 Privacy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
-[]$\OMS/cmsy/m/n/10 ^^U$\OT1/cmr/m/n/10 95% ac-
+Overfull \hbox (2.79312pt too wide) in paragraph at lines 298--298
+[]\OT1/cmr/bx/n/10 Scale| 
  []
 
 
-Underfull \hbox (badness 8189) in paragraph at lines 311--311
-\OT1/cmr/m/n/10 cu-racy vs.
+Overfull \hbox (6.61528pt too wide) in paragraph at lines 298--298
+[]\OT1/cmr/bx/n/10 Runtime
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
-[]\OT1/cmr/m/n/10 Switch to en-sem-ble
+Overfull \hbox (17.169pt too wide) in paragraph at lines 298--298
+[]\OT1/cmr/bx/n/10 HIL/Field| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--314
-[]\OT1/cmr/m/n/10 Reduce fea-tures +
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+[]\OT1/cmr/bx/n/10 Proof
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-[]\OT1/cmr/m/n/10 Multi-Agent
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
+[]\OT1/cmr/m/n/10 16
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-[]\OT1/cmr/m/n/10 Consensus
+Overfull \hbox (2.01555pt too wide) in paragraph at lines 300--300
+\OT1/cmr/m/n/10 nodes| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-\OT1/cmr/m/n/10 con-ver-gence
+Underfull \hbox (badness 10000) in paragraph at lines 300--300
+[]\OT1/cmr/m/n/10 HIL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-[]$\OML/cmm/m/it/10 <$\OT1/cmr/m/n/10 0.01
+Overfull \hbox (5.40033pt too wide) in paragraph at lines 300--301
+[]\OT1/cmr/m/n/10 Empirical| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--315
-\OT1/cmr/m/n/10 resid-ual
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
+[]\OT1/cmr/m/n/10 Emad
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
-[]\OT1/cmr/bx/n/10 M1: MARL
+Overfull \hbox (0.91243pt too wide) in paragraph at lines 302--302
+[]$\OML/cmm/m/it/10 <$\OT1/cmr/m/n/10 100ms| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
-[]$\OMS/cmsy/m/n/10 ^^U$\OT1/cmr/m/n/10 15% im-
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
+[]\OT1/cmr/m/n/10 Local
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
-\OT1/cmr/m/n/10 prove-ment 3
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
+[]\OT1/cmr/m/n/10 32
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
-[]\OT1/cmr/m/n/10 3/3
+Overfull \hbox (2.01555pt too wide) in paragraph at lines 302--302
+\OT1/cmr/m/n/10 nodes| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 317--317
-\OT1/cmr/m/n/10 archetype
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
+[]\OT1/cmr/m/n/10 Rule-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--319
-[]\OT1/cmr/m/n/10 Freq $\OML/cmm/m/it/10 <$\OT1/cmr/m/n/10 0.5
+Overfull \hbox (7.80133pt too wide) in paragraph at lines 302--302
+[]\OT1/cmr/m/n/10 HIL+Lab| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
-[]\OT1/cmr/m/n/10 Static con-sen-sus +
+Overfull \hbox (5.92813pt too wide) in paragraph at lines 302--303
+[]\OT1/cmr/m/n/10 Lyapunov| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--321
-[]\OT1/cmr/m/n/10 GNN Op-ti-miza-
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]\OT1/cmr/m/n/10 Li
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--321
-[]\OT1/cmr/m/n/10 30% ADMM
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]\OT1/cmr/m/n/10 Convex
  []
 
 
-Underfull \hbox (badness 6608) in paragraph at lines 321--321
-[]$\OMS/cmsy/m/n/10 ^^T$\OT1/cmr/m/n/10 20 it-er-a-
+Overfull \hbox (15.60686pt too wide) in paragraph at lines 304--304
+[]\OT1/cmr/m/n/10 Centralized| 
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 323--323
-[]\OT1/cmr/m/n/10 Cross-Site Learn-
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]\OT1/cmr/m/n/10 50
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
-[]\OT1/cmr/m/n/10 Transfer
+Overfull \hbox (2.01555pt too wide) in paragraph at lines 304--304
+\OT1/cmr/m/n/10 nodes| 
  []
 
 
-Underfull \hbox (badness 3838) in paragraph at lines 323--323
-\OT1/cmr/m/n/10 learn-ing val-i-
+Overfull \hbox (12.80136pt too wide) in paragraph at lines 304--304
+[]\OT1/cmr/m/n/10 Simulation| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--323
-\OT1/cmr/m/n/10 degra-da-
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
+[]\OT1/cmr/m/n/10 Convex
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
-[]\OT1/cmr/m/n/10 Extend to 15 FL
+Overfull \hbox (4.49974pt too wide) in paragraph at lines 306--306
+[]\OT1/cmr/m/n/10 Rodriguez
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
-\OT1/cmr/m/n/10 pen-e-tra-tion
+Overfull \hbox (10.77756pt too wide) in paragraph at lines 306--306
+[]\OT1/cmr/m/n/10 Asymptotic| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
-[]\OT1/cmr/m/n/10 50/50
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[]\OT1/cmr/m/n/10 Basic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--325
-\OT1/cmr/m/n/10 red-team
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[]\OT1/cmr/m/n/10 25
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 325--326
-[]\OT1/cmr/m/n/10 Implement ad-di-tional
+Overfull \hbox (2.01555pt too wide) in paragraph at lines 306--306
+\OT1/cmr/m/n/10 nodes| 
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 327--327
-[]\OT1/cmr/bx/n/10 M4: Scale +
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
+[]\OT1/cmr/m/n/10 HIL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
-[]\OT1/cmr/m/n/10 100 nodes
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]\OT1/cmr/m/n/10 Zhang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
-\OT1/cmr/m/n/10 + cross-
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]\OT1/cmr/m/n/10 20
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 327--327
-\OMS/cmsy/m/n/10 ^^T$\OT1/cmr/m/n/10 20%
+Overfull \hbox (2.01555pt too wide) in paragraph at lines 308--308
+\OT1/cmr/m/n/10 nodes| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
-[]$\OML/cmm/m/it/10 >$\OT1/cmr/m/n/10 99%
+Overfull \hbox (12.80136pt too wide) in paragraph at lines 308--308
+[]\OT1/cmr/m/n/10 Simulation| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--329
-\OT1/cmr/m/n/10 up-time 3
+Underfull \hbox (badness 10000) in paragraph at lines 310--310
+[]\OT1/cmr/m/n/10 Wang
  []
 
 
-Underfull \hbox (badness 2189) in paragraph at lines 329--330
-[]\OT1/cmr/m/n/10 Reduce to single-site
+Underfull \hbox (badness 10000) in paragraph at lines 310--310
+[]\OT1/cmr/m/n/10 Linear
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
-[]\OT1/cmr/m/n/10 Open-source
+Underfull \hbox (badness 10000) in paragraph at lines 310--310
+[]\OT1/cmr/m/n/10 25
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
-[]\OT1/cmr/m/n/10 5+ in-sti-
+Overfull \hbox (2.01555pt too wide) in paragraph at lines 310--310
+\OT1/cmr/m/n/10 nodes| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--331
-\OT1/cmr/m/n/10 tu-tional
+Underfull \hbox (badness 10000) in paragraph at lines 310--310
+[]\OT1/cmr/m/n/10 HIL
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 331--332
-[]\OT1/cmr/m/n/10 Target 3+ adop-tions
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+[]\OT1/cmr/m/n/10 LMI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+[]\OT1/cmr/m/n/10 Chen
+ []
+
+
+Overfull \hbox (10.77756pt too wide) in paragraph at lines 312--312
+[]\OT1/cmr/m/n/10 Asymptotic| 
+ []
+
+
+Overfull \hbox (14.63466pt too wide) in paragraph at lines 312--312
+[]\OT1/cmr/m/n/10 Differential| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+[]\OT1/cmr/m/n/10 40
+ []
+
+
+Overfull \hbox (2.01555pt too wide) in paragraph at lines 312--312
+\OT1/cmr/m/n/10 nodes| 
+ []
+
+
+Overfull \hbox (1.51143pt too wide) in paragraph at lines 312--312
+[]\OT1/cmr/m/n/10 Learning| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+[]\OT1/cmr/m/n/10 HIL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+[]\OT1/cmr/m/n/10 Kumar
+ []
+
+
+Overfull \hbox (27.2736pt too wide) in paragraph at lines 314--314
+[]\OT1/cmr/m/n/10 Homomorphic| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+[]\OT1/cmr/m/n/10 15
+ []
+
+
+Overfull \hbox (2.01555pt too wide) in paragraph at lines 314--314
+\OT1/cmr/m/n/10 nodes| 
+ []
+
+
+Overfull \hbox (12.80136pt too wide) in paragraph at lines 314--314
+[]\OT1/cmr/m/n/10 Simulation| 
+ []
+
+
+Overfull \hbox (8.8013pt too wide) in paragraph at lines 316--316
+[]\OT1/cmr/m/n/10 Federated| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+[]\OT1/cmr/m/n/10 30
+ []
+
+
+Overfull \hbox (2.01555pt too wide) in paragraph at lines 316--316
+\OT1/cmr/m/n/10 nodes| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
+[]\OT1/cmr/m/n/10 HIL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+[]\OT1/cmr/m/n/10 Local
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
+[]\OT1/cmr/m/n/10 Patel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
+[]\OT1/cmr/m/n/10 12
+ []
+
+
+Overfull \hbox (2.01555pt too wide) in paragraph at lines 318--318
+\OT1/cmr/m/n/10 nodes| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--318
+[]\OT1/cmr/m/n/10 HIL
+ []
+
+
+Overfull \hbox (2.2614pt too wide) in paragraph at lines 318--319
+[]\OT1/cmr/m/n/10 Heuristic| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
+[]\OT1/cmr/m/n/10 Kim
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
+[]\OT1/cmr/m/n/10 35
+ []
+
+
+Overfull \hbox (2.01555pt too wide) in paragraph at lines 320--320
+\OT1/cmr/m/n/10 nodes| 
+ []
+
+
+Overfull \hbox (6.62253pt too wide) in paragraph at lines 320--320
+[]\OT1/cmr/m/n/10 Scheduled| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
+[]\OT1/cmr/m/n/10 HIL
+ []
+
+
+Overfull \hbox (2.15031pt too wide) in paragraph at lines 320--321
+[]\OT1/cmr/m/n/10 Passivity| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]\OT1/cmr/m/n/10 Singh
+ []
+
+
+Overfull \hbox (10.77756pt too wide) in paragraph at lines 322--322
+[]\OT1/cmr/m/n/10 Asymptotic| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 322--322
+[]\OT1/cmr/m/n/10 28
+ []
+
+
+Overfull \hbox (2.01555pt too wide) in paragraph at lines 322--322
+\OT1/cmr/m/n/10 nodes| 
+ []
+
+
+Overfull \hbox (12.80136pt too wide) in paragraph at lines 322--322
+[]\OT1/cmr/m/n/10 Simulation| 
+ []
+
+
+Overfull \hbox (14.98367pt too wide) in paragraph at lines 322--323
+[]\OT1/cmr/m/n/10 Contraction| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+[]\OT1/cmr/bx/n/10 Our
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+\OT1/cmr/bx/n/10 Ap-
+ []
+
+
+Overfull \hbox (5.00385pt too wide) in paragraph at lines 324--324
+[]$\OML/cmm/m/it/10 >$\OT1/cmr/bx/n/10 120ms| 
+ []
+
+
+Overfull \hbox (8.44383pt too wide) in paragraph at lines 324--324
+[]\OT1/cmr/bx/n/10 ISS+LMI| 
+ []
+
+
+Overfull \hbox (12.55096pt too wide) in paragraph at lines 324--324
+[]\OT1/cmr/bx/n/10 Fed+Diff| 
+ []
+
+
+Overfull \hbox (3.43202pt too wide) in paragraph at lines 324--324
+[]\OT1/cmr/bx/n/10 100+
+ []
+
+
+Overfull \hbox (5.89172pt too wide) in paragraph at lines 324--324
+\OT1/cmr/bx/n/10 nodes| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+[]\OT1/cmr/bx/n/10 Real-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+\OT1/cmr/bx/n/10 time
+ []
+
+
+Overfull \hbox (20.36343pt too wide) in paragraph at lines 324--324
+[]\OT1/cmr/bx/n/10 HIL+Field| 
+ []
+
+
+Overfull \hbox (43.95534pt too wide) in paragraph at lines 324--325
+[]\OT1/cmr/bx/n/10 ISS+CBF+LMI| 
  []
 
 
@@ -1312,6 +1098,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [14]
+Overfull \hbox (119.85284pt too wide) in paragraph at lines 331--332
+\OT1/cmr/m/n/12 com-par-a-tive ma-trix as a con-tin-u-ously up-dated, citable a
+r-ti-fact with as-signed DOI (zenodo.org/communities/campus-
+ []
+
+
+Overfull \hbox (1.64046pt too wide) in paragraph at lines 331--332
+\OT1/cmr/m/n/12 microgrids) in-clud-ing: \OT1/cmr/bx/n/12 (1) \OT1/cmr/m/n/12 B
+i-annual up-dates track-ing 2025-2029 ad-vances, \OT1/cmr/bx/n/12 (2) \OT1/cmr/
+m/n/12 Pre-registered
+ []
+
+<figure4_performance_summary.pdf, id=190, 1000.34041pt x 688.46725pt>
+File: figure4_performance_summary.pdf Graphic file (type pdf)
+<use figure4_performance_summary.pdf>
+Package pdftex.def Info: figure4_performance_summary.pdf  used on input line 33
+9.
+(pdftex.def)             Requested size: 352.31625pt x 242.47989pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1321,6 +1125,70 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15]
+Overfull \hbox (12.19829pt too wide) in paragraph at lines 351--351
+[]\OT1/cmr/bx/n/10 Configuration| 
+ []
+
+
+Overfull \hbox (1.52325pt too wide) in paragraph at lines 351--351
+[]\OT1/cmr/bx/n/10 RoCoF| 
+ []
+
+
+Overfull \hbox (5.14825pt too wide) in paragraph at lines 351--351
+[]\OT1/cmr/bx/n/10 Settling| 
+ []
+
+
+Overfull \hbox (24.96077pt too wide) in paragraph at lines 351--352
+[]\OT1/cmr/bx/n/10 Violations/hr| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+[]\OT1/cmr/m/n/10 Physics-Loss
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+[]\OT1/cmr/m/n/10 Physics-Loss
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[]\OT1/cmr/m/n/10 Physics-Loss
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--370
+[]\OT1/cmr/m/n/10 Physics +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 371--371
+[]\OT1/cmr/m/n/10 Physics +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--372
+[]\OT1/cmr/m/n/10 Physics +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
+[]\OT1/cmr/m/n/10 + CBF
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
+[]\OT1/cmr/m/n/10 + CBF
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+[]\OT1/cmr/m/n/10 + CBF
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1329,7 +1197,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16]
+[16 <./figure4_performance_summary.pdf>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1339,7 +1207,928 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [17]
-Overfull \hbox (9.5328pt too wide) in paragraph at lines 381--381
+Overfull \hbox (47.14017pt too wide) in paragraph at lines 397--398
+[]\OT1/cmr/bx/n/12 Hash-Verified Ar-ti-fact Re-lease: \OT1/cmr/m/n/12 Pre-regis
+tered ex-per-i-ment con-tain-ers (Docker), PMU/SCADA
+ []
+
+
+Overfull \hbox (1.42905pt too wide) in paragraph at lines 409--409
+[]\OT1/cmr/bx/n/10 Time-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+\OT1/cmr/bx/n/10 to-
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 409--410
+[]\OT1/cmr/bx/n/10 QP Solve
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+\OT1/cmr/bx/n/10 / Vi-o-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
+[]\OT1/cmr/bx/n/10 Sensor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
+\OT1/cmr/bx/n/10 Bias
+ []
+
+
+Underfull \hbox (badness 3343) in paragraph at lines 411--411
+[]\OT1/cmr/m/n/10 Lock $^^A\OML/cmm/m/it/10 u[]$ \TS1/cmr/m/n/10 ^^Y
+ []
+
+
+Overfull \hbox (1.60289pt too wide) in paragraph at lines 411--411
+[]\OT1/cmr/m/n/10 <120ms| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+[]\OT1/cmr/m/n/10 3.8ms /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
+[]\OT1/cmr/bx/n/10 Timestamp
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
+\OT1/cmr/bx/n/10 Skew
+ []
+
+
+Underfull \hbox (badness 1590) in paragraph at lines 412--412
+[]\OT1/cmr/m/n/10 Disable con-sen-sus \TS1/cmr/m/n/10 ^^Y
+ []
+
+
+Overfull \hbox (1.60289pt too wide) in paragraph at lines 412--412
+[]\OT1/cmr/m/n/10 <100ms| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--413
+[]\OT1/cmr/m/n/10 3.1ms /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+[]\OT1/cmr/bx/n/10 Packet
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+\OT1/cmr/bx/n/10 Drops
+ []
+
+
+Overfull \hbox (1.60289pt too wide) in paragraph at lines 413--413
+[]\OT1/cmr/m/n/10 <180ms| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+[]\OT1/cmr/m/n/10 5.1ms /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
+[]\OT1/cmr/bx/n/10 Network
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 414--414
+[]\OT1/cmr/m/n/10 Graph clus-ter-ing \TS1/cmr/m/n/10 ^^Y
+ []
+
+
+Overfull \hbox (1.60289pt too wide) in paragraph at lines 414--414
+[]\OT1/cmr/m/n/10 <250ms| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--415
+[]\OT1/cmr/m/n/10 6.8ms /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--415
+[]\OT1/cmr/bx/n/10 Irradiance
+ []
+
+
+Overfull \hbox (1.60289pt too wide) in paragraph at lines 415--415
+[]\OT1/cmr/m/n/10 <120ms| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
+[]\OT1/cmr/m/n/10 3.5ms /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
+[]\OT1/cmr/m/n/10 2.8ms /
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18]
+Overfull \hbox (10.31659pt too wide) in paragraph at lines 427--428
+[]\OT1/cmr/bx/n/12 Verified De-ploy-ment Path: \OT1/cmr/m/n/12 All de-ployed co
+n-trollers un-dergo for-mal ver-i-fi-ca-tion pipeline:
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19]
+Overfull \hbox (5.68991pt too wide) in paragraph at lines 445--445
+[]\OT1/cmr/bx/n/10 Quarter| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
+[]\OT1/cmr/bx/n/10 Acceptance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--445
+[]\OT1/cmr/bx/n/10 Success
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
+[]\OT1/cmr/m/n/10 PINODE Im-ple-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
+[]\OT1/cmr/m/n/10 TRL 4 $\OMS/cmsy/m/n/10 !$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
+[]$\OMS/cmsy/m/n/10 ^^U$\OT1/cmr/m/n/10 95% ac-
+ []
+
+
+Underfull \hbox (badness 8189) in paragraph at lines 447--447
+\OT1/cmr/m/n/10 cu-racy vs.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--448
+[]\OT1/cmr/m/n/10 Switch to en-sem-ble
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 449--450
+[]\OT1/cmr/m/n/10 Reduce fea-tures +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]\OT1/cmr/m/n/10 Multi-Agent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]\OT1/cmr/m/n/10 Consensus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+\OT1/cmr/m/n/10 con-ver-gence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+[]$\OML/cmm/m/it/10 <$\OT1/cmr/m/n/10 0.01
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--451
+\OT1/cmr/m/n/10 resid-ual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+[]\OT1/cmr/bx/n/10 M1: MARL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+[]$\OMS/cmsy/m/n/10 ^^U$\OT1/cmr/m/n/10 15% im-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+\OT1/cmr/m/n/10 prove-ment 3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+[]\OT1/cmr/m/n/10 3/3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+\OT1/cmr/m/n/10 archetype
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--455
+[]\OT1/cmr/m/n/10 Freq $\OML/cmm/m/it/10 <$\OT1/cmr/m/n/10 0.5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+[]\OT1/cmr/m/n/10 Static con-sen-sus +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
+[]\OT1/cmr/m/n/10 GNN Op-ti-miza-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
+[]\OT1/cmr/m/n/10 30% ADMM
+ []
+
+
+Underfull \hbox (badness 6608) in paragraph at lines 457--457
+[]$\OMS/cmsy/m/n/10 ^^T$\OT1/cmr/m/n/10 20 it-er-a-
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 459--459
+[]\OT1/cmr/m/n/10 Cross-Site Learn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
+[]\OT1/cmr/m/n/10 Transfer
+ []
+
+
+Underfull \hbox (badness 3838) in paragraph at lines 459--459
+\OT1/cmr/m/n/10 learn-ing val-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
+\OT1/cmr/m/n/10 degra-da-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--460
+[]\OT1/cmr/m/n/10 Extend to 15 FL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--461
+\OT1/cmr/m/n/10 pen-e-tra-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--461
+[]\OT1/cmr/m/n/10 50/50
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--461
+\OT1/cmr/m/n/10 red-team
+ []
+
+
+Underfull \hbox (badness 3977) in paragraph at lines 461--462
+[]\OT1/cmr/m/n/10 Implement ad-di-tional
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 463--463
+[]\OT1/cmr/bx/n/10 M4: Scale +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--463
+[]\OT1/cmr/m/n/10 100 nodes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--463
+\OT1/cmr/m/n/10 + cross-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--463
+\OMS/cmsy/m/n/10 ^^T$\OT1/cmr/m/n/10 20%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+[]$\OML/cmm/m/it/10 >$\OT1/cmr/m/n/10 99%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+\OT1/cmr/m/n/10 up-time 3
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 465--466
+[]\OT1/cmr/m/n/10 Reduce to single-site
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--467
+[]\OT1/cmr/m/n/10 Open-source
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--467
+[]\OT1/cmr/m/n/10 5+ in-sti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--467
+\OT1/cmr/m/n/10 tu-tional
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 467--468
+[]\OT1/cmr/m/n/10 Target 3+ adop-tions
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[20]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[21]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[22]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[23]
+Overfull \hbox (69.27553pt too wide) in paragraph at lines 511--512
+[]\OT1/cmr/bx/n/12 Representativeness Cri-te-ria & Sam-pling Plan: \OT1/cmr/m/n
+/12 Load di-ver-sity (res-i-den-tial/commercial/industrial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]\OT1/cmr/bx/n/10 Treatment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]\OT1/cmr/bx/n/10 Power/
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]\OT1/cmr/bx/n/10 Target
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+[]\OT1/cmr/bx/n/10 Named
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
+\OT1/cmr/bx/n/10 Com-mit-
+ []
+
+
+Overfull \hbox (1.41788pt too wide) in paragraph at lines 523--524
+[]\OT1/cmr/bx/n/10 Timeline| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+[]\OT1/cmr/m/n/10 STEM Re-ten-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+\OT1/cmr/m/n/10 CSU stu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+[]\OT1/cmr/m/n/10 d=0.32
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 525--525
+\OT1/cmr/m/n/10 (70% vs.
+ []
+
+
+Underfull \hbox (badness 5817) in paragraph at lines 525--525
+[]\OT1/cmr/m/n/10 Paid bridge
+ []
+
+
+Underfull \hbox (badness 7631) in paragraph at lines 525--525
+\OT1/cmr/m/n/10 pro-grams if
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]\OT1/cmr/m/n/10 Cohort
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]\OT1/cmr/m/n/10 d=0.28
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 527--527
+\OT1/cmr/m/n/10 (80% vs.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+[]\OT1/cmr/m/n/10 12-month
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+[]\OT1/cmr/m/n/10 d=0.47
+ []
+
+
+Underfull \hbox (badness 2903) in paragraph at lines 529--529
+\OT1/cmr/m/n/10 (85% vs.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+[]\OT1/cmr/m/n/10 PG&E/SCE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
+\OT1/cmr/m/n/10 guar-an-teed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+[]\OT1/cmr/m/n/10 Workshop Im-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+[]\OT1/cmr/m/n/10 80%/0.5
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+[]\OT1/cmr/m/n/10 Energy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+\OT1/cmr/m/n/10 lit-er-acy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+[]\OT1/cmr/m/n/10 Spanish
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+\OT1/cmr/m/n/10 trans-la-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+\OT1/cmr/m/n/10 tion +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+\TS1/cmr/m/n/10 $\OT1/cmr/m/n/10 50/ses-sion
+ []
+
+
+Overfull \hbox (42.87245pt too wide) in paragraph at lines 533--533
+[]\OT1/cmr/m/n/10 Dashboard/courseware| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
+[]\OT1/cmr/m/n/10 5-7 year
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
+\OT1/cmr/m/n/10 main-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
+[]\OT1/cmr/m/n/10 Internet2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
+\OT1/cmr/m/n/10 host-ing +
+ []
+
+
+Underfull \hbox (badness 4024) in paragraph at lines 533--533
+\OT1/cmr/m/n/10 HSI con-sor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--534
+[]\OT1/cmr/m/n/10 Post-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[24]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 553--553
+[]\OT1/cmr/bx/n/10 Cost Com-po-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--553
+[]\OT1/cmr/bx/n/10 Our Ap-
+ []
+
+
+Overfull \hbox (3.20923pt too wide) in paragraph at lines 553--553
+[]\OT1/cmr/bx/n/10 Conventional| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 553--553
+[]\OT1/cmr/bx/n/10 Worst
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--556
+[]\OT1/cmr/m/n/10 Cloud Train-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--557
+[]\OT1/cmr/m/n/10 Edge Hard-ware
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--558
+[]\OT1/cmr/m/n/10 Security/Pen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
+[]\OT1/cmr/m/n/10 Staffing (FTE-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[26]
+Overfull \hbox (17.18443pt too wide) in paragraph at lines 584--584
+[]\OT1/cmr/bx/n/10 Responsible| 
+ []
+
+
+Overfull \hbox (19.3622pt too wide) in paragraph at lines 584--584
+[]\OT1/cmr/bx/n/10 Accountable| 
+ []
+
+
+Overfull \hbox (8.01643pt too wide) in paragraph at lines 584--584
+[]\OT1/cmr/bx/n/10 Consulted| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--586
+[]\OT1/cmr/m/n/10 PI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--586
+[]\OT1/cmr/m/n/10 Co-PI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--587
+[]\OT1/cmr/m/n/10 Advisory
+ []
+
+
+Underfull \hbox (badness 6792) in paragraph at lines 587--587
+[]\OT1/cmr/m/n/10 MARL Frame-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--587
+[]\OT1/cmr/m/n/10 Co-PI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--587
+[]\OT1/cmr/m/n/10 PI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--588
+[]\OT1/cmr/m/n/10 PI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--588
+[]\OT1/cmr/m/n/10 Co-PI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 589--589
+[]\OT1/cmr/m/n/10 Field De-ploy-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 589--589
+[]\OT1/cmr/m/n/10 Co-PI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 589--589
+[]\OT1/cmr/m/n/10 PI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+[]\OT1/cmr/m/n/10 Security
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
+[]\OT1/cmr/m/n/10 Co-PI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 590--591
+[]\OT1/cmr/m/n/10 Advisory
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
+[]\OT1/cmr/bx/n/10 Detection
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
+[]\OT1/cmr/m/n/10 >5% ac-cu-racy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
+\OT1/cmr/m/n/10 drop over 30
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 607--608
+[]\OT1/cmr/m/n/10 Automated re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--608
+[]\OT1/cmr/m/n/10 Protocol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--608
+[]\OT1/cmr/m/n/10 Industry stan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
+[]\OT1/cmr/m/n/10 Modular com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
+\OT1/cmr/m/n/10 mu-ni-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+[]\OT1/cmr/m/n/10 Supply
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+\OT1/cmr/m/n/10 Chain De-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
+[]\OT1/cmr/m/n/10 Pre-purchase
+ []
+
+
+Underfull \hbox (badness 4266) in paragraph at lines 609--610
+\OT1/cmr/m/n/10 crit-i-cal com-po-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--610
+[]\OT1/cmr/m/n/10 Student
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
+[]\OT1/cmr/m/n/10 Industry post-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
+\OT1/cmr/m/n/10 doc part-ner-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+[]\OT1/cmr/m/n/10 Cyber At-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--611
+[]\OT1/cmr/m/n/10 SIEM alert
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--612
+[]\OT1/cmr/m/n/10 Incident re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 611--612
+\OT1/cmr/m/n/10 sponse in <4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
+[]\OT1/cmr/m/n/10 Hardware
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--612
+[]\OT1/cmr/m/n/10 End-of-life no-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 612--613
+[]\OT1/cmr/m/n/10 Hardware ab-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
+[]\OT1/cmr/m/n/10 Regulatory
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--614
+[]\OT1/cmr/m/n/10 Standards
+ []
+
+
+Underfull \hbox (badness 1881) in paragraph at lines 613--614
+\OT1/cmr/m/n/10 com-mit-tee par-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 614--614
+[]\OT1/cmr/m/n/10 Partner
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 614--614
+[]\OT1/cmr/m/n/10 Contract non-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
+[]\OT1/cmr/m/n/10 Funding
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
+[]\OT1/cmr/m/n/10 20% bud-get
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--616
+[]\OT1/cmr/m/n/10 Milestone-gated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--616
+[]\OT1/cmr/m/n/10 Intellectual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--617
+[]\OT1/cmr/m/n/10 Freedom-to-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[27]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[28]
+Overfull \hbox (9.5328pt too wide) in paragraph at lines 629--629
 |[]\OT1/cmr/bx/n/14.4 Conclusion: Trans-for-ma-tional Im-pact for Amer-i-can En
 -ergy Lead-
  []
@@ -1352,7 +2141,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18] (./main_CISE.bbl
+[29]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1361,7 +2150,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[19]
+[30]
+Overfull \hbox (2.17677pt too wide) in paragraph at lines 647--649
+[]\OT1/cmr/bx/n/12 Standardized Met-rics & Sym-bols (Con-sis-tent Through-out):
+ Per-for-mance Met-
+ []
+
+(./main_CISE.bbl
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1370,7 +2165,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[20])
+[31]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1379,20 +2174,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[21] (./main_CISE.aux)
+[32]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[34] (./main_CISE.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4765 strings out of 474222
- 69616 string characters out of 5748734
+ 4771 strings out of 474222
+ 69704 string characters out of 5748734
  1955975 words of memory out of 5000000
- 26962 multiletter control sequences out of 15000+600000
- 569509 words of font info for 79 fonts, out of 8000000 for 9000
+ 26967 multiletter control sequences out of 15000+600000
+ 570149 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,65p,1260b,320s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,12n,65p,1421b,322s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
@@ -1412,11 +2225,12 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main_CISE.pdf (21 pages, 422953 bytes).
+sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main_CISE.pdf (34 pages, 463963 bytes).
 PDF statistics:
- 421 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
+ 467 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
