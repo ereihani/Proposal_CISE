@@ -46,29 +46,7 @@ This project develops a vendor-agnostic bump-in-the-wire controller that integra
 
 Our innovation lies in the mathematical unification of three distinct research domains: physics-informed neural networks that embed power system dynamics directly into learning objectives, multi-agent reinforcement learning with proven consensus properties, and graph neural network acceleration of distributed optimization. This synthesis enables formal stability guarantees while achieving measured improvements of 33\% in frequency stability, 28\% faster optimization convergence, and 65-75\% cost reduction compared to conventional approaches. The vendor-agnostic design supports diverse hardware configurations through standardized protocols, eliminating technological lock-in that has prevented widespread deployment.
 
-\begin{figure}[H]
-\centering
-\begin{minipage}{0.48\textwidth}
-\centering
-\textbf{What happens when A--C are not met?}
-\begin{tabular}{|c|c|c|}
-\hline
-\textbf{Metric} & \textbf{Within A--C} & \textbf{Outside A--C} \\
-\hline
-RoCoF (Hz/s) & $\leq 1.0$ & $1.8-3.2$ \\
-\hline
-Settling (s) & $\leq 12$ & $25-45$ \\
-\hline
-Violations/hr & $\leq 2$ & $8-20$ \\
-\hline
-\end{tabular}
-\vspace{0.2cm}
-\\
-\small{Latency >150ms: +180\% degradation}
-\\
-\small{Packet loss >20\%: +250\% degradation}
-\end{minipage}
-\end{figure}
+Our system maintains stability under challenging conditions: RoCoF remains below 1.0 Hz/s with settling times under 12 seconds and fewer than 2 violations per hour during normal operation. When communication conditions exceed design limits (latency >150ms or packet loss >20\%), performance degrades significantly with RoCoF increasing to 1.8-3.2 Hz/s, settling times extending to 25-45 seconds, and violations rising to 8-20 per hour, representing 180-250\% performance degradation that demonstrates the critical importance of our advanced communication-resilient architecture.
 
 \section{Executive Summary and Innovation Vision}
 
