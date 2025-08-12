@@ -150,22 +150,6 @@ Wenzhi Chen, Hongjian Sun, Jing Jiang, Minglei You, and William~JS Piper.
 \newblock Statistical validation of federated multi-objective DQN showing
   significant performance improvements with rigorous ablation analysis.
 
-\bibitem{cpuc2024forecast}
-{California Public Utilities Commission}.
-\newblock 2024-2034 california energy price forecast.
-\newblock Technical Report CPUC-24-EF-001, California Public Utilities
-  Commission, 2024.
-\newblock Energy price forecasting for microgrid economic analysis with outage
-  valuation methodology.
-
-\bibitem{kristov2020}
-Lorenzo Kristov, Paul De~Martini, and Jeffrey~D Taft.
-\newblock A tale of two visions: Designing a decentralized transactive electric
-  system.
-\newblock {\em IEEE Power and Energy Magazine}, 18(3):63--79, 2020.
-\newblock Critical infrastructure interruption costs for research facilities
-  and hospitals.
-
 \bibitem{nrel2021}
 Kelsey Anderson, Pengwei Du, Wesley Sieber, and Julia Mayernik.
 \newblock Microgrid cost and performance database.
