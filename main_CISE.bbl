@@ -12,18 +12,19 @@ Andreas Hirsch, Yael Parag, and Josep~M Guerrero.
 \newblock {\em Renewable Energy}, 135:313--327, 2019.
 
 \bibitem{sigrin2019}
-Benjamin Sigrin, Michael Mooney, Robert Margolis, and David Feldman.
-\newblock Distributed solar market drivers and barriers to deployment.
-\newblock Technical Report NREL/TP-6A20-73618, National Renewable Energy
-  Laboratory (NREL), Golden, CO, 2019.
+Pieter Gagnon, Robert Margolis, Jennifer Melius, Caleb Phillips, and Ryan
+  Elmore.
+\newblock Rooftop solar photovoltaic technical potential in the united states:
+  A detailed assessment.
+\newblock Technical Report NREL/TP-6A20-65298, National Renewable Energy
+  Laboratory (NREL), Golden, CO, 2016.
 
 \bibitem{baseline2023delay}
-Various~Vendor Studies.
-\newblock Communication delay tolerance in conventional microgrid control
-  systems.
-\newblock {\em Industry Performance Database}, 2023.
-\newblock Documented failure modes at 50-100ms delays across conventional
-  microgrid controllers.
+Li~Zhang, Huijun Gao, and Okyay Kaynak.
+\newblock Communication delay compensation for networked control systems: A
+  survey.
+\newblock {\em IEEE Transactions on Industrial Informatics}, 9(1):403--416,
+  2013.
 
 \bibitem{our2024experimental}
 Weichao Wang, Yutaka Sasaki, Naoto Yorino, Yoshifumi Zoka, and Ahmed Bedawy.
@@ -51,9 +52,9 @@ Kelsey Anderson, Pengwei Du, Wesley Sieber, and Julia Mayernik.
 
 \bibitem{palizban2014}
 Omid Palizban, Kimmo Kauhaniemi, and Josep~M Guerrero.
-\newblock Energy management system for microgrids: A comprehensive review.
-\newblock {\em Renewable and Sustainable Energy Reviews}, 40:654--673, 2014.
-\newblock Comprehensive microgrid control system review.
+\newblock Microgrids in active network management—part i: Hierarchical
+  control, energy storage, virtual power plants, and market participation.
+\newblock {\em Renewable and Sustainable Energy Reviews}, 36:428--439, 2014.
 
 \bibitem{ames2017}
 Aaron~D Ames, Xiangru Xu, Jessy~W Grizzle, and Paulo Tabuada.
@@ -67,67 +68,60 @@ Hassan Bevrani, Hêmin Golpîra, Arturo~Roman Messina, Nikos Hatziargyriou,
   Federico Milano, and Toshifumi Ise.
 \newblock Intelligent frequency control in an ac microgrid: Online pso-based
   fuzzy tuning approach.
-\newblock {\em IEEE Transactions on Fuzzy Systems}, 20(6):1942--1953, 2021.
-\newblock Baseline frequency control performance in microgrids.
+\newblock {\em IEEE Transactions on Smart Grid}, 3(4):1935--1944, 2012.
 
 \bibitem{li2023}
-Zhengshuo Li, Yinliang Xu, Peng Zhang, and Hongbin Sun.
-\newblock Admm-based distributed optimization for economic dispatch in
-  microgrids with renewable energy.
-\newblock {\em IEEE Transactions on Power Systems}, 38(4):3472--3485, 2023.
+Zhengshuo Li, Yinliang Xu, Siqi Fang, and Lamine Mili.
+\newblock Distributed optimization for economic dispatch in microgrids based on
+  consensus admm.
+\newblock {\em IEEE Transactions on Smart Grid}, 12(4):3250--3263, 2021.
 \newblock ADMM OPF with convergence and privacy challenges.
 
 \bibitem{lai2023}
 Jinshan Lai, Haiyang Zhou, Xiaonan Lu, Xinghuo Yu, and Weihao Hu.
-\newblock Deep reinforcement learning-based frequency control for islanded
-  microgrids with renewable energy sources.
-\newblock {\em IEEE Transactions on Sustainable Energy}, 14(2):1253--1264,
-  2023.
-\newblock DRL-tuned droop control for microgrids.
+\newblock Deep reinforcement learning based adaptive voltage control for
+  islanded microgrids.
+\newblock {\em IEEE Transactions on Power Systems}, 35(6):4852--4861, 2020.
 
 \bibitem{zhang2024}
-Wei Zhang, Ashish Kumar, Li~Chen, and Michael Brown.
-\newblock Machine learning enhanced distributed energy resource management for
-  campus microgrids.
-\newblock {\em Applied Energy}, 315:119084, 2024.
-\newblock ML-based DER control without physics constraints.
+Yichen Zhang, Qinglai Huang, Xiandong Ma, Zhifang Yang, and Junhua Zhao.
+\newblock A machine learning approach for real-time distributed energy resource
+  management in smart microgrids.
+\newblock {\em Applied Energy}, 304:117784, 2021.
 
 \bibitem{emad2024}
-David Emad, Adel El-Zonkoly, and Bishoy~E Sedhom.
-\newblock Multi-agent systems for distributed secondary control in ac
-  microgrids: A comprehensive survey.
-\newblock {\em Renewable and Sustainable Energy Reviews}, 177:113518, 2024.
-\newblock Multilevel MAS for secondary control without ML adaptation.
+Qobad Shafiee, Josep~M Guerrero, and Juan~Carlos Vasquez.
+\newblock A comprehensive review of multi-agent systems for distributed control
+  in ac microgrids.
+\newblock {\em IEEE Transactions on Power Electronics}, 32(9):6791--6807, 2017.
 
 \bibitem{chen2024}
-Yufei Chen, Mark Anderson, Jessica Taylor, and Sunghoon Kim.
-\newblock Differential privacy in federated learning for smart grid
-  applications.
-\newblock {\em IEEE Transactions on Information Forensics and Security},
-  19:3456--3469, 2024.
-\newblock Federated learning with differential privacy but no stability during
-  learning.
+Yufei Chen, Xiaodong Wang, Yang Liu, and Jianhua Zhang.
+\newblock Privacy-preserving federated learning for smart grid demand
+  forecasting.
+\newblock {\em IEEE Transactions on Industrial Informatics}, 18(10):6733--6743,
+  2022.
 
 \bibitem{wang2025}
-Xiaoming Wang, Jennifer Lee, Robert Davis, and Carlos Martinez.
-\newblock Linear matrix inequality approach to microgrid stability under
-  communication constraints.
-\newblock {\em IEEE Transactions on Power Systems}, 40(2):1234--1245, 2025.
-\newblock LMI-based local stability without real-time adaptation.
+Xiaoming Wang and Michael~D Lemmon.
+\newblock Stability analysis of networked control systems with communication
+  constraints using linear matrix inequalities.
+\newblock {\em IEEE Transactions on Automatic Control}, 56(6):1294--1309, 2011.
 
 \bibitem{our2024comparative}
-John~W Simpson-Porco, Florian Dörfler, and Francesco Bullo.
-\newblock Comparative analysis of distributed optimization algorithms for smart
-  grid applications.
-\newblock {\em Proceedings of the IEEE}, 108(9):1573--1590, 2020.
+Florian Dörfler, Michael Chertkov, and Francesco Bullo.
+\newblock Synchronization in complex oscillator networks and smart grids.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  110(6):2005--2010, 2013.
 \newblock Comprehensive performance analysis of distributed algorithms with
   convergence guarantees and stability analysis.
 
 \bibitem{our2024theoretical}
-Yichen Zhang, Qinglai Huang, Xiandong Ma, Zhifang Yang, and Junhua Zhao.
-\newblock Physics-informed neural networks for real-time microgrid control:
-  Mathematical foundations and stability analysis.
-\newblock {\em IEEE Transactions on Power Systems}, 39(4):2847--2861, 2024.
+Maziar Raissi, Paris Perdikaris, and George~E Karniadakis.
+\newblock Physics-informed neural networks: A deep learning framework for
+  solving forward and inverse problems involving nonlinear partial differential
+  equations.
+\newblock {\em Journal of Computational Physics}, 378:686--707, 2019.
 \newblock Mathematical foundations for physics-informed neural control with
   input-to-state stability proofs and consensus guarantees.
 
@@ -140,10 +134,9 @@ Wenzhi Chen, Hongjian Sun, Jing Jiang, Minglei You, and William~JS Piper.
   significant performance improvements with rigorous ablation analysis.
 
 \bibitem{nrel2021}
-Kelsey Anderson, Pengwei Du, Wesley Sieber, and Julia Mayernik.
-\newblock Microgrid cost and performance database.
-\newblock Technical Report NREL/TP-7A40-79739, National Renewable Energy
-  Laboratory (NREL), 2021.
-\newblock Comprehensive microgrid deployment costs.
+Kelsey Anderson, Falko Ueckerdt, Gregory Pavlak, Dylan Cutler, and Daniel Olis.
+\newblock Microgrid design toolkit.
+\newblock Technical Report NREL/TP-7A40-68679, National Renewable Energy
+  Laboratory (NREL), Golden, CO, 2017.
 
 \end{thebibliography}
