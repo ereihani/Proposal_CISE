@@ -163,66 +163,11 @@ $$||x(t)|| \leq \beta(||x_0||, t) + \gamma(\sup_{s \leq t} ||w(s)||)$$
 
 The delay-dependent stability margin $\kappa(\tau) = \kappa_0 - c\tau \geq 0.15$ for $\tau\in[0,150]$ms follows from the Lyapunov-Krasovskii functional approach established in Fridman (2014).
 
-\textbf{Step-by-Step ISS Derivation Following Established Theory:}
-\begin{enumerate}
-\item \textbf{System Model from Power System Theory}: Following the microgrid modeling approach in \cite{katiraei2008}, the delayed dynamics are represented as:
-$$\dot{x}(t) = f(x(t), x(t-\tau)) + g(x(t))u + w(t)$$
-where $x$ includes frequency deviation $\Delta f$ and voltage magnitude $|V|$, $\tau \in [0,150]$ms represents communication delays per \cite{baseline2023delay}, and $w(t)$ models disturbances including packet loss effects.
-
-\item \textbf{Lyapunov-Krasovskii Functional Construction}: Following the methodology in Gu et al. (2003) for time-delayed systems, construct:
-$$V(x_t) = x^T P x + \int_{-\tau}^0 x^T(t+s) Q x(t+s) ds$$
-where $P > 0$ solves the Riccati equation from LQR theory, and $Q > 0$ weights the delayed state history as established in Fridman and Shaked (2002).
-
-\item \textbf{Derivative Analysis Using Leibniz Rule}: Applying the calculus of functionals from Hale and Verduyn Lunel (1993):
-$$\dot{V} = 2x^T P \dot{x} + x^T Q x - x^T(t-\tau) Q x(t-\tau)$$
-Substituting the system dynamics and applying the S-procedure from robust control theory yields the bound.
-
-\item \textbf{Stability Condition from Razumikhin Theory}: Following Razumikhin's method as presented in Khalil (2002), establish:
-$$\dot{V} \leq -\kappa(\tau) V + \gamma ||w||^2$$
-The delay-dependent margin $\kappa(\tau) = \kappa_0 - c\tau$ follows from perturbation analysis in Liu and Fridman (2012).
-
-\item \textbf{ISS Property via Comparison Lemma}: Using the comparison lemma from Sontag (1989), integrate the differential inequality:
-$$V(t) \leq e^{-\kappa(\tau) t} V(0) + \frac{\gamma}{\kappa(\tau)} \sup_{s \leq t} ||w(s)||^2$$
-The ISS gain functions follow from the quadratic Lyapunov function structure.
-
-\item \textbf{Parameter Selection from Microgrid Literature}: Based on droop control parameters from \cite{palizban2014} and inertia constants from \cite{bevrani2021}, select $\kappa_0 = 0.9$ (representing 90% of nominal stability margin) and $c = 5 \times 10^{-3}$ s$^{-1}$ (delay sensitivity from HIL testing). This ensures $\kappa(150\text{ms}) = 0.15 > 0$, maintaining stability.
-\end{enumerate}
 
 \textbf{Innovation 2: Consensus-Guaranteed Multi-Agent RL}: Building on the consensus theory foundation from Olfati-Saber, Fax and Murray (2007) and integrating it with multi-agent reinforcement learning following \cite{our2024theoretical}, this approach achieves 15\% faster convergence \cite{our2024experimental}. The exponential consensus bound:
 $$||\eta_i - \eta^*|| \leq Ce^{-\lambda t} + \mathcal{O}(\tau^2)$$
 follows from the delay-dependent stability analysis in Tian and Liu (2008), with conditions $\tau < \frac{1}{2\sqrt{\lambda_2(L)}}$ and $\alpha < \frac{1}{\lambda_{max}(L)}$ from graph theory.
 
-\textbf{Step-by-Step Consensus Derivation Following Graph Theory:}
-\begin{enumerate}
-\item \textbf{Multi-Agent Protocol from Jadbabaie et al. (2003)}: Following the distributed averaging protocol, each agent $i$ updates its state according to:
-$$\dot{\eta_i} = -\alpha \sum_{j \in \mathcal{N}_i} a_{ij}(\eta_i(t-\tau) - \eta_j(t-\tau)) + \phi_i^{RL}(t)$$
-where $a_{ij}$ are adjacency matrix entries per graph theory conventions, $\tau$ represents network delays from \cite{baseline2023delay}, and $\phi_i^{RL}$ captures reinforcement learning updates.
-
-\item \textbf{Error Dynamics Using Graph Laplacian}: Following the consensus error definition from Ren and Beard (2008):
-$$e_i = \eta_i - \frac{1}{N}\sum_j \eta_j$$
-In matrix form, $e = (I - \frac{1}{N}\mathbf{1}\mathbf{1}^T)\eta$ projects onto the consensus subspace. The error dynamics become:
-$$\dot{e} = -\alpha L e(t-\tau) + \phi^{RL}$$
-where $L = D - A$ is the graph Laplacian with degree matrix $D$ and adjacency matrix $A$.
-
-\item \textbf{Lyapunov Function from Consensus Theory}: Following the standard quadratic Lyapunov approach from Olfati-Saber et al. (2007):
-$$V = e^T e = ||e||^2$$
-Computing the derivative along trajectories:
-$$\dot{V} = -2\alpha e^T L e(t-\tau) + 2e^T \phi^{RL}$$
-
-\item \textbf{Spectral Analysis via Fiedler Value}: Using the Courant-Fischer theorem from spectral graph theory:
-$$e^T L e \geq \lambda_2(L) ||e||^2$$
-where $\lambda_2(L)$ is the algebraic connectivity (Fiedler value). Following the delay approximation from Münz et al. (2011):
-$$e(t-\tau) \approx e(t) - \tau\dot{e}(t) + O(\tau^2)$$
-
-\item \textbf{Small-Gain Stability from Tian \& Liu (2008)}: The delay-dependent stability condition requires:
-$$2\alpha\lambda_2(L)(1 - \tau\alpha||L||) > \lambda_{desired}$$
-Using the bound $||L|| \leq 2\Delta$ where $\Delta$ is maximum degree, and simplifying yields:
-$$\tau < \frac{1}{2\sqrt{\lambda_2(L)}}$$
-
-\item \textbf{Parameter Validation from Campus Grid Data}: Based on typical campus microgrid topologies from \cite{our2024scalability}, $\lambda_2(L) \geq 0.01$ for connected graphs. This gives:
-$$\tau_{max} = \frac{1}{2\sqrt{0.01}} = 5\text{s} >> 150\text{ms}$$
-confirming robust stability margins for practical deployment.
-\end{enumerate}
 
 \textbf{Innovation 3: GNN-Enhanced Optimization}: Following the distributed optimization framework from Boyd et al. (2011) and enhancing it with Graph Neural Networks per \cite{our2024theoretical}, this approach achieves 28.1\% computational speedups \cite{our2024experimental} while preserving privacy through local computation.
 
@@ -231,295 +176,95 @@ $$||z^K - z^*|| \leq \epsilon \text{ for } K \leq \mathcal{O}\left(\frac{1}{\eps
 
 Under standard assumptions from convex optimization theory (Boyd and Vandenberghe, 2004), linear convergence $\mathcal{O}(\kappa^K)$ is achievable with proper parameter selection, reducing iterations from 27.2 to 17.4 on average through GNN acceleration.
 
-\textbf{Step-by-Step ADMM Convergence Following Boyd et al. (2011):}
-\begin{enumerate}
-\item \textbf{Distributed OPF Formulation from Molzahn et al. (2017)}: The optimal power flow problem decomposes as:
-$$\min \sum_{i=1}^N f_i(z_i) \text{ subject to } \sum_i A_i z_i = b$$
-where $z_i$ represents local variables (generation, voltage) at bus $i$, and the constraint enforces power balance per Kirchhoff's laws.
-
-\item \textbf{Augmented Lagrangian from Convex Optimization Theory}: Following Boyd and Vandenberghe (2004), construct:
-$$L_\rho(z,y) = \sum_i f_i(z_i) + y^T(Az - b) + \frac{\rho}{2}||Az - b||^2$$
-The dual variables $y$ enforce coupling constraints, while penalty $\rho$ ensures strong convexity.
-
-\item \textbf{ADMM Algorithm from Distributed Optimization}: The iterative updates from Boyd et al. (2011) are:
-\begin{align}
-z_i^{k+1} &= \arg\min_{z_i} L_\rho(z_i, z_{-i}^k, y^k) \quad \text{(local optimization)}\\
-y^{k+1} &= y^k + \rho(Az^{k+1} - b) \quad \text{(dual ascent)}
-\end{align}
-Each agent solves only its local problem, preserving privacy.
-
-\item \textbf{Convergence Conditions from Nesterov (2004)}: Assume standard conditions:
-\begin{itemize}
-\item $\mu$-strong convexity: $f_i(z) \geq f_i(z') + \nabla f_i(z')^T(z-z') + \frac{\mu}{2}||z-z'||^2$
-\item $L$-Lipschitz gradients: $||\nabla f_i(z) - \nabla f_i(z')|| \leq L||z-z'||$
-\item Penalty selection: $\rho > \lambda_{max}(A^T A)$ from matrix theory
-\item Graph connectivity: $\lambda_2(L) > 0$ ensuring distributed feasibility
-\end{itemize}
-
-\item \textbf{Linear Rate from Hong and Luo (2017)}: Under these conditions, the convergence rate is:
-$$\kappa = 1 - \min\left(\frac{\mu}{\rho}, \frac{\rho}{L}\right) < 1$$
-The optimal penalty $\rho = \sqrt{\mu L}$ from Ghadimi et al. (2015) minimizes $\kappa$. For power systems with $\mu = 0.1$, $L = 10$, this yields $\kappa = 0.68$.
-
-\item \textbf{GNN Acceleration from Computational Graphs}: Following the GNN architecture in Kipf and Welling (2017), exploit power network topology:
-$$z_i^0 = \text{GNN}_\theta(x_i, \{x_j : j \in \mathcal{N}_i\})$$
-where $\theta$ are learned parameters. This warm-start reduces $||r^0||$ substantially, achieving 36\% iteration reduction validated in \cite{our2024experimental}.
-\end{enumerate}
 
 \textbf{Innovation 4: Unified Safety Framework}: Building on the Control Barrier Function theory from \cite{ames2017} and its application to power systems in \cite{our2024theoretical}, this safety layer ensures <2 violations/hour under realistic contingencies, overriding any unsafe AI/ML commands:
 $$u_{safe} = \arg\min_u ||u - u_{nom}||^2 + \gamma||slack||^2 \text{ s.t. } \dot{h}(x) + \alpha h(x) \geq -slack$$
 
-\textbf{Step-by-Step CBF Safety Derivation Following Ames et al. (2017):}
-\begin{enumerate}
-\item \textbf{Safety Set from Power System Constraints}: Following IEEE 1547 standards for frequency bounds, define the safe set through barrier function:
-$$h(x) = 0.25 - (\Delta f)^2$$
-where $\Delta f$ is frequency deviation. The constraint $h(x) \geq 0$ ensures $|\Delta f| \leq 0.5$ Hz per grid code requirements.
 
-\item \textbf{CBF Condition from Nagumo's Theorem}: Following the theoretical foundation in Ames et al. (2014), enforce:
-$$\dot{h}(x) \geq -\alpha h(x)$$
-where $\alpha$ defines a class-$\mathcal{K}$ function. This ensures forward invariance of the safe set per Nagumo's theorem.
 
-\item \textbf{Control-Affine Form from Power System Dynamics}: For control-affine systems $\dot{x} = f(x) + g(x)u$ common in power systems, the CBF constraint becomes:
-$$L_f h(x) + L_g h(x) \cdot u + \alpha h(x) \geq 0$$
-where Lie derivatives follow from differential geometry (Khalil, 2002).
+\textbf{Implementation Strategy and System Architecture:} The BITW controller implementation follows a systematic three-phase deployment strategy that transforms theoretical advances into practical microgrid control solutions. The cloud phase establishes distributed intelligence foundations through federated learning infrastructure that trains physics-informed policies across multiple sites while preserving data privacy. Federated learning servers deploy using TensorFlow Federated or PySyft frameworks on cloud infrastructure, coordinating model aggregation through FedAvg algorithms with differential privacy constraints ($\epsilon=1.0, \delta=10^{-6}$) while requiring hardware specifications of 32+ CPU cores, 128GB RAM, and 4x NVIDIA A100 GPUs for acceleration. 
 
-\item \textbf{QP Safety Filter from Optimization Theory}: Following the safety-critical control framework in Ames et al. (2017):
-$$u_{safe} = \arg\min_u ||u - u_{nom}||^2 + \gamma ||slack||^2$$
-subject to CBF constraints with slack for feasibility.
+Custom PyTorch modules embed power flow equations directly into five-layer neural architectures with 256 neurons per layer, incorporating physical constraints through unified loss functions $\mathcal{L} = \mathcal{L}_{RL} + \lambda_{physics}\mathcal{L}_{PDE} + \lambda_{consensus}\mathcal{L}_{graph}$ where $\lambda_{physics}=0.3$ and $\lambda_{consensus}=0.2$. Real-time data streaming employs Apache Kafka for 30Hz PMU data and 1Hz SCADA measurements, while time-series databases store historical data with six-month retention policies. Data preprocessing pipelines normalize measurements, handle missing values, and synchronize timestamps across distributed sources.
 
-\item \textbf{Invariance Proof via Comparison Principle}: Integrating the differential inequality $\dot{h} + \alpha h \geq 0$ yields:
-$$h(t) \geq e^{-\alpha t} h(0)$$
-Since $h(0) > 0$ (safe initialization) and $e^{-\alpha t} > 0$, safety is maintained perpetually.
+The deployment process initializes cloud infrastructure using Infrastructure-as-Code approaches through Terraform or CloudFormation scripts, followed by containerized federated learning server deployment via Docker and Kubernetes orchestration. Secure communication channels implement TLS 1.3 with mutual authentication protocols, establishing data ingestion pipelines from distributed edge devices before initializing physics-informed base models and commencing federated training rounds within privacy budget constraints.
 
-\item \textbf{Practical Validation from Field Testing}: Hardware-in-loop testing per \cite{our2024experimental} validates <2 violations/hour under N-2 contingencies, with emergency procedures (load shedding) triggered by slack accumulation.
-\end{enumerate}
+The edge phase implements real-time control capabilities through bump-in-the-wire hardware that intercepts and modifies control signals between existing infrastructure and inverters. BITW hardware utilizes NVIDIA Jetson AGX Orin or Intel NUC compute platforms with real-time Linux kernels (PREEMPT-RT patch), requiring minimum specifications of 8-core ARM/x86 CPU, 16GB RAM, and hardware accelerators for neural network inference. Communication interfaces support diverse protocols including Modbus TCP/RTU for legacy SCADA integration, IEC 61850 GOOSE/MMS for modern substations, DNP3 for utility communications, CAN bus for inverter control, and Ethernet with IEEE 1588 PTP for time synchronization.
 
-\textbf{Step-by-Step CBF Implementation for Microgrids:}
-\begin{enumerate}
-\item \textbf{Multiple Barrier Functions from Grid Codes}: Following IEEE 1547 and NERC standards, define:
-\begin{itemize}
-\item Frequency: $h_f(x) = 0.25 - (\Delta f)^2$ for $|\Delta f| \leq 0.5$ Hz
-\item Voltage: $h_v(x) = (V_{max}^2 - V^2)(V^2 - V_{min}^2)$ for $V \in [0.95, 1.05]$ p.u.
-\item RoCoF: $h_r(x) = 4 - (\frac{df}{dt})^2$ for $|\frac{df}{dt}| \leq 2$ Hz/s
-\end{itemize}
+Real-time inference engines employ ONNX Runtime or TensorRT for optimized neural network inference achieving sub-10ms latency, while model quantization (INT8) reduces memory footprint while maintaining accuracy. Dual-model architectures enable hot-swapping for seamless updates during operation. The installation process begins with comprehensive site surveys and communication protocol identification, followed by BITW hardware installation between SCADA systems and inverters. Network configuration and time synchronization setup precede loading pre-trained models from the cloud phase, calibrating control parameters for local conditions, validating safety constraints through staged testing, and enabling real-time control with continuous monitoring.
 
-\item \textbf{Unified Safety Set via Intersection}: Following the compositional approach in Glotfelter et al. (2017):
-$$\mathcal{C} = \bigcap_i \{x : h_i(x) \geq 0\}$$
-ensures all safety constraints are simultaneously satisfied.
+The multi-agent system phase enables distributed coordination among multiple BITW controllers to achieve system-wide optimization while maintaining local autonomy. Each BITW device runs autonomous agents using Python with asyncio for concurrent operations, maintaining local state, executing control policies, and participating in consensus protocols through ZeroMQ low-latency peer-to-peer communication. Average consensus algorithms implement robustness to packet loss using protocol parameters including consensus gain $\alpha=0.1$, iteration period 100ms, and convergence threshold 0.01 p.u., while graph topology discovers neighbors automatically.
 
-\item \textbf{Control Synthesis with Multiple CBFs}: The QP becomes:
-$$u_{safe} = \arg\min_u ||u - u_{nom}||^2$$
-subject to $L_f h_i + L_g h_i \cdot u + \alpha_i h_i \geq 0$ for all $i$.
+Distributed optimization employs OSQP solvers with warm-start capabilities from GNN predictions, decomposing problems into local subproblems for each agent while enforcing coupling constraints through dual variable updates. System convergence typically occurs within 16-19 iterations for 32-node systems. The integration workflow deploys agent software to all BITW devices, configures communication topology and routing, initializes consensus variables and ADMM parameters, synchronizes agent clocks using PTP protocols, enables distributed coordination mechanisms, monitors convergence behavior, adapts parameters dynamically, and validates system-wide performance metrics.
 
-\item \textbf{Computational Efficiency via Active Set Methods}: Using OSQP or qpOASES solvers, achieve <1ms solution time for typical problems (5-10 constraints) as validated in real-time HIL tests.
+Production deployment procedures begin with comprehensive infrastructure assessment through site surveys documenting existing SCADA protocols, network topology, inverter models, and communication infrastructure while creating detailed network diagrams showing data flow paths and identifying integration points for BITW hardware. Hardware procurement follows site-specific requirements: Jetson Nano suffices for sites with fewer than 10 inverters, Jetson AGX Orin supports 10-50 inverter configurations, while sites with 50+ inverters require rack-mounted servers with GPU acceleration capabilities.
 
-\item \textbf{Integration with Learning Systems}: CBF acts as a safety filter on AI/ML outputs, preserving performance while guaranteeing safety per the framework in Cheng et al. (2019).
+Software environment preparation involves Ubuntu 20.04 LTS installation with PREEMPT-RT kernel patches, followed by Python 3.8+ environment configuration including essential packages: TensorFlow 2.x, PyTorch 1.x, ONNX Runtime, ZeroMQ, asyncio, OSQP, NetworkX, and protocol-specific libraries such as pymodbus and dnp3-python. The development environment utilizes pseudo-code structures for algorithm implementation:
 
-\item \textbf{Verification via Barrier Certificates}: Following Prajna and Jadbabaie (2004), use sum-of-squares programming to verify CBF validity across the state space, ensuring no "holes" in safety coverage.
-\end{enumerate}
+\texttt{
+initialize\_bitw\_system() \{\\
+\quad\quad assess\_infrastructure()\\
+\quad\quad procure\_hardware\_based\_on\_scale()\\
+\quad\quad setup\_software\_environment()\\
+\quad\quad validate\_prerequisites()\\
+\}
+}
 
-\textbf{Implementation Strategy and System Architecture:} The BITW controller implementation follows a systematic three-phase deployment strategy that transforms theoretical advances into practical microgrid control solutions. This section provides the complete implementation roadmap from initial setup through production deployment.
+Cloud infrastructure deployment begins with resource provisioning using Terraform scripts for VPC configuration with private subnets supporting federated learning servers, load balancer setup for distributed training coordination, and auto-scaling group enablement for training workload management. The federated learning server setup involves repository cloning, Docker image construction, Kubernetes deployment, and TLS certificate configuration for secure client connections. Data pipeline configuration establishes Kafka clusters with three or more brokers for redundancy, creates topics for PMU data, SCADA measurements, and control actions, implements retention policies (7 days for real-time, 6 months for training data), and configures InfluxDB with continuous queries for data aggregation.
 
-\textbf{Phase 1: Cloud Infrastructure and Federated Learning Setup}
+The implementation follows this pseudo-code pattern:
+\texttt{
+deploy\_cloud\_infrastructure() \{\\
+\quad\quad provision\_resources\_terraform()\\
+\quad\quad setup\_federated\_learning\_server()\\
+\quad\quad configure\_data\_pipeline()\\
+\quad\quad validate\_connectivity()\\
+\}
+}
 
-The cloud phase establishes the foundation for distributed intelligence through federated learning infrastructure that trains physics-informed policies across multiple microgrid sites while preserving data privacy.
+Edge deployment procedures encompass hardware installation within control cabinets ensuring proper ventilation, Ethernet port connections linking Port 1 to SCADA systems and Port 2 to inverters, serial connection wiring for legacy protocols (RS-485/RS-232), and GPS antenna installation for time synchronization requirements. Network configuration involves static IP address setup matching existing network schemes, VLAN tagging configuration for network segmentation, firewall rule enablement permitting only required protocols, and connectivity testing to cloud infrastructure and peer BITW devices.
 
-\textbf{Core Infrastructure Components:}
-\begin{enumerate}
-\item \textbf{Federated Learning Server}: Deploy using TensorFlow Federated (TFF) or PySyft frameworks on cloud infrastructure (AWS EC2/Azure/GCP). Server coordinates model aggregation using FedAvg algorithm with differential privacy ($\epsilon=1.0, \delta=10^{-6}$). Hardware requirements: 32+ CPU cores, 128GB RAM, 4x NVIDIA A100 GPUs for model training acceleration.
-\item \textbf{Physics-Informed Neural Network Architecture}: Implement custom PyTorch modules embedding power flow equations directly into neural architecture. Network structure: 5-layer deep with 256 neurons per layer, incorporating physical constraints through custom loss functions $\mathcal{L} = \mathcal{L}_{RL} + \lambda_{physics}\mathcal{L}_{PDE} + \lambda_{consensus}\mathcal{L}_{graph}$ where $\lambda_{physics}=0.3, \lambda_{consensus}=0.2$.
-\item \textbf{Data Pipeline Configuration}: Apache Kafka for real-time data streaming from edge devices with 30Hz PMU data and 1Hz SCADA measurements. Time-series database (InfluxDB/TimescaleDB) stores historical data with 6-month retention. Data preprocessing pipeline normalizes measurements, handles missing values, and synchronizes timestamps across distributed sources.
-\end{enumerate}
+Model deployment and testing procedures include downloading pre-trained models from cloud repositories, executing inference benchmarks, verifying sub-10ms latency requirements, and enabling monitoring dashboards for real-time performance tracking. The edge deployment follows this algorithmic structure:
 
-\textbf{Deployment Workflow:}
-\begin{enumerate}
-\item Initialize cloud infrastructure using Infrastructure-as-Code (Terraform/CloudFormation)
-\item Deploy containerized federated learning server (Docker/Kubernetes)
-\item Configure secure communication channels (TLS 1.3, mutual authentication)
-\item Establish data ingestion pipelines from edge devices
-\item Initialize base models with physics-informed architectures
-\item Begin federated training rounds with privacy budgets
-\end{enumerate}
+\texttt{
+deploy\_edge\_systems() \{\\
+\quad\quad install\_hardware()\\
+\quad\quad configure\_network()\\
+\quad\quad deploy\_models()\\
+\quad\quad validate\_performance()\\
+\quad\quad enable\_monitoring()\\
+\}
+}
 
-\textbf{Phase 2: Edge Deployment and Real-Time Control}
+Multi-agent system deployment involves agent software installation including Python package installation, agent ID and network topology configuration, consensus parameter setting (gain=0.1, period=100ms, threshold=0.01), and systemd service enablement. Communication setup encompasses ZeroMQ endpoint configuration for peer-to-peer messaging, multicast group establishment for neighbor discovery, encryption enablement with pre-shared keys or PKI certificates, and inter-agent latency testing ensuring sub-50ms requirements for stability.
 
-The edge phase implements real-time control capabilities through bump-in-the-wire hardware that intercepts and modifies control signals between existing infrastructure and inverters.
+ADMM solver configuration defines local optimization problem structure in YAML format, sets penalty parameter $\rho=1.0$ with adjustable convergence-based adaptation, configures warm-start capabilities from GNN predictions when available, and enables convergence monitoring with automatic parameter adaptation. The deployment process implements:
 
-\textbf{BITW Hardware Specifications:}
-\begin{enumerate}
-\item \textbf{Compute Platform}: NVIDIA Jetson AGX Orin or Intel NUC with real-time Linux kernel (PREEMPT-RT patch). Minimum specs: 8-core ARM/x86 CPU, 16GB RAM, hardware accelerator (GPU/TPU/VPU) for neural network inference.
-
-\item \textbf{Communication Interfaces}: 
-   \begin{itemize}
-   \item Modbus TCP/RTU for legacy SCADA integration
-   \item IEC 61850 GOOSE/MMS for modern substations  
-   \item DNP3 for utility communications
-   \item CAN bus for inverter control
-   \item Ethernet with IEEE 1588 PTP for time synchronization
-   \end{itemize}
-
-\item \textbf{Real-Time Inference Engine}: ONNX Runtime or TensorRT for optimized neural network inference achieving <10ms latency. Model quantization (INT8) reduces memory footprint while maintaining accuracy. Dual-model architecture enables hot-swapping for seamless updates.
-\end{enumerate}
-
-\textbf{Installation Procedure:}
-\begin{enumerate}
-\item Site survey and communication protocol identification
-\item BITW hardware installation between SCADA and inverters
-\item Network configuration and time synchronization setup
-\item Load pre-trained models from cloud phase
-\item Calibrate control parameters for local conditions
-\item Validate safety constraints through staged testing
-\item Enable real-time control with monitoring
-\end{enumerate}
-
-\textbf{Phase 3: Multi-Agent System Coordination}
-
-The MAS phase enables distributed coordination among multiple BITW controllers to achieve system-wide optimization while maintaining local autonomy.
-
-\textbf{Agent Architecture:}
-\begin{enumerate}
-\item \textbf{Local Agent Implementation}: Each BITW runs autonomous agent using Python with asyncio for concurrent operations. Agent maintains local state, executes control policies, and participates in consensus protocols. Message passing uses ZeroMQ for low-latency peer-to-peer communication.
-
-\item \textbf{Consensus Protocol Deployment}: Implement average consensus algorithm with robustness to packet loss. Protocol parameters: consensus gain $\alpha=0.1$, iteration period 100ms, convergence threshold 0.01 p.u. Graph topology automatically discovered through neighbor detection.
-
-\item \textbf{ADMM Solver Integration}: Distributed optimization using OSQP solver with warm-start from GNN predictions. Problem decomposition assigns local subproblems to each agent. Coupling constraints enforced through dual variable updates. Typical convergence in 16-19 iterations for 32-node systems.
-\end{enumerate}
-
-\textbf{System Integration Workflow:}
-\begin{enumerate}
-\item Deploy agent software to all BITW devices
-\item Configure communication topology and routing
-\item Initialize consensus variables and ADMM parameters  
-\item Synchronize agent clocks using PTP
-\item Enable distributed coordination protocols
-\item Monitor convergence and adapt parameters
-\item Validate system-wide performance metrics
-\end{enumerate}
-
-\textbf{Step-by-Step Implementation Details}
-
-This section provides detailed implementation procedures for deploying the BITW system in production environments.
-
-\textbf{Pre-Deployment Requirements:}
-\begin{enumerate}
-\item \textbf{Infrastructure Assessment}: Conduct comprehensive site survey documenting existing SCADA protocols, network topology, inverter models, and communication infrastructure. Create network diagrams showing data flow paths and identify integration points for BITW hardware.
-
-\item \textbf{Hardware Procurement}: Source BITW compute platforms based on site requirements. For sites with <10 inverters: Jetson Nano sufficient. For 10-50 inverters: Jetson AGX Orin recommended. For 50+ inverters: rack-mounted server with GPU acceleration required.
-
-\item \textbf{Software Environment Setup}: Install Ubuntu 20.04 LTS with PREEMPT-RT kernel. Configure Python 3.8+ environment with required packages: TensorFlow 2.x, PyTorch 1.x, ONNX Runtime, ZeroMQ, asyncio, OSQP, NetworkX, and protocol-specific libraries (pymodbus, dnp3-python).
-\end{enumerate}
-
-\textbf{Cloud Infrastructure Deployment:}
-\begin{enumerate}
-\item \textbf{Step 1 - Infrastructure Provisioning}: 
-   \begin{itemize}
-   \item Deploy cloud resources using Terraform scripts (provided in repository)
-   \item Configure VPC with private subnets for federated learning servers
-   \item Set up load balancer for distributed training coordination
-   \item Enable auto-scaling groups for training workloads
-   \end{itemize}
-\item \textbf{Step 2 - Federated Learning Server Setup}:
-   \begin{itemize}
-   \item Clone BITW repository: \texttt{git clone https://github.com/bitw-microgrid/core}
-   \item Build Docker image: \texttt{docker build -t bitw-fl-server:latest .}
-   \item Deploy to Kubernetes: \texttt{kubectl apply -f deployment/k8s/}
-   \item Configure TLS certificates for secure client connections
-   \end{itemize}
-
-\item \textbf{Step 3 - Data Pipeline Configuration}:
-   \begin{itemize}
-   \item Deploy Kafka cluster with 3+ brokers for redundancy
-   \item Create topics: \texttt{pmu-data}, \texttt{scada-measurements}, \texttt{control-actions}
-   \item Configure retention policies: 7 days for real-time, 6 months for training data
-   \item Set up InfluxDB with continuous queries for data aggregation
-   \end{itemize}
-\end{enumerate}
-
-\textbf{Edge Deployment Procedures:}
-\begin{enumerate}
-\item \textbf{Hardware Installation}:
-   \begin{itemize}
-   \item Install BITW device in control cabinet with proper ventilation
-   \item Connect Ethernet ports: Port 1 to SCADA, Port 2 to inverters
-   \item Wire serial connections for legacy protocols (RS-485/RS-232)
-   \item Install GPS antenna for time synchronization if required
-   \end{itemize}
-
-\item \textbf{Network Configuration}:
-   \begin{itemize}
-   \item Configure static IP addresses matching existing network scheme
-   \item Set up VLAN tagging if network segmentation is used
-   \item Enable firewall rules allowing only required protocols
-   \item Test connectivity to cloud infrastructure and peer BITW devices
-   \end{itemize}
-
-\item \textbf{Model Deployment and Testing}:
-   \begin{itemize}
-   \item Download pre-trained models from cloud repository
-   \item Run inference benchmark: \texttt{python3 benchmark\_inference.py}
-   \item Verify <10ms latency requirement is met
-   \item Enable monitoring dashboard for real-time performance tracking
-   \end{itemize}
-\end{enumerate}
-
-\textbf{Multi-Agent System Deployment:}
-\begin{enumerate}
-\item \textbf{Agent Software Installation}:
-   \begin{itemize}
-   \item Install Python agent package: \texttt{pip install bitw-agent}
-   \item Configure agent ID and network topology in \texttt{/etc/bitw/agent.conf}
-   \item Set consensus parameters: gain=0.1, period=100ms, threshold=0.01
-   \item Enable systemd service: \texttt{systemctl enable bitw-agent}
-   \end{itemize}
-
-\item \textbf{Communication Setup}:
-   \begin{itemize}
-   \item Configure ZeroMQ endpoints for peer-to-peer messaging
-   \item Set up multicast groups for neighbor discovery
-   \item Enable encryption with pre-shared keys or PKI certificates
-   \item Test latency between agents (<50ms required for stability)
-   \end{itemize}
-
-\item \textbf{ADMM Solver Configuration}:
-   \begin{itemize}
-   \item Define local optimization problem structure in YAML format
-   \item Set penalty parameter $\rho=1.0$ (adjustable based on convergence)
-   \item Configure warm-start from GNN predictions if available
-   \item Enable convergence monitoring with automatic parameter adaptation
-   \end{itemize}
-\end{enumerate}
+\texttt{
+deploy\_multi\_agent\_system() \{\\
+\quad\quad install\_agent\_software()\\
+\quad\quad setup\_communication()\\
+\quad\quad configure\_admm\_solver()\\
+\quad\quad validate\_coordination()\\
+\}
+}
 
 \textbf{System Architecture Integration:} The complete architecture spans three integrated layers: (1) \textbf{Cloud Phase} trains physics-informed policies using federated learning across sites with unified loss $\mathcal{L} = \mathcal{L}_{RL} + \lambda \mathcal{L}_{physics} + \mu \mathcal{L}_{consensus}$, ensuring agents learn from experience while respecting physical laws and coordinating naturally; (2) \textbf{Edge Phase} deploys trained models for real-time control with <10ms inference through Physics-Informed Neural ODEs providing adaptive droop control with LMI-certified stability \cite{our2024theoretical}; (3) \textbf{MAS Phase} coordinates multiple inverters through three control timescales: Primary (millisecond frequency regulation), Secondary (second-scale restoration), and Tertiary (minute-scale optimization).
 
-\textbf{Validated Performance Superiority:} The comprehensive experimental validation was conducted through a rigorous 3-month pre-deployment monitoring campaign utilizing synchronized phasor measurement units (PMUs) sampling at 30 Hz and SCADA systems with 1-second resolution across three distinct campus microgrid sites. The validation methodology employed a systematic approach comparing the BITW controller against existing campus baseline systems during identical operational conditions, weather patterns, and load profiles \cite{our2024experimental}.
+\textbf{Performance Validation Strategy:} The proposed validation methodology employs comprehensive monitoring campaigns utilizing synchronized phasor measurement units (PMUs) sampling at 30 Hz and SCADA systems with 1-second resolution across multiple campus microgrid sites. The validation framework establishes systematic comparison approaches between BITW controllers and existing baseline systems under identical operational conditions, weather patterns, and load profiles.
 
 \textbf{Experimental Protocol and Methodology:} The validation study was designed as a pre-registered, controlled comparison following IEEE 2030.7 and IEEE 1547.4 standards for microgrid testing. Each test site underwent comprehensive characterization including: (1) Load pattern analysis across 24-hour cycles covering residential dormitories (2-4 MW peak), academic buildings (1-8 MW daytime peak), and research facilities (0.5-2 MW constant base load); (2) Renewable generation profiles from 500 kW to 2 MW solar installations with historical irradiance correlation >0.95; (3) Network topology mapping with measured communication delays ranging 15-85ms under normal conditions and 120-180ms during peak network congestion; (4) Baseline system performance characterization under 47 distinct operational scenarios including planned maintenance, emergency load shedding, and renewable intermittency events.
 
 The comparative analysis employed statistical power analysis ensuring >90\% power to detect differences $\geq$15\% with $\alpha$=0.01 significance level. All measurements were validated through redundant sensor networks with cross-calibration achieving $\pm$0.1\% measurement uncertainty for electrical parameters and $\pm$2ms temporal synchronization across distributed measurement points \cite{our2024experimental}.
 
-\begin{center}
-\begin{tabular}{|l|c|c|c|}
-\hline
-\textbf{Metric} & \textbf{Campus Baseline} & \textbf{Achieved} & \textbf{Improvement} \\
-\hline
-RoCoF & 1.5-2.0 Hz/s & 0.85-1.05 Hz/s & 33\% [31-37\%] \cite{our2024experimental} \\
-Frequency Nadir (|$\Delta f$|) & 0.35-0.50 Hz & 0.24-0.28 Hz & 42\% [38-45\%] \cite{our2024experimental} \\
-Settling Time & 5-6 s & 3.2-3.8 s & 35\% [28-42\%] \cite{our2024experimental} \\
-ADMM Iterations & 25-30 & 16-19 & 36\% [empirical avg: 27.2→17.4] \cite{our2024experimental} \\
-\hline
-\end{tabular}
-\end{center}
+The proposed system targets specific performance objectives based on theoretical analysis and preliminary simulation studies. Key performance metrics include rate of change of frequency (RoCoF) maintenance, frequency nadir limitation, settling time optimization, and ADMM convergence efficiency improvements through GNN-enhanced warm-start capabilities.
 
-Statistical rigor: 19.8\% frequency stability enhancement (95\% confidence: 17.2\%--22.8\%, Cohen's d=2.84, p<0.001), 30.0\% faster secondary control (95\% confidence: 28.1\%--32.1\%, Cohen's d=5.92, p<0.001) \cite{our2024ablation}. All results from pre-registered 100-trial Monte Carlo analysis with Bonferroni correction.
+\textbf{Scalability and Transferability Framework:} The proposed scalability assessment framework plans systematic expansion testing from 4-node baseline configurations to 32-node distributed systems, representing an 8-fold increase in system complexity while maintaining communication graph connectivity requirements for robust operation. The scalability study design employs hardware-in-the-loop simulation using Real-Time Digital Simulator platforms with sub-microsecond timestep resolution to accurately capture electromagnetic transients and communication network dynamics.
 
-\textbf{Scalability and Transferability Analysis:} The scalability validation was conducted through systematic expansion testing from 4-node baseline configurations to 32-node distributed systems, representing an 8-fold increase in system complexity while maintaining communication graph connectivity $\geq$2 for robust operation. The scalability study employed hardware-in-the-loop (HIL) simulation using Real-Time Digital Simulator (RTDS) platforms with sub-microsecond timestep resolution to accurately capture electromagnetic transients and communication network dynamics \cite{our2024scalability}.
+\textbf{Multi-Scale Performance Analysis:} The performance evaluation framework addresses three critical dimensions: computational scalability analyzing processing time per control decision scaling characteristics compared to conventional centralized approaches, communication scalability examining network traffic scaling with node count through distributed consensus algorithms, and control performance scalability investigating frequency regulation accuracy across different node configurations.
 
-\textbf{Multi-Scale Performance Validation:} Performance efficiency was measured across three critical dimensions: (1) \textbf{Computational Scalability}: Processing time per control decision scales as O(N$^{1.2}$) compared to O(N$^{2.1}$) for conventional centralized approaches, maintaining <10ms inference latency even at 32-node scale; (2) \textbf{Communication Scalability}: Network traffic scales linearly with node count due to distributed consensus algorithms, requiring only 15-25 kB/s per node compared to 200-400 kB/s for centralized architectures; (3) \textbf{Control Performance Scalability}: Frequency regulation accuracy degrades by only 5\% from 4-node to 32-node configurations, compared to 35-50\% degradation observed in conventional hierarchical control systems.
+\textbf{Transfer Learning and Cross-Domain Adaptation Framework:} The transfer learning evaluation methodology plans systematic model adaptation testing across four distinct microgrid archetypes: campus microgrids with mixed academic/residential loads, industrial microgrids with high motor loads and power quality requirements, hospital microgrids with critical life-safety systems, and community microgrids with predominantly residential loads and high renewable penetration. The transfer learning protocol utilizes federated learning with differential privacy constraints to adapt pre-trained campus models to new operational contexts through physics-informed neural architectures that capture fundamental power system dynamics.
 
-\textbf{Transfer Learning and Cross-Domain Adaptation:} The transfer learning validation employed a systematic methodology testing model adaptation across four distinct microgrid archetypes: (1) Campus microgrids with mixed academic/residential loads; (2) Industrial microgrids with high motor loads and power quality requirements; (3) Hospital microgrids with critical life-safety systems and uninterruptible power requirements; (4) Community microgrids with predominantly residential loads and high renewable penetration. The transfer learning protocol utilized federated learning with differential privacy ($\varepsilon$=0.1, $\delta$=10$^{-6}$) to adapt pre-trained campus models to new operational contexts.
-
-Results demonstrate rapid adaptation requiring only 8-12 federated learning episodes to achieve performance within 20\% of domain-specific baselines. Specifically: (1) Campus-to-industrial transfer achieved 15.2\% performance degradation after 9 episodes; (2) Campus-to-hospital transfer achieved 18.7\% degradation after 11 episodes; (3) Campus-to-community transfer achieved 12.4\% degradation after 8 episodes. The transfer learning effectiveness stems from the physics-informed neural architecture that captures fundamental power system dynamics independent of specific load characteristics \cite{our2024scalability}.
-
-\textbf{Comprehensive Performance Benchmarking:} The systematic comparison against 12 state-of-the-art methods establishes superiority across all critical performance dimensions \cite{our2024comparative}. The benchmarking methodology employed standardized test scenarios from IEEE 2030.7 with identical network conditions, disturbances, and evaluation metrics. Key advantages include: (1) \textbf{Delay Tolerance}: >150ms operation vs. maximum 100ms in competing approaches; (2) \textbf{Stability Guarantees}: Input-to-State Stability with Lyapunov-based proofs vs. empirical validation only; (3) \textbf{Privacy Protection}: Federated learning with differential privacy vs. centralized data aggregation; (4) \textbf{Scale Capability}: Validated to 100+ nodes vs. maximum 20-30 nodes in literature; (5) \textbf{Real-time Adaptation}: Online learning during operation vs. offline training requirements; (6) \textbf{Validation Completeness}: Hardware-in-the-loop plus field deployment vs. simulation-only validation.
+\textbf{Comprehensive Performance Benchmarking Framework:} The systematic comparison framework against 12 state-of-the-art methods aims to establish comparative performance across critical dimensions using standardized test scenarios from IEEE 2030.7 with identical network conditions, disturbances, and evaluation metrics. Key theoretical advantages include delay tolerance capabilities exceeding 150ms operation compared to conventional 100ms limits, Input-to-State Stability guarantees with Lyapunov-based proofs, privacy protection through federated learning with differential privacy, scale capability targeting 100+ node systems, real-time adaptation enabling online learning during operation, and comprehensive validation combining hardware-in-the-loop simulation with field deployment testing.
 
 \section{Broader Impacts: Transforming Energy Infrastructure and Society}
 

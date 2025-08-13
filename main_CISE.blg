@@ -7,36 +7,36 @@ Warning--empty journal in our2024experimental
 Warning--empty journal in our2024ablation
 You've used 20 entries,
             1791 wiz_defined-function locations,
-            578 strings with 8503 characters,
-and the built_in function-call counts, 5104 in all, are:
-= -- 458
-> -- 277
+            575 strings with 8279 characters,
+and the built_in function-call counts, 5075 in all, are:
+= -- 446
+> -- 289
 < -- 4
-+ -- 99
-- -- 79
-* -- 406
++ -- 103
+- -- 83
+* -- 408
 := -- 854
-add.period$ -- 68
+add.period$ -- 65
 call.type$ -- 20
 change.case$ -- 20
 chr.to.int$ -- 0
 cite$ -- 22
 duplicate$ -- 183
-empty$ -- 438
-format.name$ -- 79
-if$ -- 1082
+empty$ -- 432
+format.name$ -- 83
+if$ -- 1072
 int.to.chr$ -- 0
 int.to.str$ -- 20
 missing$ -- 17
-newline$ -- 111
+newline$ -- 108
 num.names$ -- 20
-pop$ -- 23
+pop$ -- 26
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
 skip$ -- 69
 stack$ -- 0
-substring$ -- 412
+substring$ -- 394
 swap$ -- 29
 text.length$ -- 4
 text.prefix$ -- 0
@@ -45,5 +45,5 @@ type$ -- 0
 warning$ -- 2
 while$ -- 49
 width$ -- 22
-write$ -- 236
+write$ -- 230
 (There were 2 warnings)
