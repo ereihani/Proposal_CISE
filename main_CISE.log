@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  13 AUG 2025 14:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  13 AUG 2025 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1028,16 +1028,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 462--462
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
-[]\OT1/cmr/m/n/10 Industry post-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
-\OT1/cmr/m/n/10 doc part-ner-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 463--463
 []\OT1/cmr/m/n/10 Cyber At-
  []
@@ -1134,13 +1124,13 @@ Overfull \hbox (20.21489pt too wide) in paragraph at lines 497--498
 t that cre-ates op-por-tu-ni-ties for widespread
  []
 
-[31]
+
 Overfull \hbox (2.17677pt too wide) in paragraph at lines 499--501
 []\OT1/cmr/bx/n/12 Standardized Met-rics & Sym-bols (Con-sis-tent Through-out):
  Per-for-mance Met-
  []
 
-(./main_CISE.bbl [32] [33]) [34] (./main_CISE.aux)
+[31] (./main_CISE.bbl [32] [33]) [34] (./main_CISE.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1153,7 +1143,7 @@ Here is how much of TeX's memory you used:
  26961 multiletter control sequences out of 15000+600000
  570384 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,65p,1297b,295s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,10n,65p,1240b,295s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texli
@@ -1171,7 +1161,7 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
 rm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main_CISE.pdf (34 pages, 390223 bytes).
+Output written on main_CISE.pdf (34 pages, 389770 bytes).
 PDF statistics:
  334 PDF objects out of 1000 (max. 8388607)
  147 compressed objects within 2 object streams
