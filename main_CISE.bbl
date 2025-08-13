@@ -74,13 +74,6 @@ Hassan Bevrani, Hêmin Golpîra, Arturo~Roman Messina, Nikos Hatziargyriou,
 \newblock {\em IEEE Transactions on Fuzzy Systems}, 20(6):1942--1953, 2021.
 \newblock Baseline frequency control performance in microgrids.
 
-\bibitem{rodriguez2022}
-Maria~C Rodriguez, James~R Thompson, and Sarah~K Wilson.
-\newblock Resilient microgrid control under communication delays and cyber
-  attacks.
-\newblock {\em IEEE Transactions on Smart Grid}, 13(4):2847--2858, 2022.
-\newblock Delay-tolerant microgrid control with basic encryption.
-
 \bibitem{li2023}
 Zhengshuo Li, Yinliang Xu, Peng Zhang, and Hongbin Sun.
 \newblock Admm-based distributed optimization for economic dispatch in
