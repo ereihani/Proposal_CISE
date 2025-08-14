@@ -118,14 +118,6 @@ Yichen Zhang, Qinglai Huang, Xiandong Ma, Zhifang Yang, and Junhua Zhao.
 \newblock {\em IEEE Transactions on Industrial Electronics},
   68(12):11761--11771, 2021.
 
-\bibitem{our2024ablation}
-Wenzhi Chen, Hongjian Sun, Jing Jiang, Minglei You, and William~JS Piper.
-\newblock Protecting privacy in microgrids using federated learning and deep
-  reinforcement learning.
-\newblock 2022.
-\newblock Statistical validation of federated multi-objective DQN showing
-  significant performance improvements with rigorous ablation analysis.
-
 \bibitem{nrel2021}
 Kelsey Anderson, Pengwei Du, Molly Whitson, and Wesley Sieber.
 \newblock An assessment of energy storage options for distributed energy
