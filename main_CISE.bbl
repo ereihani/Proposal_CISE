@@ -49,11 +49,103 @@ Kelsey Anderson, Pengwei Du, Wesley Sieber, and Julia Mayernik.
 \newblock Comprehensive economic analysis of microgrid deployment costs and
   cost-benefit analysis showing significant cost reduction opportunities.
 
+\bibitem{guerrero2011}
+Josep~M Guerrero, Juan~C Vasquez, José Matas, Luis García~de Vicuña, and
+  Miguel Castilla.
+\newblock Hierarchical control of droop-controlled ac and dc microgrids—a
+  general approach toward standardization.
+\newblock {\em IEEE Transactions on Industrial Electronics}, 58(1):158--172,
+  2011.
+
 \bibitem{palizban2014}
 Omid Palizban, Kimmo Kauhaniemi, and Josep~M Guerrero.
 \newblock Microgrids in active network management—part ii: System operation,
   power quality and protection.
 \newblock {\em Renewable and Sustainable Energy Reviews}, 36:440--451, 2014.
+
+\bibitem{palizban2015}
+Omar Palizban and Kimmo Kauhaniemi.
+\newblock Hierarchical control structure in microgrids with distributed
+  generation: Island and grid-connected mode.
+\newblock {\em Renewable and Sustainable Energy Reviews}, 44:797--813, 2015.
+
+\bibitem{bevrani2014}
+Hassan Bevrani, Masayuki Watanabe, and Yasunori Mitani.
+\newblock {\em Power System Monitoring and Control}.
+\newblock John Wiley \& Sons, 2014.
+
+\bibitem{li2017}
+Zhengshuo Li, Mohammad Shahidehpour, Farrokh Aminifar, Abdullah Alabdulwahab,
+  and Yusuf Al-Turki.
+\newblock Networked microgrids for enhancing the power system resilience.
+\newblock {\em Proceedings of the IEEE}, 105(7):1289--1310, 2017.
+
+\bibitem{guo2021}
+Xiaoqiang Guo, Zhigang Liu, and Xiaochao Hou.
+\newblock Model predictive control for vsc-hvdc systems under unbalanced grid
+  conditions.
+\newblock {\em IEEE Transactions on Power Electronics}, 36(3):3328--3340, 2021.
+
+\bibitem{wang2023adaptive}
+Weichao Wang, Yutaka Sasaki, Naoto Yorino, Yoshifumi Zoka, and Ahmed Bedawy.
+\newblock Adaptive model predictive control based frequency regulation for
+  low-inertia microgrid.
+\newblock In {\em 2023 5th International Conference on Power and Energy
+  Technology (ICPET)}. IEEE, 2023.
+\newblock AMPC with UKF for real-time parameter estimation in low-inertia
+  microgrids.
+
+\bibitem{tang2021}
+Yufei Tang, Junbo Zhao, and Daniel~J Hill.
+\newblock Reinforcement learning for optimal frequency control: A lyapunov
+  approach.
+\newblock {\em IEEE Transactions on Power Systems}, 36(2):1570--1582, 2021.
+
+\bibitem{zhang2018}
+Wei Zhang, Akbar Maleki, Marc~A Rosen, and Jiangjiang Liu.
+\newblock Optimization with a simulated annealing algorithm of a hybrid system
+  for renewable energy including battery and hydrogen storage.
+\newblock {\em Energy}, 163:191--207, 2018.
+
+\bibitem{chen2021}
+Yufei Chen, Jianshi Tang, and Randy~H Katz.
+\newblock Privacy-preserving federated learning for smart grid security.
+\newblock {\em IEEE Internet of Things Journal}, 8(12):9469--9481, 2021.
+
+\bibitem{nguyen2022}
+Dinh~Hoa Nguyen, Shinya Yoshizawa, Yasuhiro Hayashi, and Koji Yamashita.
+\newblock Privacy-preserving distributed optimal power flow using partial
+  homomorphic encryption.
+\newblock {\em IEEE Transactions on Smart Grid}, 13(4):2869--2880, 2022.
+
+\bibitem{nesic2004}
+Dragan Nesic and Andrew~R Teel.
+\newblock Input-to-state stability of networked control systems.
+\newblock {\em Automatica}, 40(12):2121--2128, 2004.
+
+\bibitem{fridman2014}
+Emilia Fridman.
+\newblock {\em Introduction to Time-Delay Systems: Analysis and Control}.
+\newblock Birkhäuser, 2014.
+
+\bibitem{dorfler2013}
+Florian Dörfler and Francesco Bullo.
+\newblock Kron reduction of graphs with applications to electrical networks.
+\newblock {\em IEEE Transactions on Circuits and Systems I: Regular Papers},
+  60(1):150–163, 2013.
+
+\bibitem{anderson2021}
+Kelsey Anderson, Pengwei Du, Wesley Sieber, and Julia Mayernik.
+\newblock Microgrid cost and performance database.
+\newblock Technical Report NREL/TP-7A40-79739, National Renewable Energy
+  Laboratory (NREL), 2021.
+
+\bibitem{anderson2019}
+Kelsey Anderson, Pengwei Du, Molly Whitson, and Wesley Sieber.
+\newblock Energy storage for commercial renewable integration: Market overview
+  and battery degradation modeling.
+\newblock Technical Report NREL/TP-5400-74426, National Renewable Energy
+  Laboratory (NREL), Golden, CO, 2019.
 
 \bibitem{ames2017}
 Aaron~D Ames, Xiangru Xu, Jessy~W Grizzle, and Paulo Tabuada.
@@ -62,37 +154,11 @@ Aaron~D Ames, Xiangru Xu, Jessy~W Grizzle, and Paulo Tabuada.
   3420--3431, 2017.
 \newblock Control barrier functions for safety enforcement.
 
-\bibitem{bevrani2021}
-Hassan Bevrani, Hêmin Golpîra, Arturo~Roman Messina, Nikos Hatziargyriou,
-  Federico Milano, and Toshifumi Ise.
-\newblock Intelligent frequency control in an ac microgrid: Online pso-based
-  fuzzy tuning approach.
-\newblock {\em IEEE Transactions on Smart Grid}, 3(4):1935--1944, 2012.
-
-\bibitem{li2023}
-Zhengshuo Li, Mohammad Shahidehpour, Farrokh Aminifar, Abdullah Alabdulwahab,
-  and Yusuf Al-Turki.
-\newblock Distributed model predictive control for load frequency control with
-  dynamic demand response.
-\newblock {\em IEEE Transactions on Smart Grid}, 10(6):6018--6028, 2019.
-
 \bibitem{lai2023}
 Jinshan Lai, Xiaonan Lu, Xinghuo Yu, and Antonello Monti.
 \newblock Multi-objective optimal power flow with stochastic wind and solar
   power.
 \newblock {\em IEEE Transactions on Power Systems}, 37(3):1866--1879, 2022.
-
-\bibitem{zhang2024}
-Wei Zhang, Akbar Maleki, Marc~A Rosen, and Jiangjiang Liu.
-\newblock Data-driven optimal energy management for a
-  wind-solar-diesel-battery-reverse osmosis hybrid energy system using a deep
-  reinforcement learning approach.
-\newblock {\em Energy Conversion and Management}, 258:115540, 2022.
-
-\bibitem{emad2024}
-Abhishek Kantamneni, Laura~E Brown, Gordon Parker, and Wayne~W Weaver.
-\newblock Multi-agent systems for microgrids: A survey.
-\newblock {\em IEEE Transactions on Power Systems}, 30(1):24--34, 2015.
 
 \bibitem{chen2024}
 Yufei Chen, Zheng Qin, Dawn Song, and Randy~H Katz.
@@ -100,10 +166,12 @@ Yufei Chen, Zheng Qin, Dawn Song, and Randy~H Katz.
   in collaborative learning.
 \newblock {\em Applied Energy}, 231:1089--1101, 2018.
 
-\bibitem{wang2025}
-Xiaoming Wang, Frede Blaabjerg, Marco Liserre, Zhe Chen, Jinwei He, and Yun Li.
-\newblock Distributed control and optimization in dc microgrids.
-\newblock {\em IEEE Transactions on Power Electronics}, 33(1):373--385, 2018.
+\bibitem{bevrani2021}
+Hassan Bevrani, Hêmin Golpîra, Arturo~Roman Messina, Nikos Hatziargyriou,
+  Federico Milano, and Toshifumi Ise.
+\newblock Intelligent frequency control in an ac microgrid: Online pso-based
+  fuzzy tuning approach.
+\newblock {\em IEEE Transactions on Smart Grid}, 3(4):1935--1944, 2012.
 
 \bibitem{our2024comparative}
 Florian Dörfler and Francesco Bullo.
