@@ -62,7 +62,7 @@ The microgrid control challenge begins with a fundamental paradox identified by 
 
 Early approaches focused on autonomous operation through droop control ($\Delta P = -m_p \cdot \Delta f$, $\Delta Q = -m_q \cdot \Delta V$), eliminating coordination requirements entirely. However, Guerrero et al.'s influential 2011 work \cite{guerrero2011} demonstrated that uncoordinated inverters create destructive oscillations as renewable penetration increases, while providing no synthetic inertia for low-inertia stability. Hierarchical control emerged as the dominant paradigm through Palizban et al.'s seminal contributions in 2014-2015 \cite{palizban2014,palizban2015}, organizing objectives into primary (millisecond stabilization), secondary (second-scale restoration), and tertiary (minute-scale optimization) layers. Though elegant in principle, hierarchical approaches fail catastrophically when communication delays exceed 50-100ms, causing temporal layer separation to collapse and secondary commands to conflict with primary responses.
 
-\textbf{Advanced Methods and Persistent Limitations}
+
 
 As system inertia declined, Virtual Synchronous Machines emerged to provide synthetic inertia through emulation of synchronous generator dynamics, including the critical inertia term $2H/\omega_0 \cdot d\Delta\omega/dt$. Bevrani et al.'s foundational work \cite{bevrani2014} demonstrated improved frequency response, but revealed an inescapable trade-off: increasing virtual inertia $H$ improves stability while degrading dynamic response and creating communication delay vulnerability. When network latencies exceed 100ms, VSM feedback loops destabilize catastrophically.
 
@@ -70,7 +70,6 @@ Model Predictive Control offered sophisticated constraint handling through optim
 
 Distributed approaches addressed coordination while preserving autonomy, with Chen et al. \cite{chen2021} and Nguyen et al. \cite{nguyen2022} demonstrating privacy-preserving coordination through federated learning and homomorphic encryption. However, security mechanisms introduce computational overhead and communication complexity that stress embedded systems beyond practical limits.
 
-\textbf{The Theoretical Foundation and Current Crisis}
 
 Parallel to practical developments, theoreticians established crucial mathematical foundations. Nesic and Teel's 2004 work \cite{nesic2004} on input-to-state stability provided analytical frameworks for networked control systems, while Fridman's 2014 comprehensive treatment \cite{fridman2014} introduced Linear Matrix Inequality approaches for delay-dependent stability analysis. Dörfler and Bullo's graph-theoretic contributions \cite{dorfler2013} enabled tractable analysis of large-scale networks. However, these analytical tools could analyze existing systems but couldn't synthesize new controllers achieving performance, robustness, and computational feasibility simultaneously.
 
