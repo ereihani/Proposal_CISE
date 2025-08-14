@@ -103,8 +103,6 @@ Our vendor-agnostic bump-in-the-wire (BITW) controller fundamentally transforms 
 
 \textbf{What It Tries to Do:} The controller solves the fundamental coordination-communication paradox that has plagued microgrid control for over a decade: achieving system-wide coordination among distributed grid-forming inverters while maintaining stability despite realistic network conditions that routinely exceed the tolerance limits of conventional methods. Four synergistic contributions create unprecedented cyber-physical capability: (1) Physics-Informed Neural ODEs embedding power dynamics into learning; (2) Multi-Agent Reinforcement Learning with consensus guarantees; (3) Graph Neural Network-accelerated optimization; (4) Control Barrier Function safety enforcement.
 
-\textbf{How We Do It - Mathematical Framework:} The unified approach operates through three synergistic mathematical components:
-
 \textbf{Component 1: Physics-Informed Neural ODE Control}
 The core innovation embeds power system physics directly into neural network architectures through the unified learning objective:
 $$\mathcal{L} = \mathcal{L}_{RL} + \lambda \mathcal{L}_{physics} + \mu \mathcal{L}_{consensus}$$
