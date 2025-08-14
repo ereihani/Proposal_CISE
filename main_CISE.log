@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  14 AUG 2025 12:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  14 AUG 2025 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,7 +351,7 @@ Overfull \hbox (7.61072pt too wide) in paragraph at lines 155--156
 t mi-cro-grid fre-quency and volt-age re-main bounded
  []
 
-[11] [12] [13]
+[11] [12] [13] [14]
 Overfull \hbox (0.58368pt too wide) in paragraph at lines 241--242
 \OT1/cmr/m/n/12 poli-cies us-ing fed-er-ated learn-ing across sites with uni-fi
 ed loss $\OMS/cmsy/m/n/12 L \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 L[] \OT1/cmr/m/n
@@ -359,7 +359,7 @@ ed loss $\OMS/cmsy/m/n/12 L \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 L[] \OT1/cmr/m/n
 12 ^^V\OMS/cmsy/m/n/12 L[]$\OT1/cmr/m/n/12 ,
  []
 
-[14] [15] [16]
+[15] [16]
 Overfull \hbox (14.29349pt too wide) in paragraph at lines 253--254
 []\OT1/cmr/bx/n/12 Year 4 - Com-pre-hen-sive Val-i-da-tion and Pro-fes-sional T
 ran-si-tion Sup-port (Months
@@ -1193,7 +1193,7 @@ live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
 rm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main_CISE.pdf (39 pages, 403124 bytes).
+Output written on main_CISE.pdf (39 pages, 403479 bytes).
 PDF statistics:
  352 PDF objects out of 1000 (max. 8388607)
  160 compressed objects within 2 object streams
