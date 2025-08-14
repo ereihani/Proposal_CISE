@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  14 AUG 2025 12:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  14 AUG 2025 14:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -358,814 +358,854 @@ Overfull \hbox (14.29349pt too wide) in paragraph at lines 161--162
 ran-si-tion Sup-port (Months
  []
 
-[12]
-Overfull \hbox (8.46501pt too wide) in paragraph at lines 175--176
+[12] [13] [14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+[]\OT1/cmr/m/n/10 Communication
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--209
+[]\OT1/cmr/m/n/10 Convergence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--214
+[]\OT1/cmr/m/n/10 N-2 Con-tin-
+ []
+
+[16]
+Overfull \hbox (8.46501pt too wide) in paragraph at lines 233--234
 []\OT1/cmr/m/n/12 This eco-nomic trans-for-ma-tion cre-ates un-prece-dented op-
 por-tu-ni-ties for resource-constrained
  []
 
-[13] [14] [15] [16]
-Overfull \hbox (6.00975pt too wide) in paragraph at lines 219--219
+[17] [18]
+! Undefined control sequence.
+l.249 ...forts. The safety framework ensures \less
+                                                   2 violations/hour even un...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[19] [20]
+Overfull \hbox (6.00975pt too wide) in paragraph at lines 277--277
 []\OT1/cmr/bx/n/6 Quarter| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 []\OT1/cmr/bx/n/6 Acceptance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
 []\OT1/cmr/bx/n/6 Success
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 []\OT1/cmr/bx/n/6 Contingency
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
 []\OT1/cmr/m/n/6 PINODE Im-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
 []\OT1/cmr/m/n/6 TRL 4 $\OMS/cmsy/m/n/6 !$
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 221--221
+Underfull \hbox (badness 1852) in paragraph at lines 279--279
 []$\OMS/cmsy/m/n/6 ^^U$\OT1/cmr/m/n/6 95% ac-
  []
 
 
-Underfull \hbox (badness 7099) in paragraph at lines 221--221
+Underfull \hbox (badness 7099) in paragraph at lines 279--279
 []\OT1/cmr/bx/n/6 PI: \OT1/cmr/m/n/6 Al-go-rithm de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
 \OT1/cmr/m/n/6 sign, val-i-da-tion;
  []
 
 
-Underfull \hbox (badness 7558) in paragraph at lines 221--221
+Underfull \hbox (badness 7558) in paragraph at lines 279--279
 \OT1/cmr/bx/n/6 UG1: \OT1/cmr/m/n/6 Data pre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 279--279
 \OT1/cmr/m/n/6 pro-cess-ing; \OT1/cmr/bx/n/6 UG2:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
 []\OT1/cmr/m/n/6 4/4 in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
 \OT1/cmr/m/n/6 verter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
 []\OT1/cmr/bx/n/6 PI: \OT1/cmr/m/n/6 Op-ti-miza-tion
  []
 
 
-Underfull \hbox (badness 4378) in paragraph at lines 223--223
+Underfull \hbox (badness 4378) in paragraph at lines 281--281
 \OT1/cmr/m/n/6 fil-ing tools; \OT1/cmr/bx/n/6 UG2:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--223
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
 \OT1/cmr/m/n/6 Hard-ware test-ing;
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 223--223
+Underfull \hbox (badness 1472) in paragraph at lines 281--281
 \OT1/cmr/bx/n/6 UG3: \OT1/cmr/m/n/6 Per-for-mance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 []\OT1/cmr/m/n/6 Reduce fea-tures
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 []\OT1/cmr/m/n/6 Multi-Agent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 []\OT1/cmr/m/n/6 Consensus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 \OT1/cmr/m/n/6 con-ver-gence
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 []$\OML/cmm/m/it/6 <$\OT1/cmr/m/n/6 0.01
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 \OT1/cmr/m/n/6 resid-ual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 []\OT1/cmr/bx/n/6 PI: \OT1/cmr/m/n/6 Math-e-mat-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 \OT1/cmr/m/n/6 u-la-tion frame-work;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 \OT1/cmr/bx/n/6 UG2: \OT1/cmr/m/n/6 Con-sen-sus
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
+Underfull \hbox (badness 10000) in paragraph at lines 283--283
 \OT1/cmr/m/n/6 al-go-rithms; \OT1/cmr/bx/n/6 UG3:
  []
 
 
-Underfull \hbox (badness 6032) in paragraph at lines 225--226
+Underfull \hbox (badness 6032) in paragraph at lines 283--284
 []\OT1/cmr/m/n/6 Implement hi-er-ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 \OT1/cmr/m/n/6 chi-cal de-com-po-si-
  []
 
 
-Underfull \hbox (badness 2865) in paragraph at lines 227--227
+Underfull \hbox (badness 2865) in paragraph at lines 285--285
 []\OT1/cmr/bx/n/6 M1: MARL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 []$\OMS/cmsy/m/n/6 ^^U$\OT1/cmr/m/n/6 15% im-
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 227--227
+Underfull \hbox (badness 1917) in paragraph at lines 285--285
 \OT1/cmr/m/n/6 prove-ment 3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 []\OT1/cmr/m/n/6 3/3
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 \OT1/cmr/m/n/6 archetype
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 []\OT1/cmr/bx/n/6 PI: \OT1/cmr/m/n/6 MARL ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 \OT1/cmr/m/n/6 chi-tec-ture; \OT1/cmr/bx/n/6 UG1:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 \OT1/cmr/m/n/6 Cam-pus archetype;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 \OT1/cmr/bx/n/6 UG2: \OT1/cmr/m/n/6 In-dus-trial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--227
+Underfull \hbox (badness 10000) in paragraph at lines 285--285
 \OT1/cmr/m/n/6 archetype; \OT1/cmr/bx/n/6 UG3:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 []\OT1/cmr/m/n/6 Model reg-u-lar-izer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 \OML/cmm/m/it/6 R\OT1/cmr/m/n/6 (\OML/cmm/m/it/6 x\OT1/cmr/m/n/6 )$ + ex-tend
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 []\OT1/cmr/bx/n/6 M3: De-lay
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 \OT1/cmr/m/n/6 Hz, V
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 []\OT1/cmr/bx/n/6 PI: \OT1/cmr/m/n/6 Con-trol the-
  []
 
 
-Underfull \hbox (badness 5954) in paragraph at lines 229--229
+Underfull \hbox (badness 5954) in paragraph at lines 287--287
 \OT1/cmr/m/n/6 ory de-sign; \OT1/cmr/bx/n/6 UG1:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--229
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
 \OT1/cmr/m/n/6 Net-work em-u-la-tion;
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 229--229
+Underfull \hbox (badness 2547) in paragraph at lines 287--287
 \OT1/cmr/bx/n/6 UG2: \OT1/cmr/m/n/6 Packet loss
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 231--231
+Underfull \hbox (badness 1509) in paragraph at lines 289--289
 []\OT1/cmr/m/n/6 30% ADMM
  []
 
 
-Underfull \hbox (badness 7238) in paragraph at lines 231--231
+Underfull \hbox (badness 7238) in paragraph at lines 289--289
 []$\OMS/cmsy/m/n/6 ^^T$\OT1/cmr/m/n/6 20 it-er-
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 231--231
+Underfull \hbox (badness 2529) in paragraph at lines 289--289
 \OT1/cmr/m/n/6 a-tions vs.
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 231--231
+Underfull \hbox (badness 4205) in paragraph at lines 289--289
 []\OT1/cmr/bx/n/6 PI: \OT1/cmr/m/n/6 GNN ar-chi-tec-
  []
 
 
-Underfull \hbox (badness 1867) in paragraph at lines 231--231
+Underfull \hbox (badness 1867) in paragraph at lines 289--289
 \OT1/cmr/m/n/6 con-struc-tion; \OT1/cmr/bx/n/6 UG2:
  []
 
 
-Underfull \hbox (badness 6268) in paragraph at lines 231--231
+Underfull \hbox (badness 6268) in paragraph at lines 289--289
 \OT1/cmr/m/n/6 ADMM in-te-gra-tion;
  []
 
 
-Underfull \hbox (badness 1383) in paragraph at lines 231--231
+Underfull \hbox (badness 1383) in paragraph at lines 289--289
 \OT1/cmr/bx/n/6 UG3: \OT1/cmr/m/n/6 Con-ver-gence
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 []\OT1/cmr/m/n/6 Warm-start with
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
 \OT1/cmr/m/n/6 lin-ear ap-prox-i-ma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
 []\OT1/cmr/m/n/6 Cross-Site
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
 []\OT1/cmr/m/n/6 Transfer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
 []\OT1/cmr/m/n/6 Initial
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
 \OT1/cmr/m/n/6 20%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 291--291
 \OT1/cmr/m/n/6 degra-da-
  []
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 233--233
+Underfull \hbox (badness 1655) in paragraph at lines 291--291
 []\OT1/cmr/bx/n/6 PI: \OT1/cmr/m/n/6 Trans-fer pro-to-
  []
 
 
-Underfull \hbox (badness 6978) in paragraph at lines 233--233
+Underfull \hbox (badness 6978) in paragraph at lines 291--291
 \OT1/cmr/m/n/6 cols; \OT1/cmr/bx/n/6 UG1: \OT1/cmr/m/n/6 Site
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 233--233
+Underfull \hbox (badness 2556) in paragraph at lines 291--291
 \OT1/cmr/m/n/6 Site B de-ploy-ment;
  []
 
 
-Underfull \hbox (badness 1472) in paragraph at lines 233--233
+Underfull \hbox (badness 1472) in paragraph at lines 291--291
 \OT1/cmr/bx/n/6 UG3: \OT1/cmr/m/n/6 Per-for-mance
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 233--234
+Underfull \hbox (badness 1648) in paragraph at lines 291--292
 []\OT1/cmr/m/n/6 Extend to 15 FL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 []\OT1/cmr/m/n/6 Cybersecurity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 \OT1/cmr/m/n/6 pen-e-tra-tion
  []
 
 
-Underfull \hbox (badness 3525) in paragraph at lines 235--235
+Underfull \hbox (badness 3525) in paragraph at lines 293--293
 \OT1/cmr/m/n/6 team sce-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 []\OT1/cmr/bx/n/6 PI: \OT1/cmr/m/n/6 Se-cu-rity ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 \OT1/cmr/m/n/6 chi-tec-ture; \OT1/cmr/bx/n/6 UG1:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 \OT1/cmr/m/n/6 Threat mod-el-ing;
  []
 
 
-Underfull \hbox (badness 4403) in paragraph at lines 235--235
+Underfull \hbox (badness 4403) in paragraph at lines 293--293
 \OT1/cmr/bx/n/6 UG2: \OT1/cmr/m/n/6 Pen-e-tra-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 []\OT1/cmr/m/n/6 Implement ad-di-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 []\OT1/cmr/m/n/6 100 nodes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 \OT1/cmr/m/n/6 + cross-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 []$\OMS/cmsy/m/n/6 ^^T$\OT1/cmr/m/n/6 5%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 \OT1/cmr/m/n/6 scale,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--237
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
 \OMS/cmsy/m/n/6 ^^T$\OT1/cmr/m/n/6 20%
  []
 
 
-Underfull \hbox (badness 5203) in paragraph at lines 237--237
+Underfull \hbox (badness 5203) in paragraph at lines 295--295
 []\OT1/cmr/bx/n/6 PI: \OT1/cmr/m/n/6 Scal-a-bil-ity de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 []\OT1/cmr/m/n/6 Hierarchical clus-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 []\OT1/cmr/m/n/6 Simulation-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 \OT1/cmr/m/n/6 Based Val-i-da-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 []\OT1/cmr/m/n/6 Multi-site
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 \OT1/cmr/m/n/6 sim-u-la-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 []$\OML/cmm/m/it/6 >$\OT1/cmr/m/n/6 99%
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 \OT1/cmr/m/n/6 sim-u-la-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 \OT1/cmr/m/n/6 ac-cu-racy
  []
 
 
-Underfull \hbox (badness 4492) in paragraph at lines 239--239
+Underfull \hbox (badness 4492) in paragraph at lines 297--297
 []\OT1/cmr/bx/n/6 PI: \OT1/cmr/m/n/6 Sim-u-la-tion co-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 \OT1/cmr/m/n/6 or-di-na-tion; \OT1/cmr/bx/n/6 UG1:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 \OT1/cmr/m/n/6 Cam-pus archetype
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 \OT1/cmr/m/n/6 sim-u-la-tion; \OT1/cmr/bx/n/6 UG2:
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 239--239
+Underfull \hbox (badness 2285) in paragraph at lines 297--297
 \OT1/cmr/m/n/6 In-dus-trial archetype
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 \OT1/cmr/m/n/6 sim-u-la-tion; \OT1/cmr/bx/n/6 UG3:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--239
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 \OT1/cmr/m/n/6 Per-for-mance mon-i-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 []\OT1/cmr/m/n/6 Focus on single-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
 []\OT1/cmr/m/n/6 Technology
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
 []\OT1/cmr/m/n/6 Open-source
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
 \OT1/cmr/m/n/6 re-lease +
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
 []\OT1/cmr/m/n/6 5+ in-sti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
 \OT1/cmr/m/n/6 tu-tional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
 []\OT1/cmr/bx/n/6 PI: \OT1/cmr/m/n/6 In-dus-try out-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
 \OT1/cmr/m/n/6 pack-ag-ing; \OT1/cmr/bx/n/6 UG2:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--241
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
 \OT1/cmr/m/n/6 Doc-u-men-ta-tion;
  []
 
 
-Underfull \hbox (badness 6412) in paragraph at lines 241--242
+Underfull \hbox (badness 6412) in paragraph at lines 299--300
 []\OT1/cmr/m/n/6 Target 3+ adop-
  []
 
-[17] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
 []\OT1/cmr/bx/n/10 Cost Com-po-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
 []\OT1/cmr/bx/n/10 Our Ap-
  []
 
 
-Overfull \hbox (3.20923pt too wide) in paragraph at lines 253--253
+Overfull \hbox (3.20923pt too wide) in paragraph at lines 311--311
 []\OT1/cmr/bx/n/10 Conventional| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--253
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
 []\OT1/cmr/bx/n/10 Worst
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--256
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
 []\OT1/cmr/m/n/10 Cloud Train-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--257
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
 []\OT1/cmr/m/n/10 Edge Hard-ware
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--258
+Underfull \hbox (badness 10000) in paragraph at lines 316--316
 []\OT1/cmr/m/n/10 Security/Pen
  []
 
-[19] [20]
-Overfull \hbox (1.83731pt too wide) in paragraph at lines 291--292
+[22] [23]
+Overfull \hbox (1.83731pt too wide) in paragraph at lines 349--350
 []\OT1/cmr/m/n/12 Each mile-stone in-cor-po-rates quan-ti-fied suc-cess met-ric
 s with pre-de-ter-mined fall-back strate-
  []
 
-[21] [22] [23] [24] [25]
-Overfull \hbox (69.27553pt too wide) in paragraph at lines 357--358
+[24] [25] [26] [27] [28] [29]
+Overfull \hbox (69.27553pt too wide) in paragraph at lines 415--416
 []\OT1/cmr/bx/n/12 Representativeness Cri-te-ria & Sam-pling Plan: \OT1/cmr/m/n
 /12 Load di-ver-sity (res-i-den-tial/commercial/industrial
  []
 
-[26] [27]
-Overfull \hbox (17.18443pt too wide) in paragraph at lines 382--382
+[30] [31] [32]
+Underfull \hbox (badness 10000) in paragraph at lines 465--465
+[]\OT1/cmr/m/n/10 Communication
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 466--466
+[]\OT1/cmr/m/n/10 Convergence
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\OT1/cmr/m/n/10 N-2 Con-tin-
+ []
+
+[33] [34]
+Overfull \hbox (17.18443pt too wide) in paragraph at lines 498--498
 []\OT1/cmr/bx/n/10 Responsible| 
  []
 
 
-Overfull \hbox (19.3622pt too wide) in paragraph at lines 382--382
+Overfull \hbox (19.3622pt too wide) in paragraph at lines 498--498
 []\OT1/cmr/bx/n/10 Accountable| 
  []
 
 
-Overfull \hbox (8.01643pt too wide) in paragraph at lines 382--382
+Overfull \hbox (8.01643pt too wide) in paragraph at lines 498--498
 []\OT1/cmr/bx/n/10 Consulted| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--385
+Underfull \hbox (badness 10000) in paragraph at lines 500--501
 []\OT1/cmr/m/n/10 Advisory
  []
 
 
-Underfull \hbox (badness 6792) in paragraph at lines 385--385
+Underfull \hbox (badness 6792) in paragraph at lines 501--501
 []\OT1/cmr/m/n/10 MARL Frame-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
 []\OT1/cmr/m/n/10 Field De-ploy-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
 []\OT1/cmr/m/n/10 Industry
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--388
+Underfull \hbox (badness 10000) in paragraph at lines 504--504
 []\OT1/cmr/m/n/10 Security
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--389
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
 []\OT1/cmr/m/n/10 Advisory
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 519--519
 []\OT1/cmr/bx/n/10 Detection
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--405
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
 []\OT1/cmr/m/n/10 >5% ac-cu-racy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--405
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
 \OT1/cmr/m/n/10 drop over 30
  []
 
 
-Underfull \hbox (badness 7203) in paragraph at lines 405--406
+Underfull \hbox (badness 7203) in paragraph at lines 521--522
 []\OT1/cmr/m/n/10 Automated re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
+Underfull \hbox (badness 10000) in paragraph at lines 522--522
 []\OT1/cmr/m/n/10 Protocol
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--406
+Underfull \hbox (badness 10000) in paragraph at lines 522--522
 []\OT1/cmr/m/n/10 Industry stan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
 []\OT1/cmr/m/n/10 Modular com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
 \OT1/cmr/m/n/10 mu-ni-ca-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
 []\OT1/cmr/m/n/10 Supply
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--407
+Underfull \hbox (badness 10000) in paragraph at lines 523--523
 \OT1/cmr/m/n/10 Chain De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 407--408
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
 []\OT1/cmr/m/n/10 Pre-purchase
  []
 
 
-Underfull \hbox (badness 4266) in paragraph at lines 407--408
+Underfull \hbox (badness 4266) in paragraph at lines 523--524
 \OT1/cmr/m/n/10 crit-i-cal com-po-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--408
+Underfull \hbox (badness 10000) in paragraph at lines 524--524
 []\OT1/cmr/m/n/10 Student
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--409
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
 []\OT1/cmr/m/n/10 Cyber At-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--409
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
 []\OT1/cmr/m/n/10 SIEM alert
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--410
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
 []\OT1/cmr/m/n/10 Incident re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--410
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
 \OT1/cmr/m/n/10 sponse in <4
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 []\OT1/cmr/m/n/10 Hardware
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 []\OT1/cmr/m/n/10 End-of-life no-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--411
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 []\OT1/cmr/m/n/10 Hardware ab-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--411
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
 []\OT1/cmr/m/n/10 Regulatory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--412
+Underfull \hbox (badness 10000) in paragraph at lines 527--528
 []\OT1/cmr/m/n/10 Standards
  []
 
 
-Underfull \hbox (badness 1881) in paragraph at lines 411--412
+Underfull \hbox (badness 1881) in paragraph at lines 527--528
 \OT1/cmr/m/n/10 com-mit-tee par-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--412
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
 []\OT1/cmr/m/n/10 Partner
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--412
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
 []\OT1/cmr/m/n/10 Contract non-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--413
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
 []\OT1/cmr/m/n/10 Funding
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--413
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
 []\OT1/cmr/m/n/10 20% bud-get
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
 []\OT1/cmr/m/n/10 Milestone-gated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--414
+Underfull \hbox (badness 10000) in paragraph at lines 530--530
 []\OT1/cmr/m/n/10 Intellectual
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
 []\OT1/cmr/m/n/10 Freedom-to-
  []
 
-[28] [29]
-Overfull \hbox (9.5328pt too wide) in paragraph at lines 427--427
+[36]
+Overfull \hbox (9.5328pt too wide) in paragraph at lines 543--543
 |[]\OT1/cmr/bx/n/14.4 Conclusion: Trans-for-ma-tional Im-pact for Amer-i-can En
 -ergy Lead-
  []
 
-[30]
-Overfull \hbox (20.21489pt too wide) in paragraph at lines 443--444
+[37] [38]
+Overfull \hbox (20.21489pt too wide) in paragraph at lines 559--560
 []\OT1/cmr/m/n/12 This ini-tia-tive rep-re-sents tech-no-log-i-cal ad-vance-men
 t that cre-ates op-por-tu-ni-ties for widespread
  []
 
 
-Overfull \hbox (2.17677pt too wide) in paragraph at lines 445--447
+Overfull \hbox (2.17677pt too wide) in paragraph at lines 561--563
 []\OT1/cmr/bx/n/12 Standardized Met-rics & Sym-bols (Con-sis-tent Through-out):
  Per-for-mance Met-
  []
 
-[31] (./main_CISE.bbl [32] [33]
+(./main_CISE.bbl [39] [40]
 Underfull \hbox (badness 1472) in paragraph at lines 112--115
 []\OT1/cmr/m/n/12 Emilia Frid-man.  \OT1/cmr/m/it/12 In-tro-duc-tion to Time-De
 lay Sys-tems: Anal-y-sis and Con-trol\OT1/cmr/m/n/12 .
  []
 
-[34]) [35] (./main_CISE.aux)
+[41]) [42] (./main_CISE.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4770 strings out of 474222
- 69540 string characters out of 5748734
+ 4773 strings out of 474222
+ 69593 string characters out of 5748734
  1951975 words of memory out of 5000000
- 26967 multiletter control sequences out of 15000+600000
+ 26970 multiletter control sequences out of 15000+600000
  569456 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,10n,65p,1993b,295s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1173,23 +1213,25 @@ Here is how much of TeX's memory you used:
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-rm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main_CISE.pdf (35 pages, 386273 bytes).
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main_CISE.pdf (42 pages, 425724 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 371 PDF objects out of 1000 (max. 8388607)
+ 172 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
