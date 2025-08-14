@@ -4,45 +4,45 @@ The top-level auxiliary file: main_CISE.aux
 The style file: unsrt.bst
 Database file #1: references.bib
 Warning--empty journal in our2024experimental
-You've used 30 entries,
+You've used 17 entries,
             1791 wiz_defined-function locations,
-            615 strings with 9191 characters,
-and the built_in function-call counts, 7297 in all, are:
-= -- 636
-> -- 386
+            551 strings with 7254 characters,
+and the built_in function-call counts, 4151 in all, are:
+= -- 369
+> -- 235
 < -- 6
-+ -- 139
-- -- 109
-* -- 568
-:= -- 1213
-add.period$ -- 96
-call.type$ -- 30
-change.case$ -- 28
++ -- 84
+- -- 67
+* -- 322
+:= -- 707
+add.period$ -- 55
+call.type$ -- 17
+change.case$ -- 17
 chr.to.int$ -- 0
-cite$ -- 31
-duplicate$ -- 275
-empty$ -- 663
-format.name$ -- 109
-if$ -- 1581
+cite$ -- 18
+duplicate$ -- 153
+empty$ -- 348
+format.name$ -- 67
+if$ -- 879
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 27
-newline$ -- 158
-num.names$ -- 30
-pop$ -- 50
+int.to.str$ -- 17
+missing$ -- 12
+newline$ -- 92
+num.names$ -- 17
+pop$ -- 21
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 95
+skip$ -- 56
 stack$ -- 0
-substring$ -- 553
-swap$ -- 41
+substring$ -- 301
+swap$ -- 27
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 62
-width$ -- 32
-write$ -- 341
+while$ -- 39
+width$ -- 19
+write$ -- 198
 (There was 1 warning)
