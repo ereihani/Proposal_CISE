@@ -44,8 +44,8 @@ def create_improved_figure3():
     }
     
     # Layer dimensions
-    layer_height = 0.8
-    layer_y_positions = [2.4, 1.4, 0.4]
+    layer_height = 0.7
+    layer_y_positions = [2.6, 1.5, 0.4]
     layer_width = 9.2
     
     # Cloud Layer (Top)
@@ -152,8 +152,8 @@ def create_improved_figure3():
     # Enhanced arrows with gradient effect
     arrow_x = 5.0
     for i in range(2):
-        arrow = FancyArrowPatch((arrow_x, layer_y_positions[i] - 0.02),
-                               (arrow_x, layer_y_positions[i+1] + layer_height + 0.02),
+        arrow = FancyArrowPatch((arrow_x, layer_y_positions[i] - 0.05),
+                               (arrow_x, layer_y_positions[i+1] + layer_height + 0.05),
                                connectionstyle="arc3,rad=0", 
                                arrowstyle='->', 
                                mutation_scale=20,
@@ -174,7 +174,7 @@ def create_improved_figure3():
             color=colors['text_light'], weight='bold')
     
     # Add performance indicators
-    perf_y = 3.3
+    perf_y = 3.4
     ax.text(1.5, perf_y, '↑ 82% Cost Reduction', fontsize=7, 
             color=colors['mas_border'], weight='bold')
     ax.text(4.0, perf_y, '↑ 30% Faster Convergence', fontsize=7, 
