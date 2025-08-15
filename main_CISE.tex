@@ -170,6 +170,13 @@ $h_{freq} = (0.25)^2 - (\Delta f)^2$, $h_{volt} = (0.05)^2 - (V - 1)^2$, $h_{ang
 
 corresponding to $|\Delta f| \leq 0.25$ Hz, $|V - 1| \leq 5\%$, and $|\delta| \leq \pi/10$.
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=\textwidth]{figure6_safety_verification_REAL.pdf}
+\caption{Control Barrier Function Safety Verification: (a) System-wide barrier evolution (first 10 min): average $h_{freq}, h_{volt}, h_{angle}$ remain non-negative, confirming forward invariance; the N-2 event at 100 s is visible in the minute-scale time axis. (b) Safe operating region: representative agents' $(\Delta f, V)$ trajectories stay within the theoretical barrier boundaries (±0.25 Hz, ±5\%), with the "hard" operational limits plotted slightly inside for margin. (c) CBF control filtering (Agent 3): the CBF-QP modifies nominal active-power commands only when constraints are approached, implementing $u_{safe} = \arg\min_{u, \text{slack}} \|u - u_{nom}\|^2 + \gamma\|\text{slack}\|^2$ s.t. $\dot{h}(x, u) + \alpha h(x) \geq -\text{slack}$, and marking interventions around the N-2 instant. (d) System-wide frequency response (full 60 min): the min–max envelope across active agents and the system average are shown with the barrier limit (±0.25 Hz) and hard limit (±0.24 Hz); the N-2 occurs at $100/60$ minutes.}
+\label{fig:safety_verification_real}
+\end{figure}
+
 Figure 6 summarizes the safety verification. (a) System-wide barrier evolution (first 10 min): average $h_{freq}, h_{volt}, h_{angle}$ remain non-negative, confirming forward invariance; the N-2 event at 100 s is visible in the minute-scale time axis. (b) Safe operating region: representative agents' $(\Delta f, V)$ trajectories stay within the theoretical barrier boundaries (±0.25 Hz, ±5\%), with the "hard" operational limits plotted slightly inside for margin. (c) CBF control filtering (Agent 3): the CBF-QP modifies nominal active-power commands only when constraints are approached, implementing
 
 $u_{safe} = \arg\min_{u, \text{slack}} \|u - u_{nom}\|^2 + \gamma\|\text{slack}\|^2$ s.t. $\dot{h}(x, u) + \alpha h(x) \geq -\text{slack}$,
