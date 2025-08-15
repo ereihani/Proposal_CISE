@@ -76,7 +76,7 @@ def create_improved_figure3():
             'Multi-Agent RL Training', 
             fontsize=8, va='center', style='italic')
     
-    ax.text(8.0, layer_y_positions[0] + layer_height/2, 
+    ax.text(8.5, layer_y_positions[0] + layer_height/2, 
             'Federated\nAggregation', 
             fontsize=8, va='center', ha='center', color=colors['text_light'])
     
@@ -108,7 +108,7 @@ def create_improved_figure3():
             'Control Barrier Functions', 
             fontsize=8, va='center', style='italic')
     
-    ax.text(8.0, layer_y_positions[1] + layer_height/2, 
+    ax.text(8.5, layer_y_positions[1] + layer_height/2, 
             'Safety\nEnforcement', 
             fontsize=8, va='center', ha='center', color=colors['text_light'])
     
@@ -145,7 +145,7 @@ def create_improved_figure3():
             'Tertiary (min) • GNN-ADMM', 
             fontsize=8, va='center', style='italic')
     
-    ax.text(8.0, layer_y_positions[2] + layer_height/2, 
+    ax.text(8.5, layer_y_positions[2] + layer_height/2, 
             'Consensus\nOptimization', 
             fontsize=8, va='center', ha='center', color=colors['text_light'])
     
