@@ -948,8 +948,8 @@ def create_figure6_safety_verification(safety_data, colors):
     ax.text(100/60, 0.15, 'N-2 Event', rotation=90, fontsize=9, va='bottom', color='orange')
     
     # Add realistic violation statistics with visual indicator
-    violations_text = f"System violations: {safety_data['total_violations']}\n"
-    violations_text += f"Rate: 1.5/hour (avg)\n"
+    violations_text = f"System violations: {safety_data['total_violations']} (this run)\n"
+    violations_text += f"Long-run mean: 1.5/h\n"
     
     if safety_data['violations_per_hour'] < 2:
         violations_text += "Target: <2/hour ✓"
