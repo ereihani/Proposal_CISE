@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  15 AUG 2025 21:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  15 AUG 2025 21:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -341,43 +341,37 @@ n-sen-sus the-ory, PINNs, delay-dependent
  []
 
 [5] [6] [7]
-Overfull \hbox (3.09398pt too wide) in paragraph at lines 133--134
-\OT1/cmr/bx/n/12 bil-ity Guar-an-tees\OT1/cmr/m/n/12 : ISS mar-gins $\OML/cmm/m
-/it/12 ^^T\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^\\OT1/cmr/m/n/12 ) \OML/cmm/m/it/
-12 > \OT1/cmr/m/n/12 0$ for de-lays up to 150ms, ver-i-fied through Lyapunov-
- []
-
-
 Overfull \hbox (11.79564pt too wide) in paragraph at lines 141--142
 \OT1/cmr/m/n/12 con-trollers, in-clud-ing VSM/VSG im-ple-men-ta-tions, at-tempt
  to pro-vide syn-thetic in-er-tia through
  []
 
-[8] [9] [10]
+[8] [9] [10] [11]
 Overfull \hbox (14.29349pt too wide) in paragraph at lines 161--162
 []\OT1/cmr/bx/n/12 Year 4 - Com-pre-hen-sive Val-i-da-tion and Pro-fes-sional T
 ran-si-tion Sup-port (Months
  []
 
-[11]
+
 Overfull \hbox (5.98448pt too wide) in paragraph at lines 165--166
 \OT1/cmr/m/n/12 Our com-pre-hen-sive val-i-da-tion us-ing a 16-node low-inertia
  mi-cro-grid testbed with 70% inverter-
  []
 
 
-Overfull \hbox (13.30107pt too wide) in paragraph at lines 165--166
-\OT1/cmr/m/n/12 trollers at 50-100ms|through Lyapunov-guaranteed Input-to-State
- Sta-bil-ity where $\OML/cmm/m/it/12 ^^T\OT1/cmr/m/n/12 (150[]) =
+Overfull \hbox (17.87047pt too wide) in paragraph at lines 165--166
+\OT1/cmr/m/n/12 trollers at 50{100 ms|through Lyapunov-guaranteed Input-to-Stat
+e Sta-bil-ity where $\OML/cmm/m/it/12 ^^T\OT1/cmr/m/n/12 (150[]) =
  []
 
-<figure6_safety_verification_REAL.pdf, id=71, 715.19571pt x 570.18771pt>
+[12]
+<figure6_safety_verification_REAL.pdf, id=75, 715.19571pt x 570.18771pt>
 File: figure6_safety_verification_REAL.pdf Graphic file (type pdf)
 <use figure6_safety_verification_REAL.pdf>
 Package pdftex.def Info: figure6_safety_verification_REAL.pdf  used on input li
 ne 171.
 (pdftex.def)             Requested size: 469.75502pt x 374.50668pt.
-[12] [13 <./figure6_safety_verification_REAL.pdf>]
+ [13 <./figure6_safety_verification_REAL.pdf>]
 Overfull \hbox (8.46501pt too wide) in paragraph at lines 189--190
 []\OT1/cmr/m/n/12 This eco-nomic trans-for-ma-tion cre-ates un-prece-dented op-
 por-tu-ni-ties for resource-constrained
@@ -396,10 +390,10 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4761 strings out of 474222
- 69642 string characters out of 5748734
+ 4762 strings out of 474222
+ 69655 string characters out of 5748734
  1934975 words of memory out of 5000000
- 26964 multiletter control sequences out of 15000+600000
+ 26965 multiletter control sequences out of 15000+600000
  567516 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,6n,65p,1993b,239s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -413,11 +407,12 @@ type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
-12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main_CISE.pdf (20 pages, 362800 bytes).
+12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on main_CISE.pdf (20 pages, 368101 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+ 169 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
