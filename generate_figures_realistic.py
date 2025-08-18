@@ -560,8 +560,8 @@ def generate_validated_figure(safety_data: Dict, delay_ms: float = 150, packet_l
     
     # Add test conditions as subtitle
     test_conditions_text = (f'Test Conditions: Delay = {int(safety_data.get("delay_ms", 150))} ms (jitter 10–{int(safety_data.get("delay_ms", 150))} ms), '
-                           f'Packet Loss = {int(safety_data.get("packet_loss", 0.2)*100)}%, '
-                           f'Event Dwell = 200 ms, h_freq = 0.25 - (Δf)², dt = 0.1 s')
+                           f'Packet Loss = {int(safety_data.get("packet_loss", 0.2)*100)}% (Bernoulli i.i.d.), '
+                           f'Violation dwell = 200 ms, h_freq = 0.25 − (Δf)², Δt = 0.033 s (30 Hz)')
     
     plt.suptitle('Control Barrier Function Safety Verification - Realistic Simulation', 
                 fontsize=16, fontweight='bold')
