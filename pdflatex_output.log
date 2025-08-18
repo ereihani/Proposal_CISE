@@ -44,12 +44,104 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
+
+LaTeX Warning: Citation `katiraei2008' on page 1 undefined on input line 39.
+
+
+LaTeX Warning: Citation `hirsch2018' on page 1 undefined on input line 39.
+
+
+LaTeX Warning: Citation `sigrin2019' on page 1 undefined on input line 39.
+
+
+LaTeX Warning: Citation `baseline2023delay' on page 1 undefined on input line 4
+1.
+
+
 Overfull \hbox (9.44417pt too wide) in paragraph at lines 41--42
 []\OT1/cmr/m/n/12 This project de-vel-ops a vendor-agnostic bump-in-the-wire co
 n-troller that in-te-grates physics-
+
+LaTeX Warning: Citation `hirsch2018' on page 1 undefined on input line 43.
+
+
+LaTeX Warning: Citation `our2024economic' on page 1 undefined on input line 43.
+
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/en
-c/dvips/cm-super/cm-super-ts1.enc}] [2 <./figure3_system_architecture.pdf>]
-[3] [4]
+c/dvips/cm-super/cm-super-ts1.enc}]
+
+LaTeX Warning: Citation `our2024scalability' on page 2 undefined on input line 
+45.
+
+
+LaTeX Warning: Citation `hirsch2018' on page 2 undefined on input line 47.
+
+
+LaTeX Warning: Citation `sigrin2019' on page 2 undefined on input line 47.
+
+
+LaTeX Warning: Citation `our2024economic' on page 2 undefined on input line 47.
+
+
+
+LaTeX Warning: Citation `katiraei2008' on page 2 undefined on input line 59.
+
+[2 <./figure3_system_architecture.pdf>]
+
+LaTeX Warning: Citation `guerrero2011' on page 3 undefined on input line 61.
+
+
+LaTeX Warning: Citation `palizban2014' on page 3 undefined on input line 61.
+
+
+LaTeX Warning: Citation `palizban2015' on page 3 undefined on input line 61.
+
+
+LaTeX Warning: Citation `bevrani2014' on page 3 undefined on input line 63.
+
+
+LaTeX Warning: Citation `li2017' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `guo2021' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `tang2021' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation `chen2021' on page 3 undefined on input line 67.
+
+
+LaTeX Warning: Citation `nguyen2022' on page 3 undefined on input line 67.
+
+[3]
+
+LaTeX Warning: Citation `nesic2004' on page 4 undefined on input line 69.
+
+
+LaTeX Warning: Citation `fridman2014' on page 4 undefined on input line 69.
+
+
+LaTeX Warning: Citation `dorfler2013' on page 4 undefined on input line 69.
+
+
+LaTeX Warning: Citation `anderson2021' on page 4 undefined on input line 71.
+
+
+LaTeX Warning: Citation `anderson2019' on page 4 undefined on input line 71.
+
+
+LaTeX Warning: Citation `hirsch2018' on page 4 undefined on input line 71.
+
+
+LaTeX Warning: Citation `sigrin2019' on page 4 undefined on input line 73.
+
+[4]
+
+LaTeX Warning: Citation `ames2017' on page 5 undefined on input line 79.
+
+
 Overfull \hbox (2.21648pt too wide) in paragraph at lines 83--85
 []\OT1/cmr/m/n/12 The ac-cu-mu-lated knowledge---from droop con-trol's sim-plic
 -ity to ML's adapt-abil-ity, VSM's
@@ -57,11 +149,32 @@ Overfull \hbox (2.21648pt too wide) in paragraph at lines 83--85
 Overfull \hbox (12.06917pt too wide) in paragraph at lines 83--85
 \OT1/cmr/m/n/12 math-e-mat-i-cal tools ex-ist (Con-trol Bar-rier Func-tions, co
 n-sen-sus the-ory, PINNs, delay-dependent
-[5] [6] [7]
+[5]
+
+LaTeX Warning: Citation `lai2023' on page 6 undefined on input line 87.
+
+
+LaTeX Warning: Citation `chen2024' on page 6 undefined on input line 87.
+
+
+LaTeX Warning: Citation `bevrani2021' on page 6 undefined on input line 87.
+
+
+LaTeX Warning: Citation `palizban2014' on page 6 undefined on input line 87.
+
+
+LaTeX Warning: Citation `our2024comparative' on page 6 undefined on input line 
+87.
+
+[6] [7]
 Overfull \hbox (11.79564pt too wide) in paragraph at lines 132--133
 \OT1/cmr/m/n/12 con-trollers, in-clud-ing VSM/VSG im-ple-men-ta-tions, at-tempt
  to pro-vide syn-thetic in-er-tia through
-[8] [9] [10]
+[8]
+
+LaTeX Warning: Citation `fridman2014' on page 9 undefined on input line 138.
+
+[9] [10]
 Overfull \hbox (14.29349pt too wide) in paragraph at lines 150--151
 []\OT1/cmr/bx/n/12 Year 4 - Com-pre-hen-sive Val-i-da-tion and Pro-fes-sional T
 ran-si-tion Sup-port (Months
@@ -69,15 +182,59 @@ ran-si-tion Sup-port (Months
 Overfull \hbox (5.98448pt too wide) in paragraph at lines 154--155
 \OT1/cmr/m/n/12 Our com-pre-hen-sive val-i-da-tion us-ing a 16-node low-inertia
  mi-cro-grid testbed with 70% inverter-
+
+LaTeX Warning: Reference `fig:cbf_validation' on page 12 undefined on input lin
+e 156.
+
 [12] [13 <./figure6_safety_verification_REALISTIC.pdf>]
+
+LaTeX Warning: Citation `our2024economic' on page 14 undefined on input line 17
+1.
+
+
+LaTeX Warning: Citation `our2024economic' on page 14 undefined on input line 17
+1.
+
+
+LaTeX Warning: Citation `hirsch2018' on page 14 undefined on input line 175.
+
+
+LaTeX Warning: Citation `sigrin2019' on page 14 undefined on input line 175.
+
+
+LaTeX Warning: Citation `our2024economic' on page 14 undefined on input line 17
+5.
+
+
+LaTeX Warning: Citation `our2024economic' on page 14 undefined on input line 17
+7.
+
+
 Overfull \hbox (8.46501pt too wide) in paragraph at lines 177--178
 []\OT1/cmr/m/n/12 This eco-nomic trans-for-ma-tion cre-ates un-prece-dented op-
 por-tu-ni-ties for resource-constrained
-[14] [15] [16] (./main_CISE.bbl [17] [18]
+[14] [15]
+
+LaTeX Warning: Citation `baseline2023delay' on page 16 undefined on input line 
+191.
+
+[16]
+
+LaTeX Warning: Citation `our2024comparative' on page 17 undefined on input line
+ 201.
+
+(./main_CISE.bbl [17] [18]
 Underfull \hbox (badness 1472) in paragraph at lines 112--115
 []\OT1/cmr/m/n/12 Emilia Frid-man.  \OT1/cmr/m/it/12 In-tro-duc-tion to Time-De
 lay Sys-tems: Anal-y-sis and Con-trol\OT1/cmr/m/n/12 .
-[19]) [20] (./main_CISE.aux) )
+[19]) [20] (./main_CISE.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
 (see the transcript file for additional information)</usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
@@ -91,5 +248,5 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfrm1200.pfb>
-Output written on main_CISE.pdf (20 pages, 657652 bytes).
+Output written on main_CISE.pdf (20 pages, 658457 bytes).
 Transcript written on main_CISE.log.
