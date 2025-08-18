@@ -44,18 +44,6 @@ For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd)
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd)
-
-! LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.41 ...-3× higher than 50--100 ms baselines (≈
-                                                   50--200\% improvement) \c...
-
-
 Overfull \hbox (9.44417pt too wide) in paragraph at lines 41--42
 []\OT1/cmr/m/n/12 This project de-vel-ops a vendor-agnostic bump-in-the-wire co
 n-troller that in-te-grates physics-
@@ -69,30 +57,7 @@ Overfull \hbox (2.21648pt too wide) in paragraph at lines 83--85
 Overfull \hbox (12.06917pt too wide) in paragraph at lines 83--85
 \OT1/cmr/m/n/12 math-e-mat-i-cal tools ex-ist (Con-trol Bar-rier Func-tions, co
 n-sen-sus the-ory, PINNs, delay-dependent
-[5]
-
-! LaTeX Error: Unicode character ≈ (U+2248)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.87 ...ing 1.5×--3× higher delay tolerance (≈
-                                                  50--200\% improvement), ~2...
-
-
-! LaTeX Error: Unicode character ≥ (U+2265)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.91 ... 100+ grid-forming inverter nodes with ≥
-                                                   70\% inverter-based gener...
-
-[6] [7]
+[5] [6] [7]
 Overfull \hbox (11.79564pt too wide) in paragraph at lines 132--133
 \OT1/cmr/m/n/12 con-trollers, in-clud-ing VSM/VSG im-ple-men-ta-tions, at-tempt
  to pro-vide syn-thetic in-er-tia through
@@ -126,5 +91,5 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts
 /type1/public/cm-super/sfrm1200.pfb>
-Output written on main_CISE.pdf (20 pages, 655701 bytes).
+Output written on main_CISE.pdf (20 pages, 655382 bytes).
 Transcript written on main_CISE.log.

@@ -538,7 +538,7 @@ def generate_validated_figure(safety_data: Dict, delay_ms: float = 150, packet_l
     max_idx = np.argmax(np.abs(freq_trace))
     max_time = time_min[max_idx]
     max_freq = freq_trace[max_idx]
-    ax4.plot(max_time, max_freq, 'ro', markersize=8, label=f'Max deviation: {abs(max_freq):.3f} Hz')
+    ax4.plot(max_time, max_freq, 'ro', markersize=8, label='Peak Response')
     
     ax4.set_xlabel('Time (minutes)', fontsize=12)
     ax4.set_ylabel('Frequency Deviation (Hz)', fontsize=12)
@@ -561,7 +561,7 @@ def generate_validated_figure(safety_data: Dict, delay_ms: float = 150, packet_l
     # Add test conditions as subtitle
     test_conditions_text = (f'Test Conditions: Delay = {int(safety_data.get("delay_ms", 150))} ms (jitter 10–{int(safety_data.get("delay_ms", 150))} ms), '
                            f'Packet Loss = {int(safety_data.get("packet_loss", 0.2)*100)}%, '
-                           f'Event Dwell = 200 ms, h_freq = 0.25 - (Δf)², dt = 0.1 s')
+                           f'Event Dwell = 200 ms, h(f) = 0.25 - (Δf)², dt = 0.1 s')
     
     plt.suptitle('Control Barrier Function Safety Verification - Realistic Simulation', 
                 fontsize=16, fontweight='bold')
