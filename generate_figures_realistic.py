@@ -565,7 +565,7 @@ def generate_validated_figure(safety_data: Dict, delay_ms: float = 150, packet_l
     
     plt.suptitle('Control Barrier Function Safety Verification - Realistic Simulation', 
                 fontsize=16, fontweight='bold')
-    plt.figtext(0.5, 0.96, test_conditions_text, ha='center', fontsize=10, style='italic')
+    plt.figtext(0.5, 0.93, test_conditions_text, ha='center', fontsize=10, style='italic')
     
     plt.tight_layout()
     plt.savefig('figure6_safety_verification_REALISTIC.pdf', dpi=300, bbox_inches='tight')
