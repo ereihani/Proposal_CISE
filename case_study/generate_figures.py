@@ -396,6 +396,11 @@ def generate_system_architecture_figure():
     plt.suptitle('Figure 3: BITW Controller System Architecture', 
                  fontsize=16, fontweight='bold', y=0.95)
     
+    # Add performance banner
+    performance_text = '↓ 82% Cost Reduction • ↑ 30% Faster Convergence (36% fewer iterations) • ↑ 150 ms Delay Tolerance'
+    plt.figtext(0.5, 0.02, performance_text, ha='center', va='bottom', 
+                fontsize=12, fontweight='bold', style='italic')
+    
     plt.tight_layout()
     plt.savefig('figure3_system_architecture.png', dpi=300, bbox_inches='tight')
     plt.savefig('figure3_system_architecture.pdf', dpi=300, bbox_inches='tight')
