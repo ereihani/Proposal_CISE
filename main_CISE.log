@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  18 AUG 2025 15:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  18 AUG 2025 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,13 +321,13 @@ n-troller that in-te-grates physics-
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
 dvips/cm-super/cm-super-ts1.enc}]
-<figure3_system_architecture.pdf, id=10, 1114.97633pt x 552.14282pt>
-File: figure3_system_architecture.pdf Graphic file (type pdf)
-<use figure3_system_architecture.pdf>
-Package pdftex.def Info: figure3_system_architecture.pdf  used on input line 50
-.
-(pdftex.def)             Requested size: 469.75502pt x 232.62296pt.
- [2 <./figure3_system_architecture.pdf>]
+<figure3_system_architecture_original.pdf, id=10, 1121.9064pt x 552.8655pt>
+File: figure3_system_architecture_original.pdf Graphic file (type pdf)
+<use figure3_system_architecture_original.pdf>
+Package pdftex.def Info: figure3_system_architecture_original.pdf  used on inpu
+t line 50.
+(pdftex.def)             Requested size: 469.75502pt x 231.49329pt.
+ [2 <./figure3_system_architecture_original.pdf>]
 Overfull \hbox (4.34839pt too wide) in paragraph at lines 60--61
 []\OT1/cmr/m/n/12 However, as re-new-able pen-e-tra-tion in-creased, lim-i-ta-t
 ions of purely au-tonomous ap-proaches
@@ -372,7 +372,7 @@ L3 programming layer <2024-01-22>
  ) 
 Here is how much of TeX's memory you used:
  4766 strings out of 474222
- 69730 string characters out of 5748734
+ 69793 string characters out of 5748734
  1935975 words of memory out of 5000000
  26969 multiletter control sequences out of 15000+600000
  567516 words of font info for 72 fonts, out of 8000000 for 9000
@@ -390,7 +390,7 @@ fonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti
 12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm1
 0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main_CISE.pdf (19 pages, 667462 bytes).
+Output written on main_CISE.pdf (19 pages, 668620 bytes).
 PDF statistics:
  493 PDF objects out of 1000 (max. 8388607)
  118 compressed objects within 2 object streams
