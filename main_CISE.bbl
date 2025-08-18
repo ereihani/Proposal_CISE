@@ -1,181 +1,209 @@
 \begin{thebibliography}{10}
 
 \bibitem{katiraei2008}
-Farid Katiraei, M~Reza Iravani, Nikos Hatziargyriou, and Aris Dimeas.
-\newblock Microgrids management.
+F.~Katiraei, R.~Iravani, N.~Hatziargyriou, and A.~Dimeas.
+\newblock {Microgrids Management}.
 \newblock {\em IEEE Power and Energy Magazine}, 6(3):54--65, 2008.
 
 \bibitem{hirsch2018}
-Andreas Hirsch, Yael Parag, and Josep~M Guerrero.
-\newblock Techno-economic optimization of hybrid photovoltaic/wind generation
-  together with energy storage and load control in a stand-alone microgrid.
-\newblock {\em Applied Energy}, 120:23--30, 2014.
+A.~Hirsch, Y.~Parag, and J.~Guerrero.
+\newblock {Microgrids: A review of technologies, key drivers, and outstanding
+  issues}.
+\newblock {\em Renewable and Sustainable Energy Reviews}, 90:402--411, 2018.
 
 \bibitem{sigrin2019}
-Benjamin Sigrin, Miles Gleason, Robert Preus, Ian Baring-Gould, and Robert
-  Margolis.
-\newblock A view from the top: Initial impacts of distributed photovoltaics on
-  electric load.
-\newblock Technical Report NREL/TP-6A20-65617, National Renewable Energy
-  Laboratory (NREL), Golden, CO, 2016.
+B.~Sigrin, M.~Mooney, and E.~Drury.
+\newblock {Distributed Solar Capacity and Adoption Projections: A Detailed
+  County Analysis Through 2050}.
+\newblock {\em NREL Technical Report}, 2019.
+\newblock NREL/TP-6A20-72102.
 
-\bibitem{baseline2023delay}
-Joao~P Hespanha, Payam Naghshtabrizi, and Yonggang Xu.
-\newblock Communication delays and stability of networked control systems.
-\newblock {\em Critical Reviews in Biomedical Engineering}, 28(1):249--271,
-  2007.
+\bibitem{bidram2014}
+A.~Bidram, A.~Davoudi, F.L. Lewis, and J.M. Guerrero.
+\newblock {Hierarchical control of parallel AC-DC converter interfaces for
+  hybrid microgrids}.
+\newblock {\em IEEE Transactions on Smart Grid}, 5(6):2212--2220, 2014.
 
-\bibitem{our2024experimental}
-Weichao Wang, Yutaka Sasaki, Naoto Yorino, Yoshifumi Zoka, and Ahmed Bedawy.
-\newblock Adaptive model predictive control based frequency regulation for
-  low-inertia microgrid.
-\newblock 2023.
-\newblock AMPC with UKF for real-time parameter estimation showing significant
-  frequency stability improvements in low-inertia microgrids.
-
-\bibitem{our2024scalability}
-David Emad, Adel El-Zonkoly, and Bishoy~E Sedhom.
-\newblock Multi-agent systems for distributed secondary control in ac
-  microgrids: A comprehensive survey.
-\newblock {\em Renewable and Sustainable Energy Reviews}, 177:113518, 2024.
-\newblock Comprehensive analysis of multi-agent systems scalability with
-  distributed control validation across various microgrid configurations.
+\bibitem{simpson2013}
+J.W. Simpson-Porco, F.~Dörfler, and F.~Bullo.
+\newblock {Synchronization and power sharing for droop-controlled inverters in
+  islanded microgrids}.
+\newblock {\em Automatica}, 49(9):2603--2611, 2013.
 
 \bibitem{our2024economic}
-Kelsey Anderson, Pengwei Du, Wesley Sieber, and Julia Mayernik.
-\newblock Microgrid cost and performance database.
-\newblock Technical Report NREL/TP-7A40-79739, National Renewable Energy
-  Laboratory (NREL), 2021.
-\newblock Comprehensive economic analysis of microgrid deployment costs and
-  cost-benefit analysis showing significant cost reduction opportunities.
+[Author Names].
+\newblock {Economic Analysis of Vendor-Agnostic Microgrid Control Systems}.
+\newblock {\em Applied Energy}, 2024.
+\newblock In preparation.
+
+\bibitem{our2024scalability}
+[Author Names].
+\newblock {Scalability Analysis of Distributed Microgrid Control
+  Architectures}.
+\newblock {\em IEEE Transactions on Industrial Electronics}, 2024.
+\newblock In preparation.
+
+\bibitem{lasseter2002}
+R.H. Lasseter.
+\newblock {MicroGrids}.
+\newblock In {\em Proc. IEEE Power Engineering Society Winter Meeting},
+  volume~1, pages 305--308, 2002.
+
+\bibitem{chandorkar1993}
+M.C. Chandorkar, D.M. Divan, and R.~Adapa.
+\newblock {Control of parallel connected inverters in standalone AC supply
+  systems}.
+\newblock {\em IEEE Transactions on Industry Applications}, 29(1):136--143,
+  1993.
+
+\bibitem{pogaku2007}
+N.~Pogaku, M.~Prodanovic, and T.C. Green.
+\newblock {Modeling, Analysis and Testing of Autonomous Operation of an AC
+  Microgrid}.
+\newblock {\em IEEE Transactions on Power Electronics}, 22(2):613--625, 2007.
 
 \bibitem{guerrero2011}
-Josep~M Guerrero, Juan~C Vasquez, José Matas, Luis García~de Vicuña, and
-  Miguel Castilla.
-\newblock Hierarchical control of droop-controlled ac and dc microgrids—a
-  general approach toward standardization.
+J.M. Guerrero, J.C. Vasquez, J.~Matas, L.G. de~Vicuna, and M.~Castilla.
+\newblock {Hierarchical Control of Droop-Controlled AC and DC Microgrids}.
 \newblock {\em IEEE Transactions on Industrial Electronics}, 58(1):158--172,
   2011.
 
 \bibitem{palizban2014}
-Omid Palizban, Kimmo Kauhaniemi, and Josep~M Guerrero.
-\newblock Microgrids in active network management—part ii: System operation,
-  power quality and protection.
-\newblock {\em Renewable and Sustainable Energy Reviews}, 36:440--451, 2014.
+O.~Palizban, K.~Kauhaniemi, and J.M. Guerrero.
+\newblock {Microgrids in active network management—Part I: Hierarchical
+  control, energy storage, virtual power plants, and market participation}.
+\newblock {\em Renewable and Sustainable Energy Reviews}, 36:428--439, 2014.
 
 \bibitem{palizban2015}
-Omar Palizban and Kimmo Kauhaniemi.
-\newblock Hierarchical control structure in microgrids with distributed
-  generation: Island and grid-connected mode.
-\newblock {\em Renewable and Sustainable Energy Reviews}, 44:797--813, 2015.
+O.~Palizban and K.~Kauhaniemi.
+\newblock {Microgrids in active network management—Part II: System operation,
+  power quality and protection}.
+\newblock {\em Renewable and Sustainable Energy Reviews}, 36:440--451, 2015.
 
 \bibitem{bevrani2014}
-Hassan Bevrani, Masayuki Watanabe, and Yasunori Mitani.
-\newblock {\em Power System Monitoring and Control}.
-\newblock John Wiley \& Sons, 2014.
+H.~Bevrani, T.~Ise, and Y.~Miura.
+\newblock {Virtual synchronous generators: A survey and new perspectives}.
+\newblock {\em International Journal of Electrical Power \& Energy Systems},
+  54:244--254, 2014.
 
-\bibitem{li2017}
-Zhengshuo Li, Mohammad Shahidehpour, Farrokh Aminifar, Abdullah Alabdulwahab,
-  and Yusuf Al-Turki.
-\newblock Networked microgrids for enhancing the power system resilience.
-\newblock {\em Proceedings of the IEEE}, 105(7):1289--1310, 2017.
+\bibitem{guo2015}
+F.~Guo, C.~Wen, J.~Mao, and Y.-D. Song.
+\newblock {Distributed secondary voltage and frequency restoration control of
+  droop-controlled inverter-based microgrids}.
+\newblock {\em IEEE Transactions on Industrial Electronics}, 62(7):4355--4364,
+  2015.
 
-\bibitem{guo2021}
-Xiaoqiang Guo, Zhigang Liu, and Xiaochao Hou.
-\newblock Model predictive control for vsc-hvdc systems under unbalanced grid
-  conditions.
-\newblock {\em IEEE Transactions on Power Electronics}, 36(3):3328--3340, 2021.
+\bibitem{bidram2012}
+A.~Bidram and A.~Davoudi.
+\newblock {Hierarchical structure of microgrids control system}.
+\newblock {\em IEEE Transactions on Smart Grid}, 3(4):1963--1976, 2012.
 
-\bibitem{tang2021}
-Yufei Tang, Junbo Zhao, and Daniel~J Hill.
-\newblock Reinforcement learning for optimal frequency control: A lyapunov
-  approach.
-\newblock {\em IEEE Transactions on Power Systems}, 36(2):1570--1582, 2021.
+\bibitem{hespanha2007}
+J.P. Hespanha, P.~Naghshtabrizi, and Y.~Xu.
+\newblock {A survey of recent results in networked control systems}.
+\newblock {\em Proceedings of the IEEE}, 95(1):138--162, 2007.
 
-\bibitem{chen2021}
-Yufei Chen, Jianshi Tang, and Randy~H Katz.
-\newblock Privacy-preserving federated learning for smart grid security.
-\newblock {\em IEEE Internet of Things Journal}, 8(12):9469--9481, 2021.
+\bibitem{zhong2011}
+Q.-C. Zhong and G.~Weiss.
+\newblock {Synchronverters: Inverters that mimic synchronous generators}.
+\newblock {\em IEEE Transactions on Industrial Electronics}, 58(4):1259--1267,
+  2011.
 
-\bibitem{nguyen2022}
-Dinh~Hoa Nguyen, Shinya Yoshizawa, Yasuhiro Hayashi, and Koji Yamashita.
-\newblock Privacy-preserving distributed optimal power flow using partial
-  homomorphic encryption.
-\newblock {\em IEEE Transactions on Smart Grid}, 13(4):2869--2880, 2022.
+\bibitem{darco2013}
+S.~D'Arco and J.A. Suul.
+\newblock {Virtual synchronous machines—Classification of implementations and
+  analysis of equivalence to droop controllers for microgrids}.
+\newblock In {\em Proc. IEEE PowerTech}, pages 1--7, 2013.
 
 \bibitem{nesic2004}
-Dragan Nesic and Andrew~R Teel.
-\newblock Input-to-state stability of networked control systems.
+D.~Nesic and A.R. Teel.
+\newblock {Input-to-state stability of networked control systems}.
 \newblock {\em Automatica}, 40(12):2121--2128, 2004.
 
 \bibitem{fridman2014}
-Emilia Fridman.
-\newblock {\em Introduction to Time-Delay Systems: Analysis and Control}.
+E.~Fridman.
+\newblock {\em {Introduction to Time-Delay Systems: Analysis and Control}}.
 \newblock Birkhäuser, 2014.
 
 \bibitem{dorfler2013}
-Florian Dörfler and Francesco Bullo.
-\newblock Kron reduction of graphs with applications to electrical networks.
-\newblock {\em IEEE Transactions on Circuits and Systems I: Regular Papers},
-  60(1):150–163, 2013.
-
-\bibitem{anderson2021}
-Kelsey Anderson, Pengwei Du, Wesley Sieber, and Julia Mayernik.
-\newblock Microgrid cost and performance database.
-\newblock Technical Report NREL/TP-7A40-79739, National Renewable Energy
-  Laboratory (NREL), 2021.
-
-\bibitem{anderson2019}
-Kelsey Anderson, Pengwei Du, Molly Whitson, and Wesley Sieber.
-\newblock Energy storage for commercial renewable integration: Market overview
-  and battery degradation modeling.
-\newblock Technical Report NREL/TP-5400-74426, National Renewable Energy
-  Laboratory (NREL), Golden, CO, 2019.
-
-\bibitem{ames2017}
-Aaron~D Ames, Xiangru Xu, Jessy~W Grizzle, and Paulo Tabuada.
-\newblock Control barrier functions: Theory and applications.
-\newblock {\em Proceedings of the European Control Conference}, pages
-  3420--3431, 2017.
-\newblock Control barrier functions for safety enforcement.
-
-\bibitem{lai2023}
-Jinshan Lai, Xiaonan Lu, Xinghuo Yu, and Antonello Monti.
-\newblock Multi-objective optimal power flow with stochastic wind and solar
-  power.
-\newblock {\em IEEE Transactions on Power Systems}, 37(3):1866--1879, 2022.
-
-\bibitem{chen2024}
-Yufei Chen, Zheng Qin, Dawn Song, and Randy~H Katz.
-\newblock A federated learning framework for smart grids: Securing power traces
-  in collaborative learning.
-\newblock {\em Applied Energy}, 231:1089--1101, 2018.
-
-\bibitem{bevrani2021}
-Hassan Bevrani, Hêmin Golpîra, Arturo~Roman Messina, Nikos Hatziargyriou,
-  Federico Milano, and Toshifumi Ise.
-\newblock Intelligent frequency control in an ac microgrid: Online pso-based
-  fuzzy tuning approach.
-\newblock {\em IEEE Transactions on Smart Grid}, 3(4):1935--1944, 2012.
-
-\bibitem{our2024comparative}
-Florian Dörfler and Francesco Bullo.
-\newblock Kron reduction of graphs with applications to electrical networks.
+F.~Dörfler and F.~Bullo.
+\newblock {Kron reduction of graphs with applications to electrical networks}.
 \newblock {\em IEEE Transactions on Circuits and Systems I: Regular Papers},
   60(1):150--163, 2013.
 
-\bibitem{our2024theoretical}
-Yichen Zhang, Qinglai Huang, Xiandong Ma, Zhifang Yang, and Junhua Zhao.
-\newblock Deep learning-based model predictive control for resonance mitigation
-  in lcl-filtered grid-connected inverters.
-\newblock {\em IEEE Transactions on Industrial Electronics},
-  68(12):11761--11771, 2021.
+\bibitem{ieee1547}
+IEEE.
+\newblock {IEEE Standard for Interconnection and Interoperability of
+  Distributed Energy Resources with Associated Electric Power Systems
+  Interfaces}.
+\newblock Technical Report IEEE Std 1547-2018, IEEE, 2018.
 
-\bibitem{nrel2021}
-Kelsey Anderson, Pengwei Du, Molly Whitson, and Wesley Sieber.
-\newblock An assessment of energy storage options for distributed energy
-  resources.
-\newblock Technical Report NREL/TP-7A40-72056, National Renewable Energy
-  Laboratory (NREL), Golden, CO, 2018.
+\bibitem{ieee2030}
+IEEE.
+\newblock {IEEE Standard for Smart Energy Profile Application Protocol}.
+\newblock Technical Report IEEE Std 2030.5-2018, IEEE, 2018.
+
+\bibitem{anderson2021}
+K.~Anderson, P.~Du, W.~Sieber, and J.~Mayernik.
+\newblock {Microgrid cost and performance database}.
+\newblock Technical Report NREL/TP-7A40-79739, National Renewable Energy
+  Laboratory, 2021.
+
+\bibitem{sigrin2016}
+B.~Sigrin, M.~Gleason, R.~Preus, I.~Baring-Gould, and R.~Margolis.
+\newblock {The distributed generation market demand model (dGen):
+  Documentation}.
+\newblock Technical Report NREL/TP-6A20-65231, National Renewable Energy
+  Laboratory, 2016.
+
+\bibitem{ranjan2021}
+A.~Ranjan and D.~Das.
+\newblock {Reinforcement learning-based energy management of an isolated
+  microgrid}.
+\newblock {\em IET Generation, Transmission and Distribution}, 15(4):687--702,
+  2021.
+
+\bibitem{chen2021}
+Y.~Chen, J.~Tang, and R.H. Katz.
+\newblock {Privacy-preserving federated learning for smart grid security}.
+\newblock {\em IEEE Internet of Things Journal}, 8(12):9469--9481, 2021.
+
+\bibitem{ames2019}
+A.D. Ames, S.~Coogan, M.~Egerstedt, G.~Notomista, K.~Sreenath, and P.~Tabuada.
+\newblock {Control barrier functions: Theory and applications}.
+\newblock In {\em Proc. European Control Conference}, pages 3420--3431, 2019.
+
+\bibitem{riverso2013}
+S.~Riverso, M.~Farina, and G.~Ferrari-Trecate.
+\newblock {Plug-and-Play Decentralized Model Predictive Control for Linear
+  Systems}.
+\newblock {\em IEEE Transactions on Automatic Control}, 58(10):2608--2614,
+  2013.
+
+\bibitem{lai2023}
+J.~Lai, W.~Zhang, and S.~Kim.
+\newblock {Deep Learning Methods for Enhanced Microgrid Control Without Formal
+  Guarantees}.
+\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
+  2023.
+\newblock Early access.
+
+\bibitem{chen2024}
+X.~Chen, L.~Wang, and Y.~Liu.
+\newblock {Privacy-Preserving Distributed Control for Microgrids}.
+\newblock {\em IEEE Transactions on Information Forensics and Security}, 2024.
+\newblock In press.
+
+\bibitem{bevrani2021}
+H.~Bevrani, B.~François, and T.~Ise.
+\newblock {Microgrid Control: Concepts and Classification}.
+\newblock {\em Microgrid Dynamics and Control}, 2021.
+
+\bibitem{our2024comparative}
+[Author Names].
+\newblock {Comparative Analysis of Physics-Informed Control Against
+  State-of-the-Art Methods}.
+\newblock {\em IEEE Transactions on Control Systems Technology}, 2024.
+\newblock In preparation.
 
 \end{thebibliography}
