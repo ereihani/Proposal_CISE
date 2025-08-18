@@ -113,7 +113,7 @@ with rate $\lambda \approx 2\alpha\lambda_2(1 - \tau\sqrt{\lambda_2})$ ensures a
 \textbf{Component 3: GNN-Enhanced Distributed Optimization}
 Economic dispatch and tertiary optimization utilize Graph Neural Networks to accelerate ADMM convergence:
 $z_i^{l+1} = \sigma(W[z_i^l || \sum_{j \in \mathcal{N}_i} z_j^l])$
-With $\rho = \sqrt{\mu L}$, $\kappa = 1 - \min(\mu/\rho, \rho/L)$; using $\mu \approx 0.32$, $L \approx 3.2$ gives $\kappa \approx 0.68$ and ~17 iterations to 1\% optimality ($\leq 10\,ms$ per iteration).
+With $\rho = \sqrt{\mu L}$, $\kappa = 1 - \min(\mu/\rho, \rho/L)$; using $\mu \approx 0.32$, $L \approx 3.2$ gives $\kappa \approx 0.68$ and ~17 iterations to 1\% optimality ($\leq 10\;ms$ per iteration).
 
 \textbf{Component 4: Safety Enforcement Through Control Barrier Functions}
 Mathematical safety guarantees operate through:
