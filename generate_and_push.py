@@ -29,11 +29,17 @@ def main():
     
     print("Generating PDF from main_CISE.tex...")
     
-    # Compile LaTeX to PDF (run twice for references)
+    # Complete LaTeX compilation sequence with bibtex
     if not run_command("pdflatex -interaction=nonstopmode main_CISE.tex", "first LaTeX compilation"):
         sys.exit(1)
     
+    if not run_command("bibtex main_CISE", "bibtex compilation"):
+        sys.exit(1)
+    
     if not run_command("pdflatex -interaction=nonstopmode main_CISE.tex", "second LaTeX compilation"):
+        sys.exit(1)
+    
+    if not run_command("pdflatex -interaction=nonstopmode main_CISE.tex", "third LaTeX compilation"):
         sys.exit(1)
     
     # Check if PDF was generated
