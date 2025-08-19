@@ -175,7 +175,7 @@ def create_improved_figure3():
     
     # Add performance indicators
     perf_y = 3.4
-    ax.text(1.5, perf_y, '↑ 82% Cost Reduction', fontsize=7, 
+    ax.text(1.5, perf_y, '↓ 82% Cost Reduction', fontsize=7, 
             color=colors['mas_border'], weight='bold')
     ax.text(4.0, perf_y, '↑ 30% Faster Convergence', fontsize=7, 
             color=colors['cloud_border'], weight='bold')
