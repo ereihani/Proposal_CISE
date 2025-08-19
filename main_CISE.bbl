@@ -30,131 +30,140 @@ J.~W. Simpson-Porco, F.~Dörfler, and F.~Bullo.
   islanded microgrids.
 \newblock {\em Automatica}, 49(9):2603--2611, 2013.
 
-\bibitem{our2024economic}
-[Author Names].
-\newblock Economic analysis of vendor-agnostic microgrid control systems.
-\newblock {\em Applied Energy}, 2024.
-\newblock In preparation.
-
-\bibitem{our2024scalability}
-[Author Names].
-\newblock Scalability analysis of distributed microgrid control architectures.
-\newblock {\em IEEE Transactions on Industrial Electronics}, 2024.
-\newblock In preparation.
-
-\bibitem{lasseter2002}
-R.~H. Lasseter.
-\newblock Microgrids.
-\newblock In {\em Proc. 2002 IEEE Power Eng. Soc. Winter Meeting}, volume~1,
-  pages 305--308, New York, NY, USA, Jan. 27-31 2002. IEEE.
-
-\bibitem{chandorkar1993}
-M.~C. Chandorkar, D.~M. Divan, and R.~Adapa.
-\newblock Control of parallel connected inverters in standalone ac supply
-  systems.
-\newblock {\em IEEE Transactions on Industry Applications}, 29(1):136--143,
-  Jan./Feb. 1993.
-
-\bibitem{pogaku2007}
-N.~Pogaku, M.~Prodanovic, and T.~C. Green.
-\newblock Modeling, analysis and testing of autonomous operation of an
-  inverter-based microgrid.
-\newblock {\em IEEE Transactions on Power Electronics}, 22(2):613--625, Mar.
-  2007.
-
-\bibitem{ieee1547}
-Ieee standard for interconnection and interoperability of distributed energy
-  resources with associated electric power systems interfaces.
-\newblock Technical report, Apr. 2018.
-\newblock IEEE Std 1547-2018 (Revision of IEEE Std 1547-2003).
-
-\bibitem{ieee2030_7}
-Ieee standard for the specification of microgrid controllers.
-\newblock Technical report, 2017.
-\newblock IEEE Std 2030.7-2017.
-
-\bibitem{guerrero2011}
-J.~M. Guerrero, J.~C. Vasquez, J.~Matas, L.~G. de~Vicuña, and M.~Castilla.
-\newblock Hierarchical control of droop-controlled ac and dc microgrids---a
+\bibitem{Guerrero2011Hierarchical}
+Josep~M. Guerrero, Juan~C. Vasquez, José Matas, Luis~G. de~Vicuña, and Manuel
+  Castilla.
+\newblock Hierarchical control of droop-controlled ac and dc microgrids—a
   general approach toward standardization.
 \newblock {\em IEEE Transactions on Industrial Electronics}, 58(1):158--172,
-  Jan. 2011.
+  2011.
 
-\bibitem{hespanha2007}
-J.~P. Hespanha, P.~Naghshtabrizi, and Y.~Xu.
-\newblock A survey of recent results in networked control systems.
-\newblock {\em Proceedings of the IEEE}, 95(1):138--162, Jan. 2007.
+\bibitem{Tavassoli2020CommEffects}
+Babak Tavassoli, Alireza Fereidunian, and Mehdi Savaghebi.
+\newblock Communication system effects on the secondary control performance in
+  microgrids.
+\newblock {\em IET Renewable Power Generation}, 14(12):2047--2057, 2020.
 
-\bibitem{dorfler2013}
-F.~Dörfler and F.~Bullo.
-\newblock Kron reduction of graphs with applications to electrical networks.
-\newblock {\em IEEE Transactions on Circuits and Systems I: Regular Papers},
-  60(1):150--163, Jan. 2013.
-
-\bibitem{ames2019}
-A.~D. Ames, S.~Coogan, M.~Egerstedt, G.~Notomista, K.~Sreenath, and P.~Tabuada.
-\newblock Control barrier functions: Theory and applications.
-\newblock In {\em Proc. 2019 18th Eur. Control Conf. (ECC)}, pages 3420--3431,
-  Naples, Italy, 2019.
-
-\bibitem{han2017}
-Y.~Han, H.~Li, P.~Shen, E.~A.~A. Coelho, and J.~M. Guerrero.
-\newblock Review of active and reactive power sharing strategies in
-  hierarchical controlled microgrids.
-\newblock {\em IEEE Transactions on Power Electronics}, 32(3):2427--2451, Mar.
-  2017.
-
-\bibitem{liu2015}
+\bibitem{Liu2015DelaySecondary}
 S.~Liu, X.~Wang, and P.~X. Liu.
 \newblock Impact of communication delays on secondary frequency control in an
   islanded microgrid.
 \newblock {\em IEEE Transactions on Industrial Electronics}, 62(4):2021--2031,
-  Apr. 2015.
+  2015.
 
-\bibitem{rahman2017}
-M.~A. Rahman, E.~Al-Shaer, and R.~B. Bobba.
-\newblock Sdn enabled microgrid: A resilient architecture for smart grid.
-\newblock In {\em Proc. 2017 IEEE Conference on Network Function Virtualization
-  and Software Defined Networks}, pages 1--6, Berlin, Germany, 2017.
+\bibitem{Lu2017DistributedSecondary}
+Xiaoqing Lu, Xinghuo Yu, Jingang Lai, Josep~M. Guerrero, and Hong Zhou.
+\newblock Distributed secondary voltage and frequency control for islanded
+  microgrids with uncertain communication links.
+\newblock {\em IEEE Transactions on Industrial Informatics}, 13(2):448--460,
+  2017.
 
-\bibitem{tamrakar2017}
-U.~Tamrakar, D.~Shrestha, M.~Maharjan, B.~P. Bhattarai, T.~M. Hansen, and
-  R.~Tonkoski.
-\newblock Virtual inertia: Current trends and future directions.
-\newblock {\em Applied Sciences}, 7(7):654, Jun. 2017.
+\bibitem{IEEE1547_2018}
+Ieee standard for interconnection and interoperability of distributed energy
+  resources with associated electric power systems interfaces, 2018.
 
-\bibitem{shafiee2014}
-Q.~Shafiee, J.~M. Guerrero, and J.~C. Vasquez.
-\newblock Distributed secondary control for islanded microgrids---a novel
-  approach.
-\newblock {\em IEEE Transactions on Power Electronics}, 29(2):1018--1031, Feb.
-  2014.
+\bibitem{IEEE20307_2017}
+Ieee standard for the specification of microgrid controllers, 2017.
 
-\bibitem{wang2014}
-Z.~Wang and J.~Wang.
-\newblock Review on implementation and assessment of conservation voltage
-  reduction.
-\newblock {\em IEEE Transactions on Power Systems}, 29(3):1306--1315, May 2014.
+\bibitem{IEEE20308_2018}
+Ieee standard for the testing of microgrid controllers, 2018.
 
-\bibitem{palmintier2017}
-B.~Palmintier et~al.
-\newblock Design of the helics high-performance
-  transmission-distribution-communication-market co-simulation framework.
-\newblock In {\em Proc. 2017 Workshop Model. Simul. Cyber-Phys. Energy Syst.
-  (MSCPES)}, pages 1--6, Pittsburgh, PA, USA, 2017.
+\bibitem{nelson2020model}
+James~R. Nelson and Nathan~G. Johnson.
+\newblock Model predictive control of microgrids for real-time ancillary
+  service market participation.
+\newblock {\em Applied Energy}, 269:114963, 2020.
 
-\bibitem{byrne2018}
-R.~H. Byrne, T.~A. Nguyen, D.~A. Copp, B.~R. Chalamala, and I.~Gyuk.
-\newblock Energy management and optimization methods for grid energy storage
-  systems.
-\newblock {\em IEEE Access}, 6:13231--13260, 2018.
+\bibitem{Chanda_ASSERT_ATEE_2023}
+Sayonsom Chanda, Yash Agalgaonkar, Sanjeev Pannala, and Rob Hovsapian.
+\newblock Validation of microgrid algorithms using at-scale simulation and
+  emulation real-time (assert) framework.
+\newblock In {\em Proc. 13th International Symposium on Advanced Topics in
+  Electrical Engineering (ATEE)}, Bucharest, Romania, 2023.
 
-\bibitem{dragicevic2016}
-T.~Dragičević, X.~Lu, J.~C. Vasquez, and J.~M. Guerrero.
-\newblock Dc microgrids---part ii: A review of power architectures,
-  applications, and standardization issues.
-\newblock {\em IEEE Transactions on Power Electronics}, 31(5):3528--3549, May
-  2016.
+\bibitem{NREL_ARIES_Capabilities_2025}
+{National Renewable Energy Laboratory}.
+\newblock Aries capabilities: Integrating physical and virtual research at
+  scale.
+\newblock \url{https://www.nrel.gov/aries/capabilities}, 2025.
+\newblock Accessed Aug. 19, 2025.
+
+\bibitem{NREL_ARIES_ResearchPlan_2021}
+Jennifer Kurtz and Rob Hovsapian.
+\newblock Aries advanced research on integrated energy systems research plan.
+\newblock Technical Report NREL/TP-5C00-81475, National Renewable Energy
+  Laboratory, 2021.
+
+\bibitem{wang2022transmission}
+Wenbo Wang, Xin Fang, Hantao Cui, Fangxing Li, Yijing Liu, and Thomas~J.
+  Overbye.
+\newblock Transmission-and-distribution dynamic co-simulation framework for
+  distributed energy resource frequency response.
+\newblock {\em IEEE Transactions on Smart Grid}, 13(1):482--488, Jan 2022.
+
+\bibitem{Duke2023HotSpringsPR}
+{Duke Energy}.
+\newblock Duke energy places advanced microgrid into service in hot springs,
+  nc.
+\newblock News Release, Feb. 2, 2023, 2023.
+
+\bibitem{TDWorld2023HotSprings}
+{T\&D World Editors}.
+\newblock Solar plus storage microgrid now operating in hot springs, nc.
+\newblock {\em T\&D World}, Feb 2023.
+
+\bibitem{Hirsch2018RSER}
+Adam Hirsch, Yael Parag, and Josep Guerrero.
+\newblock Microgrids: A review of technologies, key drivers, and outstanding
+  issues.
+\newblock {\em Renewable and Sustainable Energy Reviews}, 90:402--411, 2018.
+
+\bibitem{Ames2019CBF}
+Aaron~D. Ames, Samuel Coogan, Magnus Egerstedt, Gennaro Notomista, Koushil
+  Sreenath, and Paulo Tabuada.
+\newblock Control barrier functions: Theory and applications.
+\newblock {\em arXiv preprint arXiv:1903.11199}, 2019.
+
+\bibitem{NREL2018CostStudy}
+Julieta Giraldez et~al.
+\newblock Phase i microgrid cost study: Data collection and analysis of
+  microgrid costs in the united states.
+\newblock Technical Report NREL/TP-5D00-67821, National Renewable Energy
+  Laboratory, 2018.
+
+\bibitem{Hardy2024HELICS}
+T.~D. Hardy et~al.
+\newblock Helics: A co-simulation framework for scalable multi-domain energy
+  systems analysis.
+\newblock Technical Report NREL/TP-5D00-87610, National Renewable Energy
+  Laboratory, 2024.
+
+\bibitem{Zheng2024ITD}
+Pan Zheng et~al.
+\newblock A co-simulation platform for integrated transmission and distribution
+  power systems.
+\newblock In {\em 2024 IEEE/AIAA Workshop on Co-Simulation}, 2024.
+\newblock Includes IEEE 39-bus transmission + 6000-bus distribution test
+  system.
+
+\bibitem{Chanda2023ASSERT}
+Susanta Chanda, Onur Ceylan, Erdem Kuyumcu, Shubham Nath, Matthew Smith,
+  Madison Jahns, Nick Gebert, Martin Beno, and Benjamin Kroposki.
+\newblock Assert framework for at-scale real-time emulation of cyber-physical
+  energy systems.
+\newblock In {\em 2023 AEIT International Conference on Electrical and
+  Electronic Technologies for Automotive (AEIT AUTOMOTIVE)}, 2023.
+
+\bibitem{GarciaTorres2021MPCReview}
+Fernando Garc{\'\i}a-Torres and Carlos Bordons.
+\newblock Model predictive control for microgrid functionalities: A review.
+\newblock {\em Energies}, 14(5):1296, 2021.
+
+\bibitem{Singh2025SciRep}
+A.~R. Singh et~al.
+\newblock Advanced microgrid optimization using price-elastic demand response
+  and hybrid intelligence.
+\newblock {\em Scientific Reports}, 15(1):e86232, 2025.
 
 \bibitem{bidram2012}
 A.~Bidram and A.~Davoudi.
@@ -168,41 +177,87 @@ S.~Riverso, M.~Farina, and G.~Ferrari-Trecate.
 \newblock {\em IEEE Transactions on Automatic Control}, 58(10):2608--2614,
   2013.
 
-\bibitem{lai2023}
-J.~Lai, W.~Zhang, and S.~Kim.
-\newblock Deep learning methods for enhanced microgrid control without formal
-  guarantees.
-\newblock {\em IEEE Transactions on Neural Networks and Learning Systems},
-  2023.
-\newblock Early access.
-
-\bibitem{chen2024}
-X.~Chen, L.~Wang, and Y.~Liu.
-\newblock Privacy-preserving distributed control for microgrids.
-\newblock {\em IEEE Transactions on Information Forensics and Security}, 2024.
-\newblock In press.
-
-\bibitem{bevrani2021}
-H.~Bevrani, B.~François, and T.~Ise.
-\newblock Microgrid control: Concepts and classification.
-\newblock {\em Microgrid Dynamics and Control}, 2021.
-
-\bibitem{palizban2014}
-O.~Palizban, K.~Kauhaniemi, and J.~M. Guerrero.
-\newblock Microgrids in active network management—part i: Hierarchical
-  control, energy storage, virtual power plants, and market participation.
-\newblock {\em Renewable and Sustainable Energy Reviews}, 36:428--439, 2014.
-
-\bibitem{our2024comparative}
-[Author Names].
-\newblock Comparative analysis of physics-informed control against
-  state-of-the-art methods.
-\newblock {\em IEEE Transactions on Control Systems Technology}, 2024.
-\newblock In preparation.
-
 \bibitem{fridman2014}
 E.~Fridman.
 \newblock {\em Introduction to Time-Delay Systems: Analysis and Control}.
 \newblock Birkhäuser, 2014.
+
+\bibitem{nvidia2022jetson}
+{NVIDIA Corporation}.
+\newblock {NVIDIA Jetson Orin: Next-level AI performance for next-gen robotics
+  and edge solutions.}
+\newblock NVIDIA Developer Documentation, 2025.
+\newblock Available:
+  https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/.
+
+\bibitem{marketdigits2024microgrid}
+{MarketDigits}.
+\newblock {U.S. Microgrid Market is set to expand at 19.0\% CAGR by 2030,
+  attaining a Valuation of USD 26.6 Billion}.
+\newblock GlobeNewswire, February 2024.
+\newblock Available:
+  https://www.globenewswire.com/news-release/2024/02/28/2837063/0/en/.
+
+\bibitem{grandview2024us}
+{Grand View Research}.
+\newblock {U.S. Microgrid Market Size To Reach \$39.38 Billion By 2030}, 2024.
+\newblock Available:
+  https://www.grandviewresearch.com/press-release/us-microgrid-market-analysis.
+
+\bibitem{marketsandmarkets2024microgrid}
+{MarketsandMarkets}.
+\newblock {Microgrid Market Size, Share, Report Trends, 2024-2029}, 2024.
+\newblock Available:
+  https://www.marketsandmarkets.com/Market-Reports/micro-grid-electronics-market-917.html.
+
+\bibitem{precedence2024microgrid}
+{Precedence Research}.
+\newblock {Microgrid Market Size to Hit USD 236.18 Billion by 2034}, 2024.
+\newblock Available: https://www.precedenceresearch.com/microgrid-market.
+
+\bibitem{worldbank2019minigrids}
+{The World Bank}.
+\newblock {Mini Grids for Half a Billion People: Market Outlook and Handbook
+  for Decision Makers}.
+\newblock Technical report, World Bank Group, June 2019.
+\newblock Available:
+  https://www.worldbank.org/en/topic/energy/publication/mini-grids-for-half-a-billion-people.
+
+\bibitem{lacommare2018interruption}
+Kristina~Hamachi LaCommare, Joseph~H. Eto, Liam~N. Dunn, and Michael~D. Sohn.
+\newblock {Improving the estimated cost of sustained power interruptions to
+  electricity customers}.
+\newblock {\em Energy}, 153:1038--1047, 2018.
+
+\bibitem{cisa2024sectors}
+{Cybersecurity and Infrastructure Security Agency}.
+\newblock {Critical Infrastructure Sectors}.
+\newblock U.S. Department of Homeland Security, 2024.
+\newblock Available:
+  https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors.
+
+\bibitem{asmus2021jobs}
+Peter Asmus.
+\newblock {The Renewable Energy Economic Benefits of Microgrids}.
+\newblock Technical report, Guidehouse Inc., 2021.
+\newblock Report for Civil Society Institute, Millennial Action Project, and
+  Rocky Mountain Institute.
+
+\bibitem{bls2024wages}
+{U.S. Bureau of Labor Statistics}.
+\newblock {Occupational Employment and Wage Statistics}.
+\newblock U.S. Department of Labor, May 2024.
+\newblock Available: https://www.bls.gov/oes/.
+
+\bibitem{chen2018review}
+Chen Chen, Jiahai Wang, Feng Qiu, and Dingming Zhao.
+\newblock {Review of Microgrid Development in the United States and China and
+  Lessons Learned for China}.
+\newblock {\em Energy Procedia}, 145:217--224, 2018.
+
+\bibitem{doe2022strategy}
+{U.S. Department of Energy, Office of Electricity}.
+\newblock {Microgrid Program Strategy}, 2022.
+\newblock Available: https://www.energy.gov/oe/microgrid-program-strategy.
 
 \end{thebibliography}
