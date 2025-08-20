@@ -1,0 +1,103 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Set line spacing
+\onehalfspacing
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\begin{document}
+
+\title{\Large\textbf{Facilities, Equipment and Other Resources\\CPS-FR: Physics-Informed Machine Learning for Resilient Microgrid Control}}
+\author{Principal Investigator: Ehsan Reihani}
+\date{}
+
+\maketitle
+
+\section{Facilities}
+
+\subsection{Departmental Research and Instructional Laboratories}
+
+The Computer Engineering, Electrical Engineering, and Computer Science (CEE/CS) department maintains a comprehensive suite of teaching and research laboratories housed in Science III that directly support the proposed research activities. These facilities provide essential infrastructure for robotics, controls, power systems, digital communications/DSP, VLSI/circuits, computer vision/AI, extended reality (XR), and advanced computing research.
+
+The Robotics \& Advanced Hardware Lab provides hands-on mechatronics and control capabilities through National Instruments ELVIS/QNET platforms, aerial and ground robots, enabling comprehensive testing of the vendor-agnostic bump-in-the-wire controller hardware implementations. The Cybersecurity \& Isolated Network Lab operates as a physically isolated, virtualized network security testbed for offensive and defensive exercises and large virtual network modeling, providing critical infrastructure for testing communication security aspects of microgrid control systems under adversarial conditions.
+
+The Power Systems Lab offers specialized facilities for renewables, microgrid, drives, and smart-grid experimentation, directly supporting the validation of physics-informed machine learning algorithms in realistic power system environments. Additional specialized facilities include the Digital Communications \& DSP Lab for communication protocol development, the Computer Perception Lab for vision and AI research supporting autonomous systems integration, and the XR Lab equipped with GPU workstations and head-mounted displays for VR/AR/HCI research applications.
+
+Dedicated computing spaces include the State Farm Advanced Computing Lab and Unix Workstation Lab, complemented by tutoring/walk-in labs and major study rooms for student collaboration and learning. The department operates a secure machine room with redundant campus network connections supporting this comprehensive research ecosystem.
+
+\subsection{Campus Core Facilities and Shared Instrumentation}
+
+Project teams have access to extensive campus-level instrumentation and maker resources stewarded by the California Energy Research Center (CERC) and the College of Natural Sciences, Mathematics, and Engineering. These facilities include a hardware-in-the-loop real-time simulator essential for validating distributed microgrid control algorithms under realistic system conditions, and an advanced digital fabrication (Fab Lab) supporting rapid prototyping of embedded control hardware.
+
+Shared scientific instruments available for the project include ICP-MS, SEM/EDS/CL, X-ray diffractometer, and high-resolution CT systems useful for sensing, materials, and device characterization relevant to CISE hardware and embedded systems development. These capabilities enable comprehensive characterization of hardware components and validation of sensing technologies integrated into the microgrid control framework.
+
+\subsection{Energy Innovation Building and Regional Collaboration Hub}
+
+The Energy Innovation Building (EIB) serves as a dedicated hub for innovative and inclusive energy solutions, explicitly supporting collaboration with local companies, national laboratories, and regional partners. This environment provides ideal infrastructure for CISE projects in cyber-physical systems, edge/IoT, and energy informatics, facilitating technology transfer and industry engagement essential for translating research outcomes into practical applications.
+
+The EIB's collaborative framework enables direct engagement with utility companies and technology partners for validation of the vendor-agnostic BITW controller in real-world deployment scenarios, supporting the project's broader impact objectives of advancing clean energy infrastructure resilience.
+
+\subsection{Library and Information Resources}
+
+The Walter W. Stiern Library provides comprehensive digital and print collections, specialized research guides, faculty services, collaborative study spaces, and "Resource Sharing" (interlibrary loan) capabilities for materials not locally available. This ensures rapid access to technical literature, IEEE standards, and specialized publications essential for staying current with advances in physics-informed machine learning, microgrid control, and cyber-physical systems research.
+
+\section{Equipment}
+
+\subsection{Departmental Compute, Networking, and Instructional Equipment}
+
+The CEE/CS department operates extensive department-managed servers and workstations including GPU-enabled hosts specifically configured for parallel computing and AI workloads essential for training physics-informed neural networks and graph neural network models. Laboratory benches equipped with comprehensive instrumentation for electronics and communications testing support hardware validation activities, while specialized platforms for robotics and controls including National Instruments ELVIS/QNET systems and software-defined radios enable development and testing of distributed control algorithms.
+
+Department servers are hosted in a secure machine room with the floor's internal machines connected via gigabit switching to redundant campus fiber uplinks, ensuring reliable connectivity for distributed optimization experiments and real-time control validation. This infrastructure directly supports the hardware-in-the-loop testing requirements for validating the NVIDIA Jetson AGX Orin-based BITW controller implementations.
+
+\subsection{Maker and Prototyping Tools}
+
+The CSUB Fab Lab provides comprehensive digital fabrication capabilities including CNC machining, laser cutting/engraving, 3D printing, and electronics bench facilities suitable for rapid prototyping of embedded devices and custom enclosures. These capabilities support iterative hardware development processes common in CISE research, enabling fabrication of custom sensor interfaces, control hardware housings, and specialized test fixtures required for microgrid control system validation.
+
+The fabrication capabilities enable development of custom hardware interfaces between the BITW controller and existing microgrid infrastructure, supporting the vendor-agnostic design philosophy by enabling adaptation to diverse equipment configurations encountered in real-world deployments.
+
+\section{Other Resources}
+
+\subsection{Campus Cyberinfrastructure and Research Networking}
+
+CSUB's Information Technology Services provides comprehensive wired and eduroam wireless connectivity across the main and Antelope Valley campuses, identity management through CILogon-backed services, and extensive client services including help desk support, computer labs, media lab, and accessible technology resources. This infrastructure ensures seamless integration of research activities with campus-wide computing resources.
+
+CSUB's participation in the National Research Platform (NRP) enables access to distributed CPU/GPU resources through Nautilus and storage capabilities for data-intensive and AI workloads. These resources complement local departmental servers for scalable experiments, classroom activities, and training, providing essential computational capacity for large-scale physics-informed neural network training and distributed optimization algorithm development.
+
+As a member of CENIC's CalREN, CSUB benefits from California's research and education network providing high-performance connectivity and peering capabilities, facilitating data-intensive collaboration with external partners including national laboratories, utility companies, and other research institutions involved in microgrid control research.
+
+\subsection{Software and Instructional Computing}
+
+The CEE/CS department supports widely used research and teaching software including MATLAB/Simulink for control system design and simulation, LabVIEW for instrumentation and data acquisition, and comprehensive compilers and Unix development toolchains for embedded systems development. Campus computer labs provide general-purpose and course-specific computing environments supporting both research activities and educational objectives.
+
+This software infrastructure directly supports the development of physics-informed neural networks using PyTorch, implementation of distributed optimization algorithms, and integration with NVIDIA Jetson AGX Orin development platforms for embedded control system implementation.
+
+\subsection{Research Administration and Compliance Infrastructure}
+
+The Office of Grants, Research \& Sponsored Programs (GRaSP) provides comprehensive support for proposal development/submission, pre- and post-award administration, and compliance oversight including coordination of Institutional Review Boards (HSIRB/IACUC), Responsible Conduct of Research training, and export control guidance. This infrastructure ensures proper oversight of research activities and compliance with federal regulations.
+
+Information security governance through CSUB's campus Information Security Policy and program addresses data access, software/cloud usage, password policies, and related security considerations. Human-subjects data storage and security guidance provided by HSIRB ensures appropriate protection of sensitive information encountered in industry collaborations and field studies.
+
+\subsection{Student Research and Workforce Preparation}
+
+GRaSP administers comprehensive student research opportunities including the Student Research Scholars (SRS) program supporting mentored research experiences that directly engage undergraduate students in cutting-edge research activities. The Center for Career Education \& Community Engagement (CECE) connects students to internships and employer partnerships, facilitating transition from academic research to industry careers.
+
+Within CEE/CS, active student organizations including the IEEE Student Branch sponsor workshops, technical talks, and project-based learning activities that align with CISE workforce needs, ensuring that research activities contribute to development of a skilled workforce in cyber-physical systems, machine learning, and clean energy technologies. These programs support the project's broader impact objectives by engaging diverse student populations in meaningful research experiences and career preparation activities.
+
+\end{document}

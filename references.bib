@@ -1,12 +1,13 @@
 @article{katiraei2008,
-  title = {Microgrids Management},
   author = {Katiraei, F. and Iravani, R. and Hatziargyriou, N. and Dimeas, A.},
+  title = {Microgrids Management},
   journal = {IEEE Power and Energy Magazine},
   volume = {6},
   number = {3},
   pages = {54--65},
   year = {2008},
-  doi = {10.1109/MPE.2008.918702}
+  doi = {10.1109/MPE.2008.918702},
+  publisher = {IEEE}
 }
 
 @article{hirsch2018,
@@ -19,15 +20,16 @@
   doi = {10.1016/j.rser.2018.03.040}
 }
 
-% CORRECTED: Replace sigrin2019 with proper NREL cost study
 @techreport{giraldez2018,
-  author = {Giraldez, J. and Flores-Espino, F. and MacAlpine, S. and Asmus, P.},
-  title = {Phase I microgrid cost study: Data collection and analysis of microgrid costs in the United States},
-  institution = {National Renewable Energy Laboratory},
-  address = {Golden, CO, USA},
+  author = {Giraldez, Julieta and Flores-Espino, Francisco and MacAlpine, Sara and Asmus, Peter},
+  title = {Phase I Microgrid Cost Study: Data Collection and Analysis of Microgrid Costs in the United States},
+  institution = {National Renewable Energy Laboratory (NREL)},
   number = {NREL/TP-5D00-67821},
   year = {2018},
-  month = {Oct.}
+  month = {October},
+  address = {Golden, CO},
+  doi = {10.2172/1477589},
+  url = {https://www.nrel.gov/docs/fy19osti/67821.pdf}
 }
 
 % Keep original Sigrin reference for distributed solar projections
@@ -114,15 +116,6 @@
   month = {Mar.}
 }
 
-% IEEE STANDARDS - CORRECTED
-@techreport{ieee1547,
-  title = {IEEE Standard for Interconnection and Interoperability of Distributed Energy Resources with Associated Electric Power Systems Interfaces},
-  note = {IEEE Std 1547-2018 (Revision of IEEE Std 1547-2003)},
-  pages = {1--138},
-  year = {2018},
-  month = {Apr.},
-  organization = {IEEE}
-}
 
 @techreport{ieee2030_7,
   title = {IEEE Standard for the Specification of Microgrid Controllers},
@@ -163,23 +156,29 @@
 }
 
 @article{bidram2014,
-  title = {Hierarchical control of parallel AC-DC converter interfaces for hybrid microgrids},
-  author = {Bidram, A. and Davoudi, A. and Lewis, F. L. and Guerrero, J. M.},
-  journal = {IEEE Transactions on Smart Grid},
-  volume = {5},
-  number = {6},
-  pages = {2212--2220},
-  year = {2014}
+  author = {Ali Bidram and Ali Davoudi and Frank L. Lewis},
+  title = {A Multiobjective Distributed Control Framework for Islanded {AC} Microgrids},
+  journal = {IEEE Transactions on Industrial Informatics},
+  year = {2014},
+  volume = {10},
+  number = {3},
+  pages = {1785--1798},
+  month = {August},
+  publisher = {IEEE},
+  doi = {10.1109/TII.2014.2322262}
 }
 
 @article{simpson2013,
-  title = {Synchronization and power sharing for droop-controlled inverters in islanded microgrids},
-  author = {Simpson-Porco, J. W. and Dörfler, F. and Bullo, F.},
+  author = {John W. Simpson-Porco and Florian D\"{o}rfler and Francesco Bullo},
+  title = {Synchronization and Power Sharing for Droop-Controlled Inverters in Islanded Microgrids},
   journal = {Automatica},
+  year = {2013},
   volume = {49},
   number = {9},
   pages = {2603--2611},
-  year = {2013}
+  month = {September},
+  publisher = {Elsevier},
+  doi = {10.1016/j.automatica.2013.05.018}
 }
 
 @article{hespanha2007,
@@ -498,13 +497,15 @@
   note = "Available: https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/"
 }
 
-@misc{marketdigits2024microgrid,
-  title = "{U.S. Microgrid Market is set to expand at 19.0\% CAGR by 2030, attaining a Valuation of USD 26.6 Billion}",
-  author = "{MarketDigits}",
-  howpublished = "GlobeNewswire",
-  year = "2024",
-  month = "February",
-  note = "Available: https://www.globenewswire.com/news-release/2024/02/28/2837063/0/en/"
+@techreport{marketdigits2024microgrid,
+  author = {{MarketDigits}},
+  title = {U.S. Microgrid Market is set to expand at 19.0\% CAGR by 2030, attaining a Valuation of USD 26.6 Billion},
+  year = {2024},
+  month = {February},
+  institution = {MarketDigits},
+  address = {Richmond, VA 23235, United States},
+  url = {https://www.globenewswire.com/news-release/2024/02/28/2837063/0/en/U-S-Microgrid-Market-is-set-to-expand-at-19-0-CAGR-by-2030-attaining-a-Valuation-of-USD-26-6-Billion-MarketDigits.html},
+  note = {Published February 28, 2024 via Globe Newswire}
 }
 
 @misc{grandview2024us,
@@ -555,12 +556,13 @@
   note = "Available: https://www.cisa.gov/topics/critical-infrastructure-security-and-resilience/critical-infrastructure-sectors"
 }
 
-@techreport{asmus2021jobs,
+@techreport{guidehouse2021microgrids,
   title = "{The Renewable Energy Economic Benefits of Microgrids}",
-  author = "Asmus, Peter",
+  author = {{Guidehouse Inc.}},
   institution = "Guidehouse Inc.",
   year = "2021",
-  note = "Report for Civil Society Institute, Millennial Action Project, and Rocky Mountain Institute"
+  month = "November",
+  note = "Commissioned by Civil Society Institute, Millennial Action Project, and Rocky Mountain Institute"
 }
 
 @misc{bls2024wages,
@@ -590,72 +592,79 @@
 }
 
 @article{Guerrero2011Hierarchical,
-  author = {Guerrero, Josep M. and Vasquez, Juan C. and Matas, José and de Vicuña, Luis G. and Castilla, Manuel},
-  title = {Hierarchical Control of Droop-Controlled AC and DC Microgrids—A General Approach Toward Standardization},
+  author = {Josep M. Guerrero and Juan C. Vasquez and Jos\'{e} Matas and Luis Garc\'{i}a de Vicu\~{n}a and Miguel Castilla},
+  title = {Hierarchical Control of Droop-Controlled {AC} and {DC} Microgrids---A General Approach Toward Standardization},
   journal = {IEEE Transactions on Industrial Electronics},
   year = {2011},
   volume = {58},
   number = {1},
   pages = {158--172},
+  month = {January},
+  publisher = {IEEE},
   doi = {10.1109/TIE.2010.2066534}
 }
 
 @article{Tavassoli2020CommEffects,
-  author = {Tavassoli, Babak and Fereidunian, Alireza and Savaghebi, Mehdi},
+  author = {Babak Tavassoli and Alireza Fereidunian and Mehdi Savaghebi},
   title = {Communication System Effects on the Secondary Control Performance in Microgrids},
   journal = {IET Renewable Power Generation},
   year = {2020},
-  volume = {14},
-  number = {12},
-  pages = {2047--2057},
-  doi = {10.1049/iet-rpg.2019.1170},
-  url = {https://portal.findresearcher.sdu.dk/files/175311852/art1c.pdf}
+  publisher = {Institution of Engineering and Technology},
+  doi = {10.1049/iet-rpg.2019.1170}
 }
 
 @article{Liu2015DelaySecondary,
-  author = {Liu, S. and Wang, X. and Liu, P. X.},
+  author = {Shichao Liu and Xiaoyu Wang and Peter Xiaoping Liu},
   title = {Impact of Communication Delays on Secondary Frequency Control in an Islanded Microgrid},
   journal = {IEEE Transactions on Industrial Electronics},
   year = {2015},
   volume = {62},
   number = {4},
   pages = {2021--2031},
-  doi = {10.1109/TIE.2014.2341574}
+  publisher = {IEEE}
 }
 
 @article{Lu2017DistributedSecondary,
-  author = {Lu, Xiaoqing and Yu, Xinghuo and Lai, Jingang and Guerrero, Josep M. and Zhou, Hong},
+  author = {Xiaoqing Lu and Xinghuo Yu and Jingang Lai and Josep M. Guerrero and Hong Zhou},
   title = {Distributed Secondary Voltage and Frequency Control for Islanded Microgrids with Uncertain Communication Links},
   journal = {IEEE Transactions on Industrial Informatics},
   year = {2017},
   volume = {13},
   number = {2},
   pages = {448--460},
-  doi = {10.1109/TII.2016.2606643},
-  url = {https://vbn.aau.dk/files/237834509/ALL_TII_16_0120.R2_1.pdf}
+  doi = {10.1109/TII.2016.2603844},
+  publisher = {IEEE}
 }
 
 @techreport{IEEE1547_2018,
-  title = {IEEE Standard for Interconnection and Interoperability of Distributed Energy Resources with Associated Electric Power Systems Interfaces},
-  organization = {IEEE Standards Association},
+  title = {{IEEE Standard for Interconnection and Interoperability of Distributed Energy Resources with Associated Electric Power Systems Interfaces}},
+  institution = {Institute of Electrical and Electronics Engineers},
+  type = {IEEE Std},
+  number = {1547-2018},
   year = {2018},
-  number = {IEEE Std 1547-2018},
-  url = {https://sagroups.ieee.org/scc21/standards/1547rev/}
+  month = {April},
+  address = {New York, NY, USA},
+  note = {Revision of IEEE Std 1547-2003}
 }
 
-@techreport{IEEE20307_2017,
-  title = {IEEE Standard for the Specification of Microgrid Controllers},
-  organization = {IEEE Standards Association},
+@techreport{IEEE2030_7_2017,
+  title = {{IEEE Standard for the Specification of Microgrid Controllers}},
+  institution = {Institute of Electrical and Electronics Engineers},
+  type = {IEEE Std},
+  number = {2030.7-2017},
   year = {2017},
-  number = {IEEE Std 2030.7-2017},
-  url = {https://standards.ieee.org/ieee/2030.7/5941/}
+  month = {December},
+  address = {New York, NY, USA}
 }
 
-@techreport{IEEE20308_2018,
-  title = {IEEE Standard for the Testing of Microgrid Controllers},
-  organization = {IEEE Standards Association},
+@techreport{IEEE2030_8_2018,
+  title = {{IEEE Standard for the Testing of Microgrid Controllers}},
+  institution = {Institute of Electrical and Electronics Engineers},
+  type = {IEEE Std},
+  number = {2030.8-2018},
   year = {2018},
-  number = {IEEE Std 2030.8-2018}
+  month = {August},
+  address = {New York, NY, USA}
 }
 
 @article{Cai2023MPC_RL,
@@ -669,14 +678,17 @@
 }
 
 @article{GarciaTorres2021MPCReview,
-  author = {Garc{\'\i}a-Torres, Fernando and Bordons, Carlos},
-  title = {Model Predictive Control for Microgrid Functionalities: A Review},
-  journal = {Energies},
+  title = {Microgrids Power Quality Enhancement Using Model Predictive Control},
+  author = {Garcia-Torres, Felix and Vazquez, Sergio and Moreno-Garcia, Isabel M. and Gil-de-Castro, Aurora and Roncero-Sanchez, Pedro and Moreno-Munoz, Antonio},
+  journal = {Electronics},
+  volume = {10},
+  number = {3},
+  pages = {328},
   year = {2021},
-  volume = {14},
-  number = {5},
-  pages = {1296},
-  doi = {10.3390/en14051296}
+  publisher = {MDPI},
+  doi = {10.3390/electronics10030328},
+  url = {https://www.mdpi.com/2079-9292/10/3/328}
+}
 }
 
 @article{Hu2023EMPCSurvey,
@@ -688,16 +700,6 @@
   url = {https://pure.manchester.ac.uk/ws/files/290274827/TSG3266253.pdf}
 }
 
-@article{Singh2025SciRep,
-  author = {Singh, A. R. and others},
-  title = {Advanced Microgrid Optimization Using Price-Elastic Demand Response and Hybrid Intelligence},
-  journal = {Scientific Reports},
-  year = {2025},
-  volume = {15},
-  number = {1},
-  pages = {e86232},
-  url = {https://www.nature.com/articles/s41598-025-86232-3}
-}
 
 @inproceedings{Chanda2023ASSERT,
   author = {Chanda, Susanta and Ceylan, Onur and Kuyumcu, Erdem and Nath, Shubham and Smith, Matthew and Jahns, Madison and Gebert, Nick and Beno, Martin and Kroposki, Benjamin},
@@ -759,15 +761,15 @@
   url = {https://www.tdworld.com/distributed-energy-resources/article/21259398/solar-plus-storage-microgrid-now-operating-in-hot-springs-nc}
 }
 
-@article{Hirsch2018RSER,
+@article{hirsch2018,
   author = {Hirsch, Adam and Parag, Yael and Guerrero, Josep},
   title = {Microgrids: A Review of Technologies, Key Drivers, and Outstanding Issues},
   journal = {Renewable and Sustainable Energy Reviews},
-  year = {2018},
   volume = {90},
   pages = {402--411},
+  year = {2018},
   doi = {10.1016/j.rser.2018.03.040},
-  url = {https://vbn.aau.dk/files/287478138/1_s2.0_S136403211830128X_main.pdf}
+  publisher = {Elsevier}
 }
 
 @techreport{NREL2018CostStudy,
@@ -802,13 +804,7 @@ Here are the BibTeX entries for the references cited in the bridging paragraph:
   doi = {10.1109/TIE.2010.2066534}
 }
 
-@techreport{IEEE1547_2018,
-  title = {IEEE Standard for Interconnection and Interoperability of Distributed Energy Resources with Associated Electric Power Systems Interfaces},
-  organization = {IEEE Standards Association},
-  year = {2018},
-  number = {IEEE Std 1547-2018},
-  url = {https://sagroups.ieee.org/scc21/standards/1547rev/}
-}
+
 
 @techreport{IEEE20307_2017,
   title = {IEEE Standard for the Specification of Microgrid Controllers},
@@ -961,14 +957,4 @@ Here are the BibTeX entries for the references cited in the bridging paragraph:
   month={Jan},
   publisher={IEEE},
   doi={10.1109/TSG.2021.3118292}
-}
-@article{nelson2020model,
-  title={Model predictive control of microgrids for real-time ancillary service market participation},
-  author={Nelson, James R. and Johnson, Nathan G.},
-  journal={Applied Energy},
-  volume={269},
-  pages={114963},
-  year={2020},
-  publisher={Elsevier},
-  doi={10.1016/j.apenergy.2020.114963}
 }

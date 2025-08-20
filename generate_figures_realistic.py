@@ -558,11 +558,17 @@ def generate_validated_figure(safety_data: Dict, delay_ms: float = 150, packet_l
             bbox=dict(boxstyle="round,pad=0.4", facecolor=box_color, alpha=0.8),
             verticalalignment='top', fontsize=9, family='monospace')
     
-    # Add test conditions as subtitle
-    test_conditions_text = (f'Test Conditions: Delay = {int(safety_data.get("delay_ms", 150))} ms (jitter 10–{int(safety_data.get("delay_ms", 150))} ms), '
-                           f'Packet Loss = {int(safety_data.get("packet_loss", 0.2)*100)}% (Bernoulli i.i.d.), '
-                           f'Violation dwell = 200 ms (min duration to count an event), h_freq = 0.25 - (Δf)², Δt = 0.033 s (30 Hz)')
-    
+ 
+    dt_display = float(np.mean(np.diff(safety_data['time_trace'])))
+    hz_display = int(round(1.0 / dt_display))
+    test_conditions_text = (
+        f'Test Conditions: Delay = {int(safety_data.get("delay_ms", 150))} ms (jitter 10–{int(safety_data.get("delay_ms", 150))} ms), '
+        f'Packet Loss = {int(safety_data.get("packet_loss", 0.2)*100)}% (Bernoulli i.i.d.), '
+        f'Violation dwell = 200 ms (min duration to count an event), h_freq = 0.25 - (Δf)², '
+        f'Δt = {dt_display:.3f} s ({hz_display} Hz)'
+    )
+
+
     plt.suptitle('Control Barrier Function Safety Verification - Realistic Simulation', 
                 fontsize=16, fontweight='bold')
     plt.figtext(0.5, 0.93, test_conditions_text, ha='center', fontsize=10, style='italic')
