@@ -26,7 +26,7 @@
 
 \begin{document}
 \vspace{-2cm}
-\title{\Large\textbf{CPS-FR: Physics-Informed Machine Learning for Resilient Microgrid Control}}
+\title{\Large\textbf{CPS-FR: RUI: Physics-Informed Machine Learning for Resilient Microgrid Control}}
 
 
 \author{Principal Investigator: Ehsan Reihani}
@@ -182,13 +182,13 @@ Our comprehensive validation using a 16-node low-inertia microgrid testbed with 
 \caption{\textbf{Control Barrier Function Safety Verification.} \textit{(a)} Real barrier evolution showing all functions remain positive throughout N-2 event at 100s; \textit{(b)} Safe operating region with actual trajectories contained within boundaries ($|\Delta f| \leq 0.5$ Hz, $|V-1.0| \leq 0.05$ p.u.); \textit{(c)} Control modification comparing nominal with CBF-filtered commands; \textit{(d)} N-2 contingency response maintaining frequency within ± 0.5 Hz limits despite severe disturbance (max deviation $\leq$ 0.3 Hz).}
 \label{fig:cbf_validation}
 \end{figure}
-
+\vspace{-0.5cm}
 Most critically, the Control Barrier Function framework achieves System violations: 0 (this run); long-run mean: 1.5/h; target: $<2/h$ during N-2 contingency scenarios while providing mathematical safety guarantees through forward invariance. Figure~\ref{fig:cbf_validation} presents comprehensive safety verification from our 1800-second (30-minute) simulation where an N-2 contingency at $t=100$s triggers simultaneous failure of agents 0 and 1. The CBF framework computes real-time barrier functions: $h_{freq} = 0.25 - (\Delta f)^2$, $h_{voltage} = 0.0064 - (\overline{V} - 1.0)^2$, and $h_{angle} = (\pi/8)^2 - \overline{\delta}^2$, ensuring operation within safe bounds.
 
 Panel (a) validates the forward invariance property $h(x(t)) \geq e^{-\alpha t}h(x_0) > 0$ with all barriers remaining positive. Panel (b) demonstrates trajectory containment within the two-dimensional safe region. Panel (c) shows how CBF optimization $u_{safe} = \arg\min \|u - u_{nom}\|^2 + \gamma\|\text{slack}\|^2$ modifies control commands when constraints are threatened. Panel (d) confirms successful recovery from the N-2 event, maintaining frequency within $\pm 0.5$ Hz safety limits. Comprehensive validation across N=100 scenarios (paired t-tests) confirms zero catastrophic failures with statistical significance $p < 0.001$ and effect sizes from $d = 0.87$ (settling time) to $d = 4.52$ (frequency stability), establishing our framework as deployment-ready technology that solves the fundamental barriers preventing widespread microgrid adoption.
 \vspace{-0.5cm}
 \section{Broader Impacts}
-\vspace{-0.2cm}
+\vspace{-0.5cm}
 This research creates transformational impacts across environmental sustainability, economic accessibility, educational advancement, and societal resilience. The vendor-agnostic bump-in-the-wire approach fundamentally transforms how America deploys clean energy infrastructure while addressing critical barriers that have prevented widespread microgrid adoption.
 
 \textbf{Increasing Economic Competitiveness of the United States:} The proposed vendor-agnostic bump-in-the-wire controller addresses fundamental economic barriers that have constrained widespread microgrid deployment, positioning the United States to capture significant market opportunities in the rapidly expanding clean energy sector. Current microgrid controller systems represent a substantial cost barrier, with NREL's comprehensive Phase I Microgrid Cost Study documenting controller costs averaging \$155,000 per megawatt, with ranges from \$6,200 to \$470,000 per megawatt depending on system complexity and scale \cite{giraldez2018}. These high costs, combined with vendor-specific integration requirements, have limited market penetration despite growing demand for grid resilience solutions.
@@ -198,9 +198,10 @@ The United States currently maintains global leadership with approximately 40\% 
 
 \textbf{American STEM Workforce Development and Broadening Participation:} This project creates transformational educational impacts by developing American STEM talent through undergraduate research opportunities focused on emerging technologies at the intersection of artificial intelligence, control systems, and clean energy. Our Kern County location provides unique opportunities to engage women and individuals from underrepresented groups in hands-on research that directly addresses regional energy challenges while building skills applicable to high-growth technology sectors.
 
-The comprehensive research experience spans multiple STEM disciplines---power systems engineering, machine learning, optimization theory, and cyber-physical systems---creating educational pathways that bridge traditional engineering with cutting-edge computational sciences. Undergraduate researchers gain direct experience with physics-informed neural networks, distributed optimization algorithms, and real-time embedded systems programming, building portfolios of technical skills highly valued by technology employers and graduate programs.
+The comprehensive research experience spans multiple STEM disciplines---power systems engineering, machine learning, optimization theory, and cyber-physical systems---creating educational pathways that bridge traditional engineering with cutting-edge computational sciences. Undergraduate researchers gain direct experience with physics-informed neural networks, distributed optimization algorithms, and real-time embedded systems programming, building portfolios of technical skills highly valued by technology employers and graduate programs. To move results into practice, CSUB's California Energy Research Center (CERC) will coordinate partners and pilots, run demonstrations, manage agreements and permitting, and support student capstones and short, skills-focused training.
 
-
+\vspace{.2cm}
+\noindent\textbf{Results from Prior NSF Support:} PI has not received prior NSF support.
 
 \bibliographystyle{unsrt}
 \bibliography{references}
