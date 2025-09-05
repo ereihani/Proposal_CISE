@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  5 SEP 2025 08:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  5 SEP 2025 08:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -373,45 +373,45 @@ Overfull \hbox (28.86798pt too wide) in paragraph at lines 73--75
  []
 
 [3] [4] [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 []$[] \OML/cmm/m/it/10.95 h[]; [] h[]$\T1/cmr/m/n/10.95 ;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--131
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
 \T1/cmr/m/n/10.95 optimization
  []
 
 
-Underfull \hbox (badness 4328) in paragraph at lines 131--131
+Underfull \hbox (badness 4328) in paragraph at lines 129--129
 []$\OMS/cmsy/m/n/10.95 ^^T \OT1/cmr/m/n/10.95 17$ \T1/cmr/m/n/10.95 it-er-a-tio
 ns;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 []\T1/cmr/m/n/10.95 figures/tables;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--133
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
 \T1/cmr/m/n/10.95 (TCO) and pay-back
  []
 
 [7] [8]
-Overfull \hbox (11.68297pt too wide) in paragraph at lines 159--160
+Overfull \hbox (11.68297pt too wide) in paragraph at lines 157--158
 \T1/cmr/m/n/12 con-trollers, in-clud-ing VSM/VSG im-ple-men-ta-tions, at-tempt 
 to pro-vide syn-thetic in-er-tia through
  []
 
 [9] [10] [11]
-Overfull \hbox (14.17934pt too wide) in paragraph at lines 177--179
+Overfull \hbox (14.17934pt too wide) in paragraph at lines 175--177
 []\T1/cmr/bx/n/12 Year 4 - Com-pre-hen-sive Val-i-da-tion and Pro-fes-sional Tr
 an-si-tion Sup-port (Months
  []
 
 
-Overfull \hbox (5.87321pt too wide) in paragraph at lines 181--182
+Overfull \hbox (5.87321pt too wide) in paragraph at lines 179--180
 \T1/cmr/m/n/12 Our com-pre-hen-sive val-i-da-tion us-ing a 16-node low-inertia 
 mi-cro-grid testbed with 70% inverter-
  []
@@ -421,21 +421,21 @@ mi-cro-grid testbed with 70% inverter-
 File: figure6_safety_verification_REALISTIC.pdf Graphic file (type pdf)
 <use figure6_safety_verification_REALISTIC.pdf>
 Package pdftex.def Info: figure6_safety_verification_REALISTIC.pdf  used on inp
-ut line 185.
+ut line 183.
 (pdftex.def)             Requested size: 469.75502pt x 381.48659pt.
- [13] [14 <./figure6_safety_verification_REALISTIC.pdf>]
-Overfull \hbox (4.45682pt too wide) in paragraph at lines 198--202
+ [13 <./figure6_safety_verification_REALISTIC.pdf>]
+Overfull \hbox (4.45682pt too wide) in paragraph at lines 196--200
 []\T1/cmr/bx/n/12 Increasing Eco-nomic Com-pet-i-tive-ness of the United States
 : \T1/cmr/m/n/12 The pro-posed vendor-
  []
 
-[15] (./main_CISE.bbl [16] [17]
+[14] (./main_CISE.bbl [15] [16]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 9
 0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [18]
+) [17]
 Underfull \hbox (badness 1845) in paragraph at lines 197--203
 []\T1/cmr/m/n/12 NVIDIA Cor-po-ra-tion.  NVIDIA Jet-son Orin: Next-level AI per
 -for-mance for
@@ -447,7 +447,7 @@ Underfull \hbox (badness 4995) in paragraph at lines 197--203
 u-men-ta-tion,
  []
 
-[19]
+[18]
 Underfull \hbox (badness 1019) in paragraph at lines 219--223
 []\T1/cmr/m/n/12 MarketsandMarkets.  Mi-cro-grid Mar-ket Size, Share, Re-port T
 rends, 2024-2029,
@@ -477,7 +477,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--249
 -resilience/critical-
  []
 
-) [20] (./main_CISE.aux)
+[19]) [20] (./main_CISE.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -514,7 +514,7 @@ f/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public
 /cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.p
 fb></usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf
 /fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main_CISE.pdf (20 pages, 857454 bytes).
+Output written on main_CISE.pdf (20 pages, 857185 bytes).
 PDF statistics:
  402 PDF objects out of 1000 (max. 8388607)
  146 compressed objects within 2 object streams

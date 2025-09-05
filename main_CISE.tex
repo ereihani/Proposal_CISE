@@ -87,9 +87,7 @@ where $\mathcal{L}_{RL} = -\mathbb{E}_{\tau \sim \pi_\theta}[R(\tau)]$ is the re
 \begin{equation}
 \frac{dx}{dt}=f_\theta(x,u,t)+\lambda_p R_{\text{physics}}(x,u),
 \end{equation}
-where $R_{\text{physics}}R_{\text{physics}}R_{\text{physics}}$ collects both differential and algebraic residuals consistent with $g(x,z,u)=0g(x,z,u)=0g(x,z,u)=0$.:
-$$\frac{dx}{dt} = f_\theta(x, u, t) + \lambda_p \mathcal{R}_{physics}(x, u)$$
-embeds power system dynamics where $\mathcal{R}_{physics}$ represents residuals from power balance equations, frequency-power relationships, and voltage-reactive power coupling. This creates adaptive control laws that learn optimal responses while maintaining physical consistency, achieving Input-to-State Stability (ISS) with delay-dependent margins:
+where $R_{\text{physics}}$ collects both differential and algebraic residuals consistent with $g(x,z,u)=0g(x,z,u)=0g(x,z,u)=0$. This embeds power system dynamics where $\mathcal{R}_{physics}$ represents residuals from power balance equations, frequency-power relationships, and voltage-reactive power coupling. This creates adaptive control laws that learn optimal responses while maintaining physical consistency, achieving Input-to-State Stability (ISS) with delay-dependent margins:
 $$\dot{V} \leq -\kappa(\tau)V + \gamma||w||^2$$
 where $\kappa(\tau) = \kappa_0 - c\tau$ ensures $\kappa(150\text{ ms}) = 0.15 > 0$, guaranteeing stability under realistic communication delays.
 
