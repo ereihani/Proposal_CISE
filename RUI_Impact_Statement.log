@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  5 SEP 2025 10:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.8.9)  5 SEP 2025 10:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -237,7 +237,7 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count279
 \l__pdf_internal_box=\box57
 )
-No file RUI_Impact_Statement.aux.
+(./RUI_Impact_Statement.aux)
 \openout1 = `RUI_Impact_Statement.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -254,6 +254,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -354,29 +355,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
-dvips/cm-super/cm-super-t1.enc}]
-Overfull \hbox (29.88943pt too wide) in paragraph at lines 37--38
-[]\T1/cmr/m/n/12 The project's lo-ca-tion in Cal-i-for-nia's Cen-tral Val-ley^^
-Vserving a di-verse stu-dent body^^Vmagnifies
- []
-
-[2] (./RUI_Impact_Statement.aux)
+dvips/cm-super/cm-super-t1.enc}] [2] (./RUI_Impact_Statement.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5494 strings out of 474222
- 81660 string characters out of 5748734
+ 5497 strings out of 474222
+ 81747 string characters out of 5748734
  1931975 words of memory out of 5000000
- 27673 multiletter control sequences out of 15000+600000
+ 27674 multiletter control sequences out of 15000+600000
  563270 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,5n,71p,1171b,217s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on RUI_Impact_Statement.pdf (2 pages, 33521 bytes).
+Output written on RUI_Impact_Statement.pdf (2 pages, 33543 bytes).
 PDF statistics:
  22 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream
