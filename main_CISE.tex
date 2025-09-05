@@ -83,7 +83,11 @@ The controller solves the fundamental coordination-communication paradox that ha
 \textbf{Component 1: Physics-Informed Neural ODE Control}
 The core innovation embeds power system physics directly into neural network architectures through the unified learning objective:
 $$\mathcal{L} = \mathcal{L}_{RL} + \lambda \mathcal{L}_{physics} + \mu \mathcal{L}_{consensus}$$
-where $\mathcal{L}_{RL} = -\mathbb{E}_{\tau \sim \pi_\theta}[R(\tau)]$ is the reinforcement learning objective, $\mathcal{L}_{physics}$ enforces differential equation residuals from power flow constraints, and $\mathcal{L}_{consensus}$ ensures multi-agent agreement, guaranteeing learned control policies respect fundamental physical laws while coordinating effectively. We model secondary/tertiary microgrid dynamics as an index-1 DAE reduced to an ODE on the constraint manifold; we penalize both differential and algebraic residuals during training and enforce $g(x,z,u)=0g(x,z,u)=0g(x,z,u)=0$ at runtime via a fast solve or CBF/QP filter—leading to the physics-informed neural ODE:
+where $\mathcal{L}_{RL} = -\mathbb{E}_{\tau \sim \pi_\theta}[R(\tau)]$ is the reinforcement learning objective, $\mathcal{L}_{physics}$ enforces differential equation residuals from power flow constraints, and $\mathcal{L}_{consensus}$ ensures multi-agent agreement, guaranteeing learned control policies respect fundamental physical laws while coordinating effectively. We model secondary/tertiary dynamics as an index-1 DAE reduced to an ODE on the constraint manifold—yielding the physics-informed neural ODE
+\begin{equation}
+\frac{dx}{dt}=f_\theta(x,u,t)+\lambda_p R_{\text{physics}}(x,u),
+\end{equation}
+where $R_{\text{physics}}R_{\text{physics}}R_{\text{physics}}$ collects both differential and algebraic residuals consistent with $g(x,z,u)=0g(x,z,u)=0g(x,z,u)=0$.:
 $$\frac{dx}{dt} = f_\theta(x, u, t) + \lambda_p \mathcal{R}_{physics}(x, u)$$
 embeds power system dynamics where $\mathcal{R}_{physics}$ represents residuals from power balance equations, frequency-power relationships, and voltage-reactive power coupling. This creates adaptive control laws that learn optimal responses while maintaining physical consistency, achieving Input-to-State Stability (ISS) with delay-dependent margins:
 $$\dot{V} \leq -\kappa(\tau)V + \gamma||w||^2$$
