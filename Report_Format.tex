@@ -1,0 +1,79 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\setstretch{1.5}
+
+\begin{document}
+
+\title{REPORT FORMAT}
+\author{}
+\date{}
+\maketitle
+
+\section{WRITTEN REPORT}
+The written report is limited to 10 pages, with spacing 1.5 and one-inch margins (not including cover sheets and Appendices). [Note: Only electronic versions submitted thru Canvas will be accepted.] It should be written in passive voice using past tense as appropriate. Procedures should be written in the simple past tense. The first person may be used if necessary for clarity. The ACS Style Guide: A Manual for Authors and Editors is an excellent source for elaboration of grammar, word usage and other aspects of scientific writing. The written report will consist of the following elements:
+
+On the first page print: \quad Title of the experiment/Lab number
+
+Your Name (Your partner's name if partnered) 
+
+Your Major (EE or CE)
+
+Abstract
+
+\begin{enumerate}
+\item \textbf{Title.} This should be a brief, clear description of the subject of the report.
+
+\item \textbf{Abstract.} This is a concise statement of the major results obtained. It should consist of only 2-4 complete sentences. It is best prepared after the rest of the report has been completed. Remember to briefly report your results, especially numeric ones. The abstract tells the reader what to look for in the lab report.
+
+\item \textbf{Introduction.} The record of an experiment should begin with a concise statement about the experiment to be performed.
+
+\item \textbf{Procedures and Observations.} This is where you tell the reader what you did and saw and possibly what equipment you used if it was out of the ordinary. A clear and concise description of your procedures and observations based on your factual records. Be careful here, this is not an idealized form of the procedure from your lab manual or pre-lab but what actually happened. Clearly labeled sketches of experimental setups are usually preferable to lengthy descriptions.
+
+\item \textbf{Summary of results.} All data, yields, calculated results, etc. should be presented, preferably in tables or graphs if applicable. This is a tabulated form of your results and you should not be analyzing them here.
+
+\item \textbf{Calculations and Graphs.} calculations typically involve Boolean algebra simplification, timing analysis, and power consumption analysis. When performing Boolean algebra simplifications, begin with the original logic equation, show all simplification steps using K-maps or algebraic manipulation, present the final simplified equation, and document any gate count reductions achieved. For example, if the original equation is F = A$\cdot$B$\bar{}$ + A$\cdot$B$\cdot$C + $\bar{A}$$\cdot$B$\cdot$C, the simplification steps would show F = A$\cdot$B$\bar{}$ + B$\cdot$C(A + $\bar{A}$) = A$\cdot$B$\bar{}$ + B$\cdot$C, resulting in a reduction from 6 gates to 4 gates. Timing analysis calculations should include propagation delay calculations using the formula t\_total = $\Sigma$(t\_pd per gate), showing the critical path analysis and final delay result in nanoseconds. Setup and hold time analysis requires applying the constraint t\_setup $\leq$ T\_clock - t\_pd - t\_setup\_FF with actual measured values to determine maximum operating frequency. Power analysis involves both static power calculations using P\_static = V\_DD $\times$ I\_leakage $\times$ N\_gates and dynamic power calculations using P\_dynamic = $\alpha$ $\times$ C\_L $\times$ V\_DD$^2$ $\times$ f, where switching activity factors and measured values must be included.
+
+\item \textbf{Waveform documentation} requires careful attention to measurement parameters and settings. Oscilloscope traces must include time base settings in microseconds or nanoseconds per division, voltage scale in volts per division, trigger conditions specifying edge and level, and measured parameters such as rise time, fall time, and frequency. Logic analyzer captures should document sampling rate in megahertz or gigahertz, trigger patterns showing required logic states, time span of the captured duration, and channel assignments with corresponding signal names. Timing diagrams must show measured versus expected clock periods, actual setup and hold times, and propagation delays from input to output transitions. All waveforms must be labeled with signal names, timing scales, and voltage levels, with critical timing measurements annotated directly on the waveforms.
+
+\item \textbf{Verification procedures} should encompass truth table verification comparing expected versus measured outputs for all input combinations, identification of any discrepancies and their potential causes, and documentation of any race conditions or glitches observed during testing. Frequency response testing involves determining the input frequency range tested from hertz to megahertz, evaluating output signal integrity at different frequencies, and establishing the maximum reliable operating frequency. Error analysis for digital circuits must consider timing violations such as setup and hold time failures, loading effects including fan-out limitations and signal degradation, noise margin measurements of V\_IH, V\_IL, V\_OH, and V\_OL, temperature effects on performance variation, and supply voltage variations' impact on switching thresholds. Laboratory entries should include immediate verification by testing each gate or module as built, functional testing to verify truth tables before proceeding, timing validation through real-time critical path delay measurements, signal integrity checks observing waveforms for distortion or noise, and power measurements monitoring supply current during operation. Digital circuits can exhibit timing-dependent behavior that may not be apparent in static analysis, making real-time measurement and immediate verification essential to prevent complex debugging later in the design process.
+
+\item \textbf{Discussion}
+\begin{itemize}
+\item The outcome of each experiment should be quantitatively and qualitatively discussed in relation to the goals of the experiment as stated in the introduction. You should:
+\begin{itemize}
+\item Briefly summarize the key results of each experiment Report measured parameters, performance metrics, calculated values, and verification results. Include actual versus theoretical values and any successful implementations or processes achieved during the experiment.
+\item Explain the significance of your findings Discuss how results relate to fundamental principles and practical applications. Address whether measured parameters meet design requirements or specifications, and explain implications of any deviations or unexpected results for real-world applications.
+\item Explain any unusual difficulties or problems, which may have led to poor results Identify challenges encountered during setup, testing, or measurement that may have compromised results. Discuss issues such as equipment problems, environmental factors, procedural difficulties, measurement limitations, or component/material variations that affected outcomes.
+\item Offer suggestions for how the experimental procedure or design could be improved by comparing your results to the procedures sections Propose improvements including better experimental setup, enhanced measurement techniques, alternative approaches, or different equipment configurations for improved accuracy. Compare your actual implementation with the prescribed procedure and suggest corrections.
+\item Answer all questions posed in the laboratory manual as part of the overall discussion—not as a series of questions and answers Integrate manual questions into your narrative, addressing theoretical concepts, design considerations, and predictions within the context of experimental results rather than as isolated Q\&A pairs.
+\item What are the sources of error and how did they affect your results Identify error sources including instrument limitations, environmental conditions, procedural variations, and material properties. Quantify how these affected specific measurements or outcomes where possible.
+\item Analysis of data and errors should be done here—ALL ANALYSIS OF DATA IS TO BE DONE INDIVIDUALLY, even for the experiment where data is obtained with a partner. The reproducibility and precision of data should always be examined, and the major sources of errors identified. Detailed statistical analyses of error are rarely called for, but when possible, you should attempt to distinguish between systematic and random error. Examine measurement consistency across multiple trials and assess repeatability of results. Identify systematic errors (equipment calibration issues, consistent procedural deviations) versus random errors (measurement noise, environmental fluctuations, human variability). Evaluate measurement precision and assess whether variations fall within expected uncertainty bounds. For partnered experiments, perform independent analysis to demonstrate individual understanding of experimental principles and measurement limitations.
+\end{itemize}
+\end{itemize}
+
+\item[(10)] \quad
+
+\item[(11)] \textbf{Conclusion.} A very brief (1-3 sentence) conclusion to the experiment based on the data collected and analyzed. It's here that you need to summarize your results again. Did you achieve the goals in this lab?
+
+\item \textbf{References.} Present a numbered list of references to texts, monographs, journal article, and standard computer programs. Wikipedia is not a valid reference.
+
+\end{enumerate}
+
+materials or our Terms of Use, visit: https://ocw.mit.edu/terms.
+
+\end{document}
